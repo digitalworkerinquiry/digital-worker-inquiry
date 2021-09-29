@@ -127,7 +127,7 @@ layout: default
           {% for sponsor in tier[1].sponsors %}
             {% comment %} Use SVG if available, PNG otherwise {% endcomment %}
             {% assign file_img = 'null' %}
-            {% assign file_svg_path = sponsor[0] | prepend: '/digital-worker-inquiry/images/logos/' | append: '.svg' %}
+            {% assign file_svg_path = sponsor[0] | prepend: '/images/logos/' | append: '.svg' %}
             {% for file in site.static_files %}
               {% if file.path == file_svg_path %}
                 {% assign file_img = file_svg_path %}
@@ -151,13 +151,13 @@ layout: default
     {% endfor %}
   </section>
 {% endif %}
-<section id="debug">            
-  <!--debug-->
+<!--section id="debug">            
+  <debug>
   <h2>Debug: site.static_files</h2>
   {% for file in site.static_files %}
     <p>{{ file.path }}</p>
   {% endfor %}
-</section>
+</section-->
 <section class="tone-dark">
   <h1>Committee</h1>
   <div class="items-container">
