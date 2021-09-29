@@ -1,6 +1,6 @@
 # The group organizing the event, and its legal stuff. Optional.
 group:
-  name1: Edinburgh Centre for Data, Culture & Society, and Edinburgh Futures Institute
+  name1: Edinburgh Centre for Data, Culture & Society
   # Either use 'link' for an external page (e.g. if you already have a website), ...
   link1: https://www.cdcs.ed.ac.uk/
   name2: Edinburgh Futures Institute
