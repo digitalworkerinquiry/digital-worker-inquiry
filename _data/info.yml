@@ -1,6 +1,6 @@
 # Event name
 name: |-
-  Digital Worker Inquiry: 
+  Digital Worker Inquiry:
 
   Data, Solidarity, Leverage
 
@@ -18,10 +18,8 @@ location: Online
 description_short: Showcasing worker-led data projects.
 description_long: |-
   Showcasing worker-led data projects, 
-
-  discussing creation of apps, tools & software 
-
-  + challenges of working with worker data.
+  discussing creation of apps, tools & software, 
+  and challenges of working with worker data.
 
 # Contact email. Use a bot-defeating format, otherwise you'll get spammed.
 email: info at example dot org
