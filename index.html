@@ -137,12 +137,6 @@ layout: default
               {% assign file_img = sponsor[0] | prepend: '/digital-worker-inquiry/images/logos/' | append: '.png' %}
             {% endif %}
 
-            <!--debug-->
-            <h2>Debug: site.static_files</h2>
-            {% for file in site.static_files %}
-              <p>{{ file.path }}</p>
-            {% endfor %}
-
             <div class="item-large">
               <a href="{{ sponsor[1] }}"
                  rel="noreferrer">
@@ -157,6 +151,13 @@ layout: default
     {% endfor %}
   </section>
 {% endif %}
+<section id="debug">            
+  <!--debug-->
+  <h2>Debug: site.static_files</h2>
+  {% for file in site.static_files %}
+    <p>{{ file.path }}</p>
+  {% endfor %}
+</section>
 <section class="tone-dark">
   <h1>Committee</h1>
   <div class="items-container">
