@@ -31,8 +31,9 @@ tiers:
 
   Supporters:
     show_title: true
-    color: rgba(212,175,55,0.12)
+    #color: rgba(212,175,55,0.12)
     size: 12
     sponsors:
-      Workers' Observatory: https://workersobservatory.org/
+      #Workers' Observatory: https://workersobservatory.org/
+      wo: https://workersobservatory.org/
 
