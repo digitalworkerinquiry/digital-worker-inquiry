@@ -1,27 +1,23 @@
 # Event name
-name: ExampleEvent 2020
+name: Digital Worker Inquiry
 
 # Event date, in free-text format
-date: February 30-31
+date: October 28-29, 2021
 
 # Event location
-location: Building 01, Example University
+location: Online
 
 # Event description; short is for e.g. Facebook shared links, long appears on the home page.
-description_short: Student-run hackathon at EPFL, Switzerland
+description_short: Showcasing worker-led data projects.
 description_long: |-
-  This is an example event for this template!
-
-  It's there to show off the capabilities of the template.
-
-  No coding needed, just change the data!
+  Showcasing worker-led data projects, discussing creation of apps, tools & software + challenges of working with worker data.
 
 # Contact email. Use a bot-defeating format, otherwise you'll get spammed.
 email: info at example dot org
 
 # Social networks. Twitter is optional, but you really should have a Facebook page.
-facebook: ???
-twitter: ???
+#facebook: ???
+#twitter: ???
 
 # Accent color of the website
 color: '#6497b1'
@@ -32,6 +28,6 @@ color: '#6497b1'
 font: Courier, monospace
 
 # Links to past editions
-past_editions:
-  2010: http://2010.example.org
-  2000: http://2000.example.org
+#past_editions:
+#  2010: http://2010.example.org
+#  2000: http://2000.example.org
