@@ -1,8 +1,10 @@
 # The group organizing the event, and its legal stuff. Optional.
 group:
-  name: Edinburgh Centre for Data, Culture & Society, and Edinburgh Futures Institute
+  name1: Edinburgh Centre for Data, Culture & Society, and Edinburgh Futures Institute
   # Either use 'link' for an external page (e.g. if you already have a website), ...
-  link: https://www.cdcs.ed.ac.uk/
+  link1: https://www.cdcs.ed.ac.uk/
+  name2: Edinburgh Futures Institute
+  link2: https://efi.ed.ac.uk/
   # ...or use the built-in /legal page and provide links to the statutes and general assembly minutes
   #statutes: http://example.com
   #assemblies:
@@ -12,12 +14,14 @@ group:
 # People organizing the event, and their websites.
 # See the ReadMe file for information on pictures.
 people:
-  - first: Dr. Karen
+  - first: Karen
     last: Gregory
+    title: Dr.
     link: https://www.sps.ed.ac.uk/staff/karen-gregory
   
-  - first: Dr. Oliver
+  - first: Oliver
     last: Bates
+    title: Dr.
     link: https://www.lancaster.ac.uk/people-profiles/oliver-bates
 
   - first: Cailean
@@ -28,12 +32,14 @@ people:
     last: Saunders
     link: https://prospect.org.uk/
 
-  - first: Dr. Kate
+  - first: Kate
     last: Miltner
+    title: Dr.
     link: https://katemiltner.com/
 
-  - first: Dr. Wenlong
+  - first: Wenlong
     last: Li
+    title: Dr.
     link: https://www.birmingham.ac.uk/staff/profiles/law/li-wenlong.aspx
 
   - first: Carlos

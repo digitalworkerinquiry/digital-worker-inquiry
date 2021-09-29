@@ -161,6 +161,9 @@ layout: default
                    src="images/people/{{ person.first }} {{ person.last }}.jpg"
                    alt="Picture of {{ person.first }} {{ person.last }}">
               <div class="person-info">
+                {% if person.title %}
+                  {{ person.title }}
+                {% endif %}
                 <span class="person-first">{{ person.first }}</span>
                 <br>
                 <span class="person-last">{{ person.last }}</span>
@@ -173,12 +176,9 @@ layout: default
   </div>
   {% if site.data.organizers.group %}
     <p>
-      {{ site.data.info.name }} is organized by {{ site.data.organizers.group.name }}, whose legal documents can be viewed
-      {% if site.data.organizers.group.link %}
-        <a href="{{ site.data.organizers.group.link }}">here</a>.
-      {% else %}
-        <a href="/legal">here</a>.
-      {% endif %}
+      {{ site.data.info.name }} is organized by the
+        <a href="{{ site.data.organizers.group.link1 }}">{{ site.data.organizers.group.name1 }}</a> and the
+        <a href="{{ site.data.organizers.group.link2 }}">{{ site.data.organizers.group.name2 }}</a> 
     </p>
   {% endif %}
   <p>
