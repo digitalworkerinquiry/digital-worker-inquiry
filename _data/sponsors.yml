@@ -1,29 +1,32 @@
 # Whether to display text about the prospectus.
 # See the ReadMe file for information about it.
-show_prospectus: true
+show_prospectus: false
 
 # Sponsors, organized by tiers.
 # Tiers have a size, and may have a background color (for e.g. gold/silver/bronze)
 # Each sponsor has a link to its website.
 # See the ReadMe file for information about logos.
 tiers:
+  Hosts:
+    show_title: true
+    size: 30
+    sponsors:
+      Edinburgh Centre for Data, Culture & Society: https://www.cdcs.ed.ac.uk/
+      Edinburgh Futures Institute: https://efi.ed.ac.uk/
+
   Partners:
     show_title: true
     size: 30
     sponsors:
-      Example University: http://example.org
+      INDL (International Network on Digital Labour): https://endl.network/indl/
+      ISRF (Independent Social Research Foundation): https://www.isrf.org/
+      STUC (Scottish Trade Union Congress): https://www.stuc.org.uk/
+      Prospect: https://prospect.org.uk/
 
-  Gold Sponsors:
+  Supporters:
     show_title: true
     color: rgba(212,175,55,0.12)
-    size: 42
+    size: 24
     sponsors:
-      Gold Example One: http://example.org
-      Gold Example Two: http://example.org
+      Workers' Observatory: https://workersobservatory.org/
 
-  Silver Sponsors:
-    show_title: true
-    color: rgba(192,192,192,0.18)
-    size: 32
-    sponsors:
-      Silver Example One: http://example.org
