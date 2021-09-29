@@ -2,15 +2,25 @@
 # Don't forget quotes around hours, otherwise the colons will mess stuff up.
 # Use an empty string ('') for the day names if you do not want headers.
 
-Saturday:
-  '7:30-9:30': Breakfast
-  '9:30-10:00': Opening ceremony
-  '10:20-12:00': Sponsors Presentation
-  '12:30-13:30': Lunch
-  '18:30-19:30': Dinner
+Thursday:
+  '1:00-1:15pm': 'Welcome and Introduction: Why tools and apps?'
+  '1:15-2:30': Panel of Projects
+  '2:30-2:45': Break
+  '2:45-4:00': Technical and Ethical Challenges Panel
+  '4:00-4:15': Break
+  '4:15-5:30': Panel of Projects
+  '5.30-5.45': Break
+  '5:45-6:45': Keynote
 
-Sunday:
-  '0:00-1:00': Midnight snack
-  '7:00-9:00': Breakfast
-  '11:30-12:30': Lunch
-  '15:00-17:00': Closing ceremony
+
+Friday:
+  '11:45-12:00pm': Welcome back
+  '12:00-1:15': Panel of Projects
+  '1:15-1:30': Break
+  '1:30-2:45': Legal Panel
+  '2:45-3:00': Break
+  '3:00-4:15': Panel of Projects
+  '4:15-4:30': Break
+  '4:30-5:45': Solidarity, Leverage, Organising Panel
+  '5:45-6:00': Break
+  '6:00-6:45': Keynote
