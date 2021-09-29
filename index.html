@@ -130,7 +130,7 @@ layout: default
             {% assign file_svg_path = sponsor[0] | prepend: '/images/logos/' | append: '.svg' %}
             {% for file in site.static_files %}
               {% if file.path == file_svg_path %}
-                {% assign file_img = file_svg_path %}
+                {% assign file_img = file_svg_path | prepend: '/digital-worker-inquiry' %}
               {% endif %}
             {% endfor %}
             {% if file_img == 'null' %}
