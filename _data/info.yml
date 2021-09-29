@@ -1,8 +1,12 @@
 # Event name
 name: |-
   Digital Worker Inquiry: 
-  
+
   Data, Solidarity, Leverage
+
+# Shorter name
+
+name_short: Digital Worker Inquiry
 
 # Event date, in free-text format
 date: October 28-29, 2021
@@ -13,7 +17,11 @@ location: Online
 # Event description; short is for e.g. Facebook shared links, long appears on the home page.
 description_short: Showcasing worker-led data projects.
 description_long: |-
-  Showcasing worker-led data projects, discussing creation of apps, tools & software + challenges of working with worker data.
+  Showcasing worker-led data projects, 
+
+  discussing creation of apps, tools & software 
+
+  + challenges of working with worker data.
 
 # Contact email. Use a bot-defeating format, otherwise you'll get spammed.
 email: info at example dot org
