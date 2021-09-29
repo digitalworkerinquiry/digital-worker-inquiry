@@ -8,14 +8,14 @@ show_prospectus: false
 # See the ReadMe file for information about logos.
 tiers:
   Hosts:
-    show_title: true
+    show_title: false
     size: 30
     sponsors:
       Edinburgh Centre for Data, Culture & Society: https://www.cdcs.ed.ac.uk/
       Edinburgh Futures Institute: https://efi.ed.ac.uk/
 
   Partners:
-    show_title: true
+    show_title: false
     size: 30
     sponsors:
       INDL (International Network on Digital Labour): https://endl.network/indl/
@@ -24,7 +24,7 @@ tiers:
       Prospect: https://prospect.org.uk/
 
   Supporters:
-    show_title: true
+    show_title: false
     color: rgba(212,175,55,0.12)
     size: 24
     sponsors:
