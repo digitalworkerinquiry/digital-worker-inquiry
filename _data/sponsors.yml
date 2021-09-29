@@ -8,23 +8,29 @@ show_prospectus: false
 # See the ReadMe file for information about logos.
 tiers:
   Hosts:
-    show_title: false
+    show_title: true
     size: 30
     sponsors:
-      Edinburgh Centre for Data, Culture & Society: https://www.cdcs.ed.ac.uk/
-      Edinburgh Futures Institute: https://efi.ed.ac.uk/
+      #Edinburgh Centre for Data, Culture & Society: https://www.cdcs.ed.ac.uk/
+      #Edinburgh Futures Institute: https://efi.ed.ac.uk/
+      dcs: https://www.cdcs.ed.ac.uk/
+      uoe: https://efi.ed.ac.uk/
 
   Partners:
-    show_title: false
+    show_title: true
     size: 30
     sponsors:
-      INDL (International Network on Digital Labour): https://endl.network/indl/
-      ISRF (Independent Social Research Foundation): https://www.isrf.org/
-      STUC (Scottish Trade Union Congress): https://www.stuc.org.uk/
-      Prospect: https://prospect.org.uk/
+      #INDL (International Network on Digital Labour): https://endl.network/indl/
+      #ISRF (Independent Social Research Foundation): https://www.isrf.org/
+      #STUC (Scottish Trade Union Congress): https://www.stuc.org.uk/
+      #Prospect: https://prospect.org.uk/
+      indl: https://endl.network/indl/
+      isrf: https://www.isrf.org/
+      stuc: https://www.stuc.org.uk/
+      prospect: https://prospect.org.uk/
 
   Supporters:
-    show_title: false
+    show_title: true
     color: rgba(212,175,55,0.12)
     size: 24
     sponsors:
