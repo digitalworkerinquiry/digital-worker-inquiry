@@ -5,15 +5,15 @@
 # - Use the weird |- syntax to allow answers to span lines.
 # - End lines with two spaces if you want to force a line break, otherwise the line break is ignored.
 
-- q: What is this?
-  a: |- 
-        An example website for this template.  
-        Isn't it awesome?
+#- q: What is this?
+#  a: |- 
+#        An example website for this template.  
+#        Isn't it awesome?
 
-- q: Can I use it?
-  a: |-
-        Of course! Just comply with the license, i.e. credit the authors.
+#- q: Can I use it?
+#  a: |-
+#        Of course! Just comply with the license, i.e. credit the authors.
 
-- q: Thank you!
-  a: |-
-        You're welcome!
+#- q: Thank you!
+#  a: |-
+#        You're welcome!
