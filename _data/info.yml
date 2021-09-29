@@ -17,9 +17,17 @@ location: Online
 # Event description; short is for e.g. Facebook shared links, long appears on the home page.
 description_short: Showcasing worker-led data projects.
 description_long: |-
-  Showcasing worker-led data projects, 
-  discussing creation of apps, tools & software, 
-  and challenges of working with worker data.
+  The platform economy runs on data-- much of it drawn from work processes, worker bodies, and work-based interactions. Yet workers themselves have often been severed from accessing what becomes proprietary and commercial data. In response, workers, researchers, activists, and organisers have come together to design and develop various data-driven interventions and tools with the explicit aim of enabling workers to study, understand, resist, and reformulate these working conditions. To date, these projects have not yet been put in conversation so that new audiences, including trade unions and worker coops, may learn best practices, develop models for their own inquiry, or learn from project failures. Our event aims to generate that conversation.
+  
+  Over two days, we will showcase worker-led data projects, ranging from the creation of apps, tools, and software to the discussions of the ethical, technical, and legal challenges of working with or organising through worker data. Four themes inform the workshop:
+
+    • Stories of the Build: The Who, What, and Why of the Tool
+
+    • Ethical and Technical Challenges of Accessing Worker Data
+
+    • Legal Concerns and Challenges of Building with Worker Data
+
+    • Building Solidarity Through Data-Driven Organising: Does it work?
 
 # Contact email. Use a bot-defeating format, otherwise you'll get spammed.
 email: info at example dot org
