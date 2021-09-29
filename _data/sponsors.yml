@@ -9,7 +9,7 @@ show_prospectus: false
 tiers:
   Hosts:
     show_title: true
-    size: 30
+    size: 20
     sponsors:
       #Edinburgh Centre for Data, Culture & Society: https://www.cdcs.ed.ac.uk/
       #Edinburgh Futures Institute: https://efi.ed.ac.uk/
@@ -18,7 +18,7 @@ tiers:
 
   Partners:
     show_title: true
-    size: 20
+    size: 12
     sponsors:
       #INDL (International Network on Digital Labour): https://endl.network/indl/
       #ISRF (Independent Social Research Foundation): https://www.isrf.org/
@@ -32,7 +32,7 @@ tiers:
   Supporters:
     show_title: true
     color: rgba(212,175,55,0.12)
-    size: 20
+    size: 12
     sponsors:
       Workers' Observatory: https://workersobservatory.org/
 
