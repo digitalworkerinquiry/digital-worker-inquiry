@@ -130,6 +130,8 @@ tr {
 /* Action link, with trick to put a dark overlay */
 .link-action {
   padding: 0.1em 0.3em;
+  width: 200px;
+  height: 150px;
   text-decoration: none;
   position: relative;
   border-radius: 25px;
