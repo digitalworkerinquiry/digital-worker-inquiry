@@ -212,7 +212,7 @@ tr {
 .newsletter input[type="submit"]:active {
   background: #ccc;
 }
- /* Navbar */
+ /* Navbar 
  nav ul {
    display: flex;
    list-style: none;
@@ -231,4 +231,5 @@ tr {
  }
  nav ul li a:hover {
    text-decoration: underline;
- }
+ } 
+ */
