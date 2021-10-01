@@ -1,7 +1,15 @@
 ---
 layout: default
 ---
-<section class="tone-dark header">
+<nav>
+  <ul>
+    <li><a href="#top">Top</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#schedule">Schedule</a></li>
+    <li><a href="#committee">Committee</a></li>
+  </ul>
+</nav>
+<section class="tone-dark header" id="top">
   <img class="logo"
        src="images/logos/example_DWI_logo.svg"
        alt="{{ site.data.info.name }}">
@@ -36,7 +44,7 @@ layout: default
     for updates!
   </p-->
 </section>
-<section class="tone-dark">
+<section class="tone-dark" id="about">
   <div>
     {{ site.data.info.description_long | markdownify }}
 
@@ -159,7 +167,7 @@ layout: default
     <p>{{ file.path }}</p>
   {% endfor %}
 </section-->
-<section class="tone-dark">
+<section class="tone-dark" id="committee">
   <h1>Committee</h1>
   <div class="items-container">
     {% for person in site.data.organizers.people %}

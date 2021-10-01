@@ -212,3 +212,23 @@ tr {
 .newsletter input[type="submit"]:active {
   background: #ccc;
 }
+ /* Navbar */
+ nav ul {
+   display: flex;
+   list-style: none;
+   background:{{ site.data.info.color }};
+   color: #fff;
+ }
+
+ nav ul li {
+   margin-right: 20px;
+   text-decoration: none;
+ }
+
+ nav ul li a {
+   text-decoration: none;
+   color: #B84C59;
+ }
+ nav ul li a:hover {
+   text-decoration: underline;
+ }
