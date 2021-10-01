@@ -110,7 +110,7 @@ tr {
 /* Header */
 .header {
   /* Fake a dark overlay with a gradient. Black is black... I want my sanity back... */
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/digital-worker-inquiry/images/DWI-Background-Image.jpg') no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/digital-worker-inquiry/images/Background-image-header.jpg') no-repeat center center;
   background-size: cover;
   min-height: 100vh;
   padding: 0;
