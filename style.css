@@ -222,6 +222,7 @@ tr {
   height: 50px;
   background-color: #fff;
   display: flex;
+  text-align: center;
 }
 
 nav span {
