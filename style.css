@@ -217,8 +217,15 @@ tr {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 9999;
+  z-index: 100;
   width: 100%;
   height: 50px;
   background-color: #323BA2;
+  text-decoration: none;
+  display: flex;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
 }

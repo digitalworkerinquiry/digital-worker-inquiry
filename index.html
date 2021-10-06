@@ -2,35 +2,16 @@
 layout: default
 ---
 
-<section class="fixed-nav-bar">
-  <div class="nav-container">
-    <div class="brand">
-      <a href="#top">Logo</a>
-    </div>
-    <nav>
-      <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
-      <ul class="nav-list">
-        <li>
-          <a href="#top">Top</a>
-        </li>
-        <li>
-          <a href="#about">About</a>
-        </li>
-        <li>
-          <a href="#schedule">Schedule</a>
-        </li>
-        <li>
-          <a href="#committee">Committee</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</section>
+<!--Nav bar-->
+<nav class="fixed-nav-bar">
+  <span><a href=" #top">Top</a></span>
+  <span><a href="#about">About</a></span>
+  <span><a href="#schedule">Schedule</a></span>
+  <span><a href="#committee">Committee</a></span>
+</nav>
 
 <section class="tone-dark header" id="top">
-  <img class="logo"
-       src="images/logos/example_DWI_logo.svg"
-       alt="{{ site.data.info.name }}">
+  <img class="logo" src="images/logos/example_DWI_logo.svg" alt="{{ site.data.info.name }}">
   <!--h1> 
     {{ site.data.info.name | markdownify }}
   </h1-->
@@ -40,16 +21,14 @@ layout: default
     {{ site.data.info.location }}
   </p>
   {% if site.data.action.text %}
-    <p>
-      {% if site.data.action.link %}
-        <a class="tone-dark link-action"
-           href="{{ site.data.action.link }}"
-           target="blank"
-           rel="noreferrer">{{ site.data.action.text | markdownify | remove: '<p>' | remove: '</p>' }}</a>
-      {% else %}
-        {{ site.data.action.text | markdownify }}
-      {% endif %}
-    </p>
+  <p>
+    {% if site.data.action.link %}
+    <a class="tone-dark link-action" href="{{ site.data.action.link }}" target="blank"
+      rel="noreferrer">{{ site.data.action.text | markdownify | remove: '<p>' | remove: '</p>' }}</a>
+    {% else %}
+    {{ site.data.action.text | markdownify }}
+    {% endif %}
+  </p>
   {% endif %}
 
   <!--p>
@@ -68,18 +47,18 @@ layout: default
     {{ site.data.info.description_long | markdownify }}
 
     {% if site.data.workshops %}
-      <p>
-        We also organize <a href="/workshops">{{ site.data.workshops.name }}</a>.
-      </p>
+    <p>
+      We also organize <a href="/workshops">{{ site.data.workshops.name }}</a>.
+    </p>
     {% endif %}
 
     {% if site.data.info.past_editions %}
-      <p>
-        Check out the past editions:
-        {% for edition in site.data.info.past_editions %}
-          <a href="{{ edition[1] }}">{{ edition[0] }}</a>
-        {% endfor %}
-      </p>
+    <p>
+      Check out the past editions:
+      {% for edition in site.data.info.past_editions %}
+      <a href="{{ edition[1] }}">{{ edition[0] }}</a>
+      {% endfor %}
+    </p>
     {% endif %}
 
     <p>
@@ -88,96 +67,90 @@ layout: default
   </div>
 </section>
 {% if site.data.schedule %}
-  <section id="schedule">
-    <h1>Schedule</h1>
-    <div class="items-container">
-      {% for part in site.data.schedule %}
-        <div class="item-large">
-          <table>
-            {% if part[0] != '' %}
-            <tr>
-              <th colspan="2">
-                <h2>{{ part[0] }}</h2>
-              </th>
-            </tr>
-            {% endif %}
-            {% for item in part[1] %}
-              <tr>
-                <td>{{ item[0] }}</td>
-                <td>{{ item[1] }}</td>
-              </tr>
-            {% endfor %}
-          </table>
-        </div>
-      {% endfor %}
+<section id="schedule">
+  <h1>Schedule</h1>
+  <div class="items-container">
+    {% for part in site.data.schedule %}
+    <div class="item-large">
+      <table>
+        {% if part[0] != '' %}
+        <tr>
+          <th colspan="2">
+            <h2>{{ part[0] }}</h2>
+          </th>
+        </tr>
+        {% endif %}
+        {% for item in part[1] %}
+        <tr>
+          <td>{{ item[0] }}</td>
+          <td>{{ item[1] }}</td>
+        </tr>
+        {% endfor %}
+      </table>
     </div>
-  </section>
+    {% endfor %}
+  </div>
+</section>
 {% endif %}
 <section>
   {% if site.data.faq %}
-    <h1 id="faq">F.A.Q.</h1>
-    <div class="items-container">
-      {% for item in site.data.faq %}
-        <div class="item-large">
-          <h2 {% if item.id %} id="{{ item.id }}" {% endif %}>{{ item.q }}</h2>
-          <p>{{ item.a | markdownify }}</p>
-        </div>
-      {% endfor %}
-      <div class="item-large">
-        <h2>I have another question...</h2>
-        <p>Contact us on <a href="https://facebook.com/{{ site.data.info.facebook }}"
-                            rel="noreferrer">Facebook</a>,
-          {% if site.data.info.twitter %}
-            on <a href="https://twitter.com/{{ site.data.info.twitter }}"
-                  rel="noreferrer">Twitter</a>,
-          {% endif %}
-          <br>
-          or by email ({{ site.data.info.email }})!</p>
+  <h1 id="faq">F.A.Q.</h1>
+  <div class="items-container">
+    {% for item in site.data.faq %}
+    <div class="item-large">
+      <h2 {% if item.id %} id="{{ item.id }}" {% endif %}>{{ item.q }}</h2>
+      <p>{{ item.a | markdownify }}</p>
     </div>
-  {% endif %}
+    {% endfor %}
+    <div class="item-large">
+      <h2>I have another question...</h2>
+      <p>Contact us on <a href="https://facebook.com/{{ site.data.info.facebook }}" rel="noreferrer">Facebook</a>,
+        {% if site.data.info.twitter %}
+        on <a href="https://twitter.com/{{ site.data.info.twitter }}" rel="noreferrer">Twitter</a>,
+        {% endif %}
+        <br>
+        or by email ({{ site.data.info.email }})!</p>
+    </div>
+    {% endif %}
 </section>
 {% if site.data.sponsors %}
-  <section class="section-sponsors">
-    {% if site.data.sponsors.show_prospectus %}
-      <div>
-        <p>Interested in sponsoring us? Check out our <a href="/pdf/sponsor-prospectus.pdf">sponsorship prospectus</a>.</p>
-      </div>
+<section class="section-sponsors">
+  {% if site.data.sponsors.show_prospectus %}
+  <div>
+    <p>Interested in sponsoring us? Check out our <a href="/pdf/sponsor-prospectus.pdf">sponsorship prospectus</a>.</p>
+  </div>
+  {% endif %}
+
+  {% for tier in site.data.sponsors.tiers %}
+  {% if tier[1].show_title %}
+  <h1>{{ tier[0] }}</h1>
+  {% endif %}
+
+  {% if tier[1].sponsors %}
+  <div class="items-container" {% if tier[1].color %} style="background: {{ tier[1].color }}" {% endif %}>
+    {% for sponsor in tier[1].sponsors %}
+    {% comment %} Use SVG if available, PNG otherwise {% endcomment %}
+    {% assign file_img = 'null' %}
+    {% assign file_svg_path = sponsor[0] | prepend: '/images/logos/' | append: '.svg' %}
+    {% for file in site.static_files %}
+    {% if file.path == file_svg_path %}
+    {% assign file_img = file_svg_path | prepend: '/digital-worker-inquiry' %}
+    {% endif %}
+    {% endfor %}
+    {% if file_img == 'null' %}
+    {% assign file_img = sponsor[0] | prepend: '/digital-worker-inquiry/images/logos/' | append: '.png' %}
     {% endif %}
 
-    {% for tier in site.data.sponsors.tiers %}
-      {% if tier[1].show_title %}
-        <h1>{{ tier[0] }}</h1>
-      {% endif %}
-
-      {% if tier[1].sponsors %}
-        <div class="items-container"
-             {% if tier[1].color %} style="background: {{ tier[1].color }}" {% endif %}>
-          {% for sponsor in tier[1].sponsors %}
-            {% comment %} Use SVG if available, PNG otherwise {% endcomment %}
-            {% assign file_img = 'null' %}
-            {% assign file_svg_path = sponsor[0] | prepend: '/images/logos/' | append: '.svg' %}
-            {% for file in site.static_files %}
-              {% if file.path == file_svg_path %}
-                {% assign file_img = file_svg_path | prepend: '/digital-worker-inquiry' %}
-              {% endif %}
-            {% endfor %}
-            {% if file_img == 'null' %}
-              {% assign file_img = sponsor[0] | prepend: '/digital-worker-inquiry/images/logos/' | append: '.png' %}
-            {% endif %}
-
-            <div class="item-large">
-              <a href="{{ sponsor[1] }}"
-                 rel="noreferrer">
-                 <img src="{{ file_img }}"
-                      alt="{{ tier[0] }} - {{ sponsor[0] }}"
-                      style="height: {{ tier[1].size }}vh">
-              </a>
-            </div>
-          {% endfor %}
-        </div>
-      {% endif %}
+    <div class="item-large">
+      <a href="{{ sponsor[1] }}" rel="noreferrer">
+        <img src="{{ file_img }}" alt="{{ tier[0] }} - {{ sponsor[0] }}" style="height: {{ tier[1].size }}vh">
+      </a>
+    </div>
     {% endfor %}
-  </section>
+  </div>
+  {% endif %}
+  {% endfor %}
+</section>
 {% endif %}
 <!--section id="debug">            
   <debug>
@@ -190,35 +163,31 @@ layout: default
   <h1>Committee</h1>
   <div class="items-container">
     {% for person in site.data.organizers.people %}
-      <div class="item-small">
-        <a class="person-link"
-           href="{{ person.link }}"
-           target="blank"
-           rel="noreferrer">
-            <div class="person-container">
-              <img class="person-image"
-                   src="images/people/{{ person.first }} {{ person.last }}.jpg"
-                   alt="Picture of {{ person.first }} {{ person.last }}">
-              <div class="person-info">
-                {% if person.title %}
-                  {{ person.title }}
-                {% endif %}
-                <span class="person-first">{{ person.first }}</span>
-                <br>
-                <span class="person-last">{{ person.last }}</span>
-              </div>
-            </div>
-          </a>
+    <div class="item-small">
+      <a class="person-link" href="{{ person.link }}" target="blank" rel="noreferrer">
+        <div class="person-container">
+          <img class="person-image" src="images/people/{{ person.first }} {{ person.last }}.jpg"
+            alt="Picture of {{ person.first }} {{ person.last }}">
+          <div class="person-info">
+            {% if person.title %}
+            {{ person.title }}
+            {% endif %}
+            <span class="person-first">{{ person.first }}</span>
+            <br>
+            <span class="person-last">{{ person.last }}</span>
+          </div>
         </div>
-      {% endfor %}
+      </a>
     </div>
+    {% endfor %}
+  </div>
   </div>
   {% if site.data.organizers.group %}
-    <p>
-      {{ site.data.info.name_short }} is organized by the
-        <a href="{{ site.data.organizers.group.link1 }}">{{ site.data.organizers.group.name1 }}</a> and the
-        <a href="{{ site.data.organizers.group.link2 }}">{{ site.data.organizers.group.name2 }}</a> 
-    </p>
+  <p>
+    {{ site.data.info.name_short }} is organized by the
+    <a href="{{ site.data.organizers.group.link1 }}">{{ site.data.organizers.group.name1 }}</a> and the
+    <a href="{{ site.data.organizers.group.link2 }}">{{ site.data.organizers.group.name2 }}</a>
+  </p>
   {% endif %}
   <p>
     Website template made with love by <a href="https://lauzhack.com">LauzHack</a>.
