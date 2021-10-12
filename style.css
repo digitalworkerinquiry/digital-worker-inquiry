@@ -106,6 +106,21 @@ tr {
   color: #fff;
 }
 
+.tone-light{
+  background: #BBEDF2;
+  color: {{ site.data.info.color }};
+}
+
+.tone-light a{
+  color: #323BA2;
+}
+
+.tone-light a:active,
+.tone-light a:focus,
+.tone-light a:hover {
+  color: pink;
+}
+
 
 /* Header */
 .header {

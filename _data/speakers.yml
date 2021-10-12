@@ -1,0 +1,8 @@
+# People organizing the event, and their websites.
+# See the ReadMe file for information on pictures.
+
+people:
+  - first: Richard
+    last: Gall
+    link: https://twitter.com/richggall
+    info: Richard Gall is a writer based in the North East of England. He is a member of [UTAW](https://utaw.tech/about), the UK's first tech worker union, and a masters student in Digital Society at the University of Edinburgh. He is also the producer and co-host of What We Talk About When We Talk About Tech, a podcast about storytelling in the tech industry.
