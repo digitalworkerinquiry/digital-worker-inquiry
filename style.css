@@ -253,6 +253,8 @@ tr {
   font-
 }
 
-.nav-item a:hover {
+.nav-item a:hover,
+.nav-item a:active,
+.nav-item a:focus {
   color: slateblue;
 }
