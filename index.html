@@ -167,7 +167,7 @@ layout: default
 <div class="items-container">
   {% for person in site.data.speakers.people %}
   <div class="item-small">
-    <a class="person-link" href="{{ person.link }}" target="blank" rel="noreferrer">
+    <!--a class="person-link" href="{{ person.link }}" target="blank" rel="noreferrer"-->
       <div class="person-container">
         <img class="person-image" src="images/people/{{ person.first }} {{ person.last }}.jpg"
           alt="Picture of {{ person.first }} {{ person.last }}">
@@ -184,7 +184,7 @@ layout: default
               <p>{{ person.info }}</p>
             </div>
             <div class="expandMoreHolder">
-              <span expand-more data-hidetext="Show Less..." data-showtext="Show More..." data-target="showMoreContent1" class="btn-expand-more">Show More...</span>
+              <button expand-more data-hidetext="Show Less..." data-showtext="Show More..." data-target="showMoreContent1" class="btn-expand-more">Show More...</button>
             </div>
           </div>
         </div>
