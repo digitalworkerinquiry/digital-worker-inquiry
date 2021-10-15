@@ -211,6 +211,12 @@ tr {
 }
 
 /* Bio Read More */
+.bio-holder {
+  overflow: scroll;
+  height: 100px;
+  position: relative;
+  padding: 20px;
+}
 .expandMoreContent {
   height: 20px;
   overflow: hidden;
