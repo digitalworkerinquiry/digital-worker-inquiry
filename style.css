@@ -280,4 +280,5 @@ tr {
 .nav-item a:active,
 .nav-item a:focus {
   color: slateblue;
+  text-decoration: none;
 }
