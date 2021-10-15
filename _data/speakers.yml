@@ -10,9 +10,9 @@ people:
   - first: Alice
     last: Example
     link: 
-    info: Alice is a ficitional persona developed to test the template.
+    info: Alice is a ficitional persona developed to test the template. She is an expert in machine learning and data rights. In her free time, she volunteers at a local NGO in Brazil.
   
   - first: Bob
     last: Example
     link:
-    info: Bob works in UX. He is based in the South of Wales, UK, and likes going on hikes. 
+    info: Bob is a ficitional persona developed to test the template. He works in UX. He is based in the South of Wales, UK, and likes going on hikes. 
