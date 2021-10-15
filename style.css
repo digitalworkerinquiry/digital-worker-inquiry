@@ -289,6 +289,6 @@ tr {
 .nav-item a:hover,
 .nav-item a:active,
 .nav-item a:focus {
-  color: slateblue;
+  color: #887BA6;
   text-decoration: none;
 }
