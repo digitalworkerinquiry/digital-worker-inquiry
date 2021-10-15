@@ -273,7 +273,7 @@ tr {
 
 .nav-item a{
   text-decoration: none;
-  font-
+  padding: 20px 10px;
 }
 
 .nav-item a:hover,
