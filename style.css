@@ -216,6 +216,11 @@ tr {
   transition: height 0.5s ease-in-out;
 }
 
+.expandMoreContent p {
+  text-align: left;
+  font-size: 12px;
+}
+
 .expandMoreHolder {
   padding: 10px;
   text-align: left;
