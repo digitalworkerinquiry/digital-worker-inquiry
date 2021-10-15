@@ -118,7 +118,7 @@ tr {
 .tone-light a:active,
 .tone-light a:focus,
 .tone-light a:hover {
-  color: teal;
+  color: palevioletred;
 }
 
 
@@ -198,7 +198,8 @@ tr {
 
 .person-info p {
   text-align: left;
-  font-size: 12px;
+  padding: 10px;
+  font-size: 16px;
 }
 
 .person-first {
@@ -209,6 +210,7 @@ tr {
   opacity: 0.7;
 }
 
+/* Bio Read More */
 .expandMoreContent {
   height: 20px;
   overflow: hidden;
@@ -231,7 +233,7 @@ tr {
   border: 1px solid rgba(0, 0, 0, 0.02);
   border-radius: 5px;
   cursor: pointer;
-  padding: 20px 10px;
+  padding: 10px 5px;
   display: inline-block;
 }
 
