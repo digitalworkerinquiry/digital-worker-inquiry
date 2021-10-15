@@ -196,6 +196,11 @@ tr {
   padding: 0.3em 0;
 }
 
+.person-info p {
+  text-align: left;
+  font-size: 12px;
+}
+
 .person-first {
   font-weight: 600;
 }
@@ -214,11 +219,6 @@ tr {
 .expandMoreContent.expand-active {
   height: auto;
   transition: height 0.5s ease-in-out;
-}
-
-.expandMoreContent p {
-  text-align: left;
-  font-size: 12px;
 }
 
 .expandMoreHolder {
