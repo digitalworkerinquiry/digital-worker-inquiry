@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-
+<script src="./script.js" defer></script>
 <!--Nav bar-->
 <header class="nav-container"></header>
   <nav class="fixed-nav-bar">
@@ -179,7 +179,14 @@ layout: default
           <br>
           <span class="person-last">{{ person.last }}</span>
           <br>
-          <!-- span class="person-info">{{ person.info }}</span-->
+          <div class="person-info">
+            <div class="expandMoreContent" id="showMoreContent1">
+              <p>{{ person.info }}</p>
+            </div>
+            <div class="expandMoreHolder">
+              <span expand-more data-hidetext="Show Less..." data-showtext="Show More..." data-target="showMoreContent1" class="btn-expand-more">Show More...</span>
+            </div>
+          </div>
         </div>
       </div>
     </a>
