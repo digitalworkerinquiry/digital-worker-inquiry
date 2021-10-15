@@ -218,13 +218,15 @@ tr {
 
 .expandMoreHolder {
   padding: 10px;
-  text-align: justify;
+  text-align: left;
 }
 
 .btn-expand-more {
-  cursor: pointer;
+  background-color: white;
   border: 1px solid rgba(0, 0, 0, 0.02);
-  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 20px 10px;
   display: inline-block;
 }
 
