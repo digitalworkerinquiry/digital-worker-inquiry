@@ -215,7 +215,7 @@ tr {
   overflow: scroll;
   height: 100px;
   position: relative;
-  padding: 20px;
+  padding: 5px 10px;
 }
 .expandMoreContent {
   height: 20px;
