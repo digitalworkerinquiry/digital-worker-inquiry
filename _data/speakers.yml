@@ -11,3 +11,8 @@ people:
     last: Example
     link: 
     info: Alice is a ficitional persona developed to test the template.
+  
+  - first: Bob
+    last: Example
+    link:
+    info: Bob works in UX. He is based in the South of Wales, UK, and likes going on hikes. 
