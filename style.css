@@ -54,6 +54,12 @@ section > * {
   padding: 0 3.65%;
 }
 
+.item-medium {
+  flex-grow: 0.1;
+  flex-basis: 19.5%;
+  padding: 1% 2.15%;
+}
+
 .item-small {
   flex-grow: 0;
   flex-basis: 17%;
