@@ -296,6 +296,10 @@ tr {
   font-weight: 16px;
 }
 
+.nav-item li a {
+  text-decoration: none;
+}
+
 .nav-item a:hover,
 .nav-item a:active,
 .nav-item a:focus {
