@@ -287,14 +287,14 @@ tr {
   padding-top: 20px;
 }
 
-.nav-item span{
+.nav-item ul{
   display: inline-block;
   padding: 20px 10px;
   color: #323BA2;
   font-weight: 16px;
 }
 
-.nav-item a{
+.nav-item li a{
   text-decoration: none;
   padding: 20px 10px;
 }
@@ -303,5 +303,6 @@ tr {
 .nav-item a:active,
 .nav-item a:focus {
   color: #887BA6;
+  background-color: papayawhip;
   text-decoration: none;
 }
