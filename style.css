@@ -293,7 +293,7 @@ tr {
   padding-top: 20px;
 }
 
-.nav-item ul{
+.fixed-nav-bar ul li{
   display: inline-block;
   padding: 20px 10px;
   color: #323BA2;

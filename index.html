@@ -4,15 +4,15 @@ layout: default
 <script src="./script.js" defer></script>
 <!--Nav bar-->
 <header class="nav-container"></header>
-  <nav class="fixed-nav-bar">
-    <ul>
+<nav class="fixed-nav-bar">
+  <ul>
     <li class="nav-item"><a href=" #top">Top</a></li>
     <li class="nav-item"><a href="#about">About</a></li>
     <li class="nav-item"><a href="#schedule">Schedule</a></li>
     <li class="nav-item"><a href="#speakers">Speakers</a></li>
     <li class="nav-item"><a href="#committee">Committee</a></li>
-    </ul>
-  </nav>
+  </ul>
+</nav>
 </header>
 
 <section class="tone-dark header" id="top">
@@ -165,10 +165,10 @@ layout: default
   {% endfor %}
 </section-->
 <section class="tone-light" id="speakers">
-<h1>Speakers</h1>
-<div class="items-container">
-  {% for person in site.data.speakers.people %}
-  <div class="item-medium">
+  <h1>Speakers</h1>
+  <div class="items-container">
+    {% for person in site.data.speakers.people %}
+    <div class="item-medium">
       <div class="person-container">
         <div class="person-info">
           {% if person.title %}
@@ -187,28 +187,28 @@ layout: default
           </div>
         </div>
       </div>
-    </a>
+      </a>
+    </div>
+    {% endfor %}
   </div>
-  {% endfor %}
-</div>
 </section>
 <section class="tone-dark" id="committee">
   <h1>Committee</h1>
   <div class="items-container">
     {% for person in site.data.organizers.people %}
     <div class="item-medium">
-        <div class="person-container">
-          <div class="person-info">
-            {% if person.title %}
-            {{ person.title }}
-            {% endif %}
-            <span class="person-first">{{ person.first }}</span>
-            <br>
-            <span class="person-last">{{ person.last }}</span>
-            <br>
-            <a class="person-link" href="{{ person.link }}" target="blank" rel="noreferrer">Contact information</a>
-          </div>
+      <div class="person-container">
+        <div class="person-info">
+          {% if person.title %}
+          {{ person.title }}
+          {% endif %}
+          <span class="person-first">{{ person.first }}</span>
+          <br>
+          <span class="person-last">{{ person.last }}</span>
+          <br>
+          <a class="person-link" href="{{ person.link }}" target="blank" rel="noreferrer">Contact information</a>
         </div>
+      </div>
       </a>
     </div>
     {% endfor %}
