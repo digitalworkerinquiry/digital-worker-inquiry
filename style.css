@@ -284,21 +284,27 @@ tr {
   justify-content: center;
   z-index: 100;
   width: 100%;
-  height: 50px;
+  display: flex;
   background-color: #fff;
-  padding-top: 20px;
+  flex-wrap: wrap;
+  top: 2em;
+}
+
+.fixed-nav-bar ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 auto;
 }
 
 .fixed-nav-bar li {
   display: inline-block;
-  color: #323BA2;
-  font-weight: 16px;
-  padding: 10px 20px;
-  text-decoration: none;
+  font-size: 24px;
+  padding: 0 20px;
 }
 
 .nav-item li a {
-  text-decoration: none;
+  color: #323BA2;
 }
 
 .nav-item a:hover,
