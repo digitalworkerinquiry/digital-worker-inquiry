@@ -168,8 +168,6 @@ layout: default
   {% for person in site.data.speakers.people %}
   <div class="item-small">
       <div class="person-container">
-        <img class="person-image" src="images/people/{{ person.first }} {{ person.last }}.jpg"
-          alt="Picture of {{ person.first }} {{ person.last }}">
         <div class="person-info">
           {% if person.title %}
           {{ person.title }}
@@ -178,7 +176,7 @@ layout: default
           <br>
           <span class="person-last">{{ person.last }}</span>
           <br>
-          <a class="person-link" href="{{ person.link }}" target="blank" rel="noreferrer">Contact</a>
+          <a class="person-link" href="{{ person.link }}" target="blank" rel="noreferrer">Contact information</a>
           <div class="person-info">
             <div class="bio-holder">
               <p>{{ person.info }}</p>
@@ -196,10 +194,7 @@ layout: default
   <div class="items-container">
     {% for person in site.data.organizers.people %}
     <div class="item-small">
-      <a class="person-link" href="{{ person.link }}" target="blank" rel="noreferrer">
         <div class="person-container">
-          <img class="person-image" src="images/people/{{ person.first }} {{ person.last }}.jpg"
-            alt="Picture of {{ person.first }} {{ person.last }}">
           <div class="person-info">
             {% if person.title %}
             {{ person.title }}
@@ -207,6 +202,8 @@ layout: default
             <span class="person-first">{{ person.first }}</span>
             <br>
             <span class="person-last">{{ person.last }}</span>
+            <br>
+            <a class="person-link" href="{{ person.link }}" target="blank" rel="noreferrer">Contact information</a>
           </div>
         </div>
       </a>
