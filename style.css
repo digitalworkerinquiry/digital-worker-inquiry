@@ -180,7 +180,7 @@ tr {
 .person-container {
   display: inline-block;
   margin: 0 0 2em 0;
-  padding: 1em;
+  padding: 0.3em 1em;
 }
 
 .person-link .person-info {
