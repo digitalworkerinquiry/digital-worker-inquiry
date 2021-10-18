@@ -292,6 +292,7 @@ tr {
   padding: 20px 10px;
   color: #323BA2;
   font-weight: 16px;
+  text-decoration: none;
 }
 
 .nav-item li a{
@@ -304,5 +305,4 @@ tr {
 .nav-item a:focus {
   color: #887BA6;
   background-color: papayawhip;
-  text-decoration: none;
 }
