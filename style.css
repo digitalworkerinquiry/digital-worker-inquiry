@@ -288,6 +288,7 @@ tr {
   background-color: #fff;
   flex-wrap: wrap;
   top: 2em;
+  padding: 20px;
 }
 
 .fixed-nav-bar ul {
