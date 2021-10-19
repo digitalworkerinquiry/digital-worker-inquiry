@@ -311,7 +311,7 @@ tr {
 .nav-item a:hover,
 .nav-item a:active,
 .nav-item a:focus {
-  color: #887BA6;
+  color: #929AF0;
 }
 
 /** Schedule **/
@@ -332,22 +332,22 @@ tr {
   content: "+";
   position: absolute;
   right: 1em;
-  width: 1em;
-  height: 1em;
+  width: 1.5em;
+  height: 1.5em;
   color: #eee;
   text-align: center;
   border-radius: 50%;
-  background: #1abc9c;
+  background: #323BA2;
   box-shadow: inset 0 1px 6px rgba(0, 0, 0, 0.5), 0 1px 0 #fff;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.75);
 }
 
 .accordion label:hover {
-  color: #1abc9c;
+  color: #929AF0;
 }
 
 .accordion input:checked + label {
-  color: #1abc9c;
+  color: #929AF0;
 }
 
 .accordion input:checked + label:after {
