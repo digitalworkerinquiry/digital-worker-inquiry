@@ -91,8 +91,8 @@ layout: default
           <td>{{ item[0] }}</td>
           {% if item[1].speaker %}
             <td class="accordion">
-              <input type="checkbox" name="schedule">
-              <label>{{ item[1].title }}</label>
+              <input type="checkbox" name="schedule" id="{{ item[0] }}">
+              <label for="{{ item[0] }}">{{ item[1].title }}</label>
               <div class="accordion__content accordion__content--small">
                 <h4>{{ item[1].speaker }}</h4>
               </div>
