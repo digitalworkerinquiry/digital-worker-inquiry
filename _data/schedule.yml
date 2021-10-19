@@ -3,24 +3,95 @@
 # Use an empty string ('') for the day names if you do not want headers.
 
 Thursday:
-  '1:00-1:15pm': 'Welcome and Introduction: Why tools and apps?'
-  '1:15-2:30': Panel of Projects
-  '2:30-2:45': Break
-  '2:45-4:00': Technical and Ethical Challenges Panel
-  '4:00-4:15': Break
-  '4:15-5:30': Panel of Projects
-  '5.30-5.45': Break
-  '5:45-6:45': Keynote
+  '1:00-1:15pm': 
+    title: 'Welcome and Introduction: Why Digital Worker Inquiry?'
+    speaker: Dr. Karen Gregory (University of Edinburgh)
+  '1:15-2:30': 
+    title: Panel of Projects
+    chair: Paola Tubaro (CNRS and University of Paris-Saclay)
+    panelists: 
+      - Wilneida Negrón - Co-Worker.Org
+      - Louise Patel - The Time Project, Share My Telly Job (SMTJ)
+      - Arturo Arriagada - Fair Work Chile
+      - Ricardo Gonzalez - Fair Work Chile
+  '2:30-2:45': 
+    title: Break
+  '2:45-4:00': 
+    title: 'Technical and Ethical Challenges: Building with Worker Data'
+    chair: Oliver Bates (Lancaster University)
+    panelists:
+      - Saiph Savage - Northeastern University, Civic AI Lab
+      - Angelika Strohmayer - Northumbria University
+      - Josh Hughes - Trilateral Research
+      - Jenny Andrew - CSP Union & DAMA UK
+      - Danny Spitzberg - Turning Basin Labs
+      - Rich Gall - UTAW
+      - Adrian Friday - Lancaster University
+  '4:00-4:15': 
+    title: Break
+  '4:15-5:30': 
+    title: Panel of Projects
+    chair: Carlos Alvarez (Northumbria University)
+    panelists: 
+      - Hays Witt - Driver’s Seat
+      - Funda Ustek-Splida - Oxford Internet Institute, Fair Work Project
+      - Jeff Vize - Georgia Fair Labour Platform
+      - Martijn Arets - Collaborative Economy
+  '5.30-5.45': 
+    title: Break
+  '5:45-6:45': 
+    title: Keynote
+    speaker: Christina Colclough, Founder of The Why Not Lab
 
 
 Friday:
-  '11:45am-12:00pm': Welcome back
-  '12:00-1:15': Panel of Projects
-  '1:15-1:30': Break
-  '1:30-2:45': Legal Panel
-  '2:45-3:00': Break
-  '3:00-4:15': Panel of Projects
-  '4:15-4:30': Break
-  '4:30-5:45': Solidarity, Leverage, Organising Panel
-  '5:45-6:00': Break
-  '6:00-6:45': Keynote
+  '11:45am-12:00pm': 
+    title: Welcome back
+    speaker: Dr. Karen Gregory (University of Edinburgh)
+  '12:00-1:15': 
+    title: Panel of Projects
+    chair: Mike Saunders (Scottish Tech Workers)
+    panelists:
+      - Felipe Bonel - Contrate Quem Luta
+      - Hannah Johnston - Fairwork and Organise
+      - Boyan Karabaliev - Edinburgh Workers Observatory
+      - Cailean Gallagher - Edinburgh Workers Observatory, STUC
+  '1:15-1:30': 
+    title: Break
+  '1:30-2:45': 
+    title: 'Legal Challenges of Accessing & Building with Worker Data'
+    chair: Dr. Wenlong Li (University of Birmingham)
+    panelists:
+      - Lillian Edwards - Newcastle University
+      - James Farrar - Worker Info Exchange
+      - Joanna Bronowicka - Centre For Internet & Human Rights
+  '2:45-3:00': 
+    title: Break
+  '3:00-4:15': 
+    title: Panel of Projects
+    chair: Kate McCurdy (University of Edinburgh)
+    panelists:
+      - Caroline Sinders - Convocation Design + Research
+      - Joel Blay - Emergency Workplace Organizing Committee
+      - Sylvia Morse - Up & Go Cooperative
+      - Cosman Popan - Manchester Metropolitan University
+      - José Sherwood - Manchester Metropolitan University
+  '4:15-4:30': 
+    title: Break
+  '4:30-5:45': 
+    title: 'Solidarity, Organising & Leverage: : Do Tools Work?'
+    chair: Cailean Gallagher (Workers Observatory, STUC)
+    panelists:
+      - Andrew Pakes - Prospect Union
+      - Sebastian Kennes - United Freelancers Belgium
+      - Lina Dencik - Cardiff University, Data Justice Lab
+      - Miranda Hall - New Economics Foundation
+      - Tanja Vicas - Digital Danube Network
+  '5:45-6:00': 
+    title: Break
+  '6:00-6:45': 
+    title: Keynote
+    speaker: Roz Foyer, General Secretary STUC
+  '6:45-8:00':
+    title: Wrap-up and Wine Reception with Digilabour
+
