@@ -189,7 +189,36 @@ layout: default
   {% endfor %}
 </section-->
 <section class="tone-light" id="speakers">
-  <h1>Speakers</h1>
+  <h1>Keynote Speakers</h1>
+  <div class="items-container">
+    {% for person in site.data.speakers.keynotes %}
+    <div class="item-medium">
+      <div class="person-container">
+        <div class="person-info">
+          <img class="person-image"
+               src="images/people/{{ person.first }} {{ person.last }}.jpg"
+               alt="Picture of {{ person.first }} {{ person.last }}">
+          {% if person.title %}
+          {{ person.title }}
+          {% endif %}
+          <span class="person-first">{{ person.first }}</span>
+          <br>
+          <span class="person-last">{{ person.last }}</span>
+          <br>
+          <a class="person-link" href="{{ person.link }}" target="blank" rel="noreferrer">{{ person.affiliation }}</a>
+          <div class="person-info">
+            <div class="bio-holder">
+              <!--p class="about-header">About {{ person.first }}</p-->
+              <p>{{ person.info }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+  <h1>Panelists</h1>
   <div class="items-container">
     {% for person in site.data.speakers.people %}
     <div class="item-medium">
@@ -202,10 +231,10 @@ layout: default
           <br>
           <span class="person-last">{{ person.last }}</span>
           <br>
-          <a class="person-link" href="{{ person.link }}" target="blank" rel="noreferrer">Contact information</a>
+          <a class="person-link" href="{{ person.link }}" target="blank" rel="noreferrer">{{ person.affiliation }}</a>
           <div class="person-info">
             <div class="bio-holder">
-              <p class="about-header">About {{ person.first }}</p>
+              <!--p class="about-header">About {{ person.first }}</p-->
               <p>{{ person.info }}</p>
             </div>
           </div>
