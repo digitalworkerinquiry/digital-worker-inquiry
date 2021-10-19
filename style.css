@@ -368,7 +368,7 @@ tr {
 
 /* 
 * Size Variations
-*/
+
 input[name=schedule]:checked ~ .accordion__content.accordion__content--small {
   height: 70px;
 }
@@ -380,5 +380,10 @@ input[name=schedule]:checked ~ .accordion__content.accordion__content--med {
 input[name=schedule]:checked ~ .accordion__content.accordion__content--large {
   height: 325px;
 }
-
+*/
+/* Fluid size */
+input[name=schedule]:checked ~ .accordion__content {
+  /* Get this as close to what height you expect */
+  max-height: 350px;
+}
 
