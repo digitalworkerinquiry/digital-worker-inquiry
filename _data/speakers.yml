@@ -5,8 +5,14 @@ keynotes:
 
     - first: Christina
       last: Colclough
+      title: Dr.
       keynote: 'Thursday 5:45-6:45' 
       affiliation: Founder of The Why Not Lab
+      link: http://www.thewhynotlab.com/
+      info: |-
+        Regarded as a thought leader on the future of work(ers) and the politics of digital technology, Dr. Christina J. Colclough is an advocate for the workers’ voice. She is the founder of the Why Not Lab - a boutique value-driven consultancy that puts workers at the centre of digital change. In this capacity, Christina works with unions, interest organisations and governments across the world on issues such as AI governance, workers' data rights and human rights, and the development of responsible digital technology. Christina co-developed WeClock – an open-source privacy-preserving app to empower workers and unions through the responsible collection and analysis of work-related data.
+
+        Christina is included in the all-time Hall of Fame of the world's most brilliant women in AI Ethics and is a Fellow of the Royal Society of Arts. She is also a member of the Steering Committee of the Global Partnership on AI (GPAI) and Advisory Board member of Carnegie Council's new program: AI and Equality Initiative. She is a member of the OECD One AI Expert Group, and is affiliated to FAOS, Copenhagen University.
 
     - first: Roz
       last: Foyer
@@ -134,13 +140,19 @@ people:
 
   - first: Josh
     last: Hughes
+    title: Dr.
     panel: 'Thursday 2:45-4:00' 
     affiliation: Trilateral Research
+    info: |-
+      Dr. Joshua G. Hughes is a Research Analyst at Trilateral Research, acting as ethics coordinator across several EU-funded security technology projects where he manages compliance with ethical, data protection, human rights, and societal standards. He also develops design approaches to embed fulfilment of those standards during the design phase of new technologies. Josh is interested in the regulation of automation in security technologies, what roles human beings should play in relation to automating technologies, and how responsibility can be attributed for automated decision-making. Josh is also acting Data Protection Officer for the United Tech and Allied Workers branch of the Communications Workers Union.
 
   - first: Hannah
     last: Johnston
-    affiliation: Fairwork and Organise
+    title: Dr.
+    affiliation: Northeastern University
     panel: 'Friday 12:00-1:15' 
+    info: |-
+      Hannah Johnston is a Postdoctoral Researcher at Northeastern University in Boston, Massachusetts where she researches algorithmic management in the platform economy. She is an affiliate of Fairwork (Oxford Internet Institute) and has worked for the International Labour Organization and with the European Trade Union Institute on projects related to working conditions and the platform economy. Her doctoral research (Queen’s University, Canada) focused on the New York City taxicab industry where she examined the collective organizing strategies used by drivers to improve working conditions, pay, and to strengthen regulation. 
 
   - first: Boyan
     last: Karabaliev
@@ -187,7 +199,7 @@ people:
     panel: 'Thursday 1:15-2:30' 
     affiliation: The Time Project/Share My Telly Job (SMTJ) 
 
-  - first: Cosman
+  - first: Cosmin
     last: Popan
     panel: 'Friday 3:00-4:15' 
     affiliation: Manchester Metropolitan University
@@ -209,9 +221,11 @@ people:
       Additionally, Dr. Savage  has been a tech worker at Microsoft Bing, Intel Labs, and a crowd research worker at Stanford.
 
   - first: José
-    last: Sherwood
+    last: Sherwood González
     panel: 'Friday 3:00-4:15' 
     affiliation: Manchester Metropolitan University
+    info: |-
+      José Sherwood González is a British Mexican comics artist and visual anthropologist with research interests in memory, storytelling and multi-perspectival myth-making through visual, sensory and digital methods. Since 2014, he has worked in Mexico City, investigating the ways in which families create and embody myths through storytelling. A recent graduate from the MA in Visual Anthropology at the Granada Centre for Visual Anthropology, José is currently pursuing a PhD in collaboration with Manchester Metropolitan University (SODA) and FutureEverything on Mesoamerican Futurisms, a project which applies extended reality (XR) as a shapeshifting methodology to cultivate human (and more-than-human) transformations in Mexico City.
 
   - first: Caroline
     last: Sinders
