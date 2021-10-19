@@ -357,3 +357,9 @@ input[name=schedule]:checked ~ .accordion__content {
   max-height: 50em;
 }
 */
+
+/* Footer */
+
+footer {
+  background-color: #232970;
+}
