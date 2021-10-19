@@ -89,7 +89,19 @@ layout: default
         {% for item in part[1] %}
         <tr>
           <td>{{ item[0] }}</td>
-          <td>{{ item[1].title }}</td>
+          {% if item[1].speaker %}
+            <td class="accordion">
+              <input type="checkbox" name="schedule">
+              <label>{{ item[1].title }}</label>
+              <div class="accordion__content accordion__content--small">
+                <h4>{{ item[1].speaker }}</h4>
+              </div>
+            </td>
+          {% elsif item[1].chair %}
+            <td>{{ item[1].title }}</td>
+          {% else %}
+            <td>{{ item[1].title }}</td>
+          {% endif %}
         </tr>
         {% endfor %}
       </table>

@@ -313,3 +313,67 @@ tr {
 .nav-item a:focus {
   color: #887BA6;
 }
+
+/** Schedule **/
+/* checkbox hack credit:  https://codepen.io/jonyablonski/pen/IrgBk */
+
+.accordion input[name=schedule] {
+  display: none;
+}
+
+.accordion label {
+  position: relative;
+  display: block;
+  padding: 1em;
+  transition: all 0.4s cubic-bezier(0.865, 0.14, 0.095, 0.87);
+}
+
+.accordion label:after {
+  content: "+";
+  position: absolute;
+  right: 1em;
+  width: 1em;
+  height: 1em;
+  color: #eee;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.accordion label:hover {
+  color: #1abc9c;
+}
+
+.accordion input:checked + label {
+  color: #1abc9c;
+}
+
+.accordion input:checked + label:after {
+  content: "-";
+  /* adjust line-height to vertically center icon */
+  line-height: 0.8em;
+}
+
+.accordion .accordion__content {
+  overflow: hidden;
+  height: 0px;
+  position: relative;
+  padding: 0 1.5em;
+  transition: height 0.4s cubic-bezier(0.865, 0.14, 0.095, 0.87);
+}
+
+/* 
+* Size Variations
+*/
+input[name=schedule]:checked ~ .accordion__content.accordion__content--small {
+  height: 150px;
+}
+
+input[name=schedule]:checked ~ .accordion__content.accordion__content--med {
+  height: 200px;
+}
+
+input[name=schedule]:checked ~ .accordion__content.accordion__content--large {
+  height: 300px;
+}
+
+
