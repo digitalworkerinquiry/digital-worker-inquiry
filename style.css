@@ -124,7 +124,7 @@ tr {
 .tone-light a:active,
 .tone-light a:focus,
 .tone-light a:hover {
-  color: palevioletred;
+  color: #6D73B3;
 }
 
 
@@ -180,7 +180,8 @@ tr {
 .person-container {
   display: inline-block;
   margin: 0 0 2em 0;
-  padding: 0.3em 1em;
+  height: 400px;
+  width: 300px;
 }
 
 .person-link .person-info {
@@ -198,9 +199,10 @@ tr {
 }
 
 .person-info {
-  background-color: rgba(0, 0, 0, 0.2);
-  margin-top: 0.5em;
-  padding: 0.3em;
+  background-color: rgba(146, 154, 240, 0.4);
+  margin-top: 0.3em;
+  padding: 0.5em;
+  border-radius: 10px;
 }
 
 .person-info p {
