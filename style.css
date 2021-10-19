@@ -313,11 +313,11 @@ tr {
 }
 
 .accordion label:hover {
-  color: #929AF0;
+  color: #323BA2;
 }
 
 .accordion input:checked + label {
-  color: #929AF0;
+  color: #323BA2;
 }
 
 .accordion input:checked + label:after {
