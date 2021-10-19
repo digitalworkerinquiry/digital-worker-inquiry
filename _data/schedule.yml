@@ -4,7 +4,7 @@
 
 Thursday:
   '1:00-1:15pm': 
-    title: 'Welcome and Introduction: Why Digital Worker Inquiry?'
+    title: 'Welcome and Introduction:<br/>Why Digital Worker Inquiry?'
     speaker: Dr. Karen Gregory (University of Edinburgh)
   '1:15-2:30': 
     title: Panel of Projects
@@ -17,7 +17,7 @@ Thursday:
   '2:30-2:45': 
     title: Break
   '2:45-4:00': 
-    title: 'Technical and Ethical Challenges: Building with Worker Data'
+    title: 'Technical and Ethical Challenges:<br/>Building with Worker Data'
     chair: Oliver Bates (Lancaster University)
     panelists:
       - Saiph Savage - Northeastern University, Civic AI Lab
@@ -59,7 +59,7 @@ Friday:
   '1:15-1:30': 
     title: Break
   '1:30-2:45': 
-    title: 'Legal Challenges of Accessing & Building with Worker Data'
+    title: 'Legal Challenges of Accessing &<br/>Building with Worker Data'
     chair: Dr. Wenlong Li (University of Birmingham)
     panelists:
       - Lillian Edwards - Newcastle University
@@ -79,7 +79,7 @@ Friday:
   '4:15-4:30': 
     title: Break
   '4:30-5:45': 
-    title: 'Solidarity, Organising & Leverage: : Do Tools Work?'
+    title: 'Solidarity, Organising & Leverage:<br/>Do Tools Work?'
     chair: Cailean Gallagher (Workers Observatory, STUC)
     panelists:
       - Andrew Pakes - Prospect Union
