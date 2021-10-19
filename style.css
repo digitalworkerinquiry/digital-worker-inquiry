@@ -371,12 +371,14 @@ tr {
 
 input[name=schedule]:checked ~ .accordion__content.accordion__content--small {
   /*height: 70px;*/
-  height: 3em;
+  /*height: 6em;*/
+  max-height: 10em;
 }
 
 input[name=schedule]:checked ~ .accordion__content.accordion__content--large {
   /*height: 325px;*/
-  height: 30em;
+  /*height: 20em;*/
+  max-height: 20em;
 }
 
 /* Fluid size - doesn't work for some reason
