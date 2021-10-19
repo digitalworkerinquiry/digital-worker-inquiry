@@ -5,19 +5,19 @@ keynotes:
 
     - first: Christina
       last: Colclough
-      keynote: '5:45-6:45' 
+      keynote: 'Thursday 5:45-6:45' 
       affiliation: Founder of The Why Not Lab
 
     - first: Roz
       last: Foyer
-      keynote: '6:00-6:45' 
+      keynote: 'Friday 6:00-6:45' 
       affiliation: General Secretary STUC
 
 people:
 
   - first: Martijn
     last: Arets
-    panel: '4:15-5:30' 
+    panel: 'Thursday 4:15-5:30' 
     affiliation: GigCV
     link: http://www.gigcv.org/
     info: |-
@@ -30,7 +30,7 @@ people:
     title: Dr.
     affiliation: Fair Work Chile
     link: https://fair.work/
-    panel: '1:15-2:30' 
+    panel: 'Thursday 1:15-2:30' 
     info: |-
       Arturo Arriagada
       Profesor Asociado | Associate Professor
@@ -55,13 +55,13 @@ people:
     last: Ambrogi
     link: https://home.coworker.org/
     affiliation: Co-Worker
-    panel: '1:15-2:30' 
+    panel: 'Thursday 1:15-2:30' 
     info: Drew Ambrogi serves as Coworker’s Digital Director, supporting worker-led online campaigns to support workers’ efforts to build power in the workplace. Drew maintains and develops Coworker's online platform and digital tools to create innovative new approaches to workplace organizing and worker-based research. Before joining the team in 2019, Drew worked as a digital strategist at a national racial justice organization, where he served as President of their staff union, and on the side as a communications consultant for grassroots community organizations. Drew currently lives and works in Washington, DC.
 
   - first: Jenny
     last: Andrew
     title: Dr.
-    panel: '2:45-4:00' 
+    panel: 'Thursday 2:45-4:00' 
     affiliation: 'CSP Union & DAMA UK'
     info: |-
       Jenny Andrew is Head of Data for the Chartered Society of Physiotherapy, and a board member at DAMA UK – the UK chapter of the international Data Management Association. She has 20 years’ experience in whole-lifecycle data science, with a PhD in satellite oceanography, and 10 years as a scientific data manager and ultimately data architect, for the British Oceanographic Data Centre (BODC). Her development of data management approaches for environmental research has given her a deep understanding of the interactions between the ethical and technical dimensions of data management, from individual concerns to the global-scale collective interest, and from clear-cut points of law to abstract matters of scientific integrity.
@@ -70,7 +70,7 @@ people:
 
   - first: Joel
     last: Bray
-    panel: '3:00-4:15' 
+    panel: 'Friday 3:00-4:15' 
     affiliation: Emergency Workplace Organizing Committee
     link: https://workerorganizing.org/
     info: |-
@@ -79,84 +79,84 @@ people:
   - first: Felipe
     last: Bonel
     affiliation: Contrate Quem Luta
-    panel: '12:00-1:15' 
+    panel: 'Friday 12:00-1:15' 
 
   - first: Joanna
     last: Bronowicka
-    panel: '1:30-2:45' 
+    panel: 'Friday 1:30-2:45' 
     affiliation: Centre For Internet & Human Rights
 
   - first: Lina
     last: Dencik
     title: Dr.
-    panel: '4:30-5:45' 
+    panel: 'Friday 4:30-5:45' 
     affiliation: Cardiff University, Data Justice Lab
     info: Lina Dencik is Professor in Digital Communication and Society at Cardiff University's School of Journalism, Media and Culture and Co-Director of the Data Justice Lab. She has published widely on digital media, resistance and the politics of data and is currently Principal Investigator of the DATAJUSTICE project funded by an ERC Starting Grant. Her most recent publications include Digital Citizenship in a Datafied Society (with Arne Hintz and Karin Wahl-Jorgensen, Polity, 2018) and The Media Manifesto (with Natalie Fenton, Des Freedman and Justin Schlosberg, Polity, 2020). 
 
   - first: Lillian
     last: Edwards
     title: Dr.
-    panel: '1:30-2:45' 
+    panel: 'Friday 1:30-2:45' 
     affiliation: Newcastle University
 
   - first: James
     last: Farrar
-    panel: '1:30-2:45' 
+    panel: 'Friday 1:30-2:45' 
     affiliation: Worker Info Exchange
 
   - first: Adrian
     last: Friday
-    panel: '2:45-4:00' 
+    panel: 'Thursday 2:45-4:00' 
     affiliation: Lancaster University
 
   - first: Richard
     last: Gall
     affiliation: UTAW
-    panel: '2:45-4:00'
+    panel: 'Thursday 2:45-4:00'
     link: https://twitter.com/richggall
     info: Richard Gall is a writer based in the North East of England. He is a member of UTAW, the UK's first tech worker union, and a masters student in Digital Society at the University of Edinburgh. He is also the producer and co-host of What We Talk About When We Talk About Tech, a podcast about storytelling in the tech industry.
   
   - first: Cailean
     last: Gallagher
     affiliation: Edinburgh Workers Observatory
-    panel: '12:00-1:15' 
+    panel: 'Friday 12:00-1:15' 
 
   - first: Ricardo
     last: Gonzalez
     link: https://fair.work/
     affiliation: Fair Work Chile
-    panel: '1:15-2:30' 
+    panel: 'Thursday 1:15-2:30' 
 
   - first: Miranda
     last: Hall
-    panel: '4:30-5:45' 
+    panel: 'Friday 4:30-5:45' 
     affiliation: New Economics Foundation
 
   - first: Josh
     last: Hughes
-    panel: '2:45-4:00' 
+    panel: 'Thursday 2:45-4:00' 
     affiliation: Trilateral Research
 
   - first: Hannah
     last: Johnston
     affiliation: Fairwork and Organise
-    panel: '12:00-1:15' 
+    panel: 'Friday 12:00-1:15' 
 
   - first: Boyan
     last: Karabaliev
     affiliation: Edinburgh Workers Observatory
-    panel: '12:00-1:15' 
+    panel: 'Friday 12:00-1:15' 
 
   - first: Sebastiaan
     last: Kennes
-    panel: '4:30-5:45' 
+    panel: 'Friday 4:30-5:45' 
     affiliation: United Freelancers Belgium
     info: |-
       United Freelancers is the service of ACV-CSC in Belgium to support and represent freelancers and atypical workers in Belgium. Sebastiaan Kennes is working on developing new digital services to lower the threshold in supporting different types of platform workers, and in the first place those most vulnerable, being exploited due to a lack of information or connection. The development of these tools are done together with the workers, and has as aim to provide the platform workers with the correct information to make the best choices, and provide tools to better defend themselves against unfair and bad practices. Sebastiaan has been working himself as a meal delivery rider, and has been working for several years on sustainable innovation processes in different topics.
 
   - first: Sylvia
     last: Morse
-    panel: '3:00-4:15' 
+    panel: 'Friday 3:00-4:15' 
     affiliation: Up & Go Cooperative
 
   - first: Wilneida
@@ -164,7 +164,7 @@ people:
     title: Dr.
     affiliation: Co-Worker
     link: https://home.coworker.org/
-    panel: '1:15-2:30' 
+    panel: 'Thursday 1:15-2:30' 
     info: |-
       Wilneida Negrón most recently worked at the Ford Foundation, where she led cross-thematic area strategy development between the Gender, Race, Ethnic Justice, Technology and Society, Mission Investing, Future of Work(ers), and Civic Engagement Thematic areas, with a focus on helping labor movements deepen and leverage economic partnerships and movement-based partnerships.  She is currently part of the Steering Committee Team for the Ford Foundation’s and Mozilla’s Public efforts to explore how to continue to foster the impact and sustainability of public interest technology projects in the US, Europe, and the Global South. She works on the frontlines of social change spaces, fostering new multi-issue and cross-sectoral approaches and solutions to our increasingly complex socio-technical world and serves as a strategic advisor, consultant, and capacity-builder to emerging and established national and global civil and human rights organizations.
 
@@ -172,23 +172,23 @@ people:
   
   - first: Andrew
     last: Pakes
-    panel: '4:30-5:45' 
+    panel: 'Friday 4:30-5:45' 
     affiliation: Prospect Union
 
   - first: Louise
     last: Patel
-    panel: '1:15-2:30' 
+    panel: 'Thursday 1:15-2:30' 
     affiliation: The Time Project/Share My Telly Job (SMTJ) 
 
   - first: Cosman
     last: Popan
-    panel: '3:00-4:15' 
+    panel: 'Friday 3:00-4:15' 
     affiliation: Manchester Metropolitan University
 
   - first: Saiph
     last: Savage
     title: Dr.
-    panel: '2:45-4:00' 
+    panel: 'Thursday 2:45-4:00' 
     link: http://www.saiph.org/
     affiliation: Northeastern University, Civic AI Lab
     info: |-
@@ -203,23 +203,23 @@ people:
 
   - first: José
     last: Sherwood
-    panel: '3:00-4:15' 
+    panel: 'Friday 3:00-4:15' 
     affiliation: Manchester Metropolitan University
 
   - first: Caroline
     last: Sinders
-    panel: '3:00-4:15' 
+    panel: 'Friday 3:00-4:15' 
     affiliation: Convocation Design + Research
 
   - first: Danny
     last: Spitzberg
-    panel: '2:45-4:00' 
+    panel: 'Thursday 2:45-4:00' 
     affiliation: Turning Basin Labs
 
   - first: Angelika
     last: Strohmayer
     title: Dr.
-    panel: '2:45-4:00' 
+    panel: 'Thursday 2:45-4:00' 
     affiliation: Northumbria University
     info: |-
       Dr Angelika Strohmayer is co-director of the Design Feminisms Research Group, board member of the Sex Work Research Hub, and interdisciplinary researcher working closely with third sector organisations. She aims to work collaboratively on in-the-world projects that engage people at all stages of the research process to engender change towards more just worlds. To do this, she works across boundaries, bringing together disparate groups to engage in collaborative, justice-oriented, and sometimes digital endeavours. Currently, her research relates to two intertwining areas of inquiry: (1) the relationships between data, technologies, and safety for communities and people who are seldom thought about by industry and researchers alike; and (2) the ways in which digitally augmented textiles practices can create safe spaces for difficult conversations in interpersonal settings as well as for public awareness-raising. In 2021, she published her first book titled ‘Digitally Augmenting Traditional Craft Practices for Social Justice: The Partnership Quilt'. Angelika’s (sometimes award-winning) publications address justice concerns to build on and develop feminist theories. These arguments are usually based on her in-the-world research and are developed in conversation with others such as experts by experience, support workers, or other researchers.
@@ -227,7 +227,7 @@ people:
   - first: Funda
     last: Ustek-Splida
     title: Dr.
-    panel: '4:15-5:30' 
+    panel: 'Thursday 4:15-5:30' 
     affiliation: Oxford Internet Institute, Fair Work Project
     link: https://fair.work/
     info: |-
@@ -235,12 +235,12 @@ people:
 
   - first: Tanja
     last: Vicas
-    panel: '4:30-5:45' 
+    panel: 'Friday 4:30-5:45' 
     affiliation: Digital Danube Network
 
   - first: Jeff
     last: Vize
-    panel: '4:15-5:30' 
+    panel: 'Thursday 4:15-5:30' 
     affiliation: Human Rights Watch, Georgia Fair Labour Platform
     link: https://shroma.ge/en/wagetheft-intro-en/
     info: |-
@@ -248,7 +248,7 @@ people:
 
   - first: Hays
     last: Witt
-    panel: '4:15-5:30' 
+    panel: 'Thursday 4:15-5:30' 
     affiliation: Driver’s Seat
 
 

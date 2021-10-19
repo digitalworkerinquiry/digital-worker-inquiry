@@ -210,6 +210,7 @@ layout: default
           {% else %}
             {{ person.affiliation }}
           {% endif %}
+          <p>{{ person.keynote }}</p>
           {% if person.info %}
             <div class="person-info">
               <div class="bio-holder">
@@ -242,7 +243,7 @@ layout: default
           {% else %}
             {{ person.affiliation }}
           {% endif %}
-          <a href="#{{ person.panel }}" rel="noreferrer">Panel</a>
+          <p>{{ person.panel }}</p>
           {% if person.info %}
             <div class="person-info">
               <div class="bio-holder">
