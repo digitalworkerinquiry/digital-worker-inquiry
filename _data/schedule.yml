@@ -3,7 +3,7 @@
 # Use an empty string ('') for the day names if you do not want headers.
 
 Thursday:
-  '1:00-1:15pm GMT': 'Welcome and Introduction: Why tools and apps?'
+  '1:00-1:15pm': 'Welcome and Introduction: Why tools and apps?'
   '1:15-2:30': Panel of Projects
   '2:30-2:45': Break
   '2:45-4:00': Technical and Ethical Challenges Panel
@@ -14,7 +14,7 @@ Thursday:
 
 
 Friday:
-  '11:45am-12:00pm GMT': Welcome back
+  '11:45am-12:00pm': Welcome back
   '12:00-1:15': Panel of Projects
   '1:15-1:30': Break
   '1:30-2:45': Legal Panel
