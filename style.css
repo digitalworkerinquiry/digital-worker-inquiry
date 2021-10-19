@@ -273,15 +273,16 @@ tr {
   padding: 0 20px;
 }
 
-.nav-item li a {
+.nav-item ul li a {
   color: #323BA2;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .nav-item a:hover,
 .nav-item a:active,
 .nav-item a:focus {
-  color: #929AF0;
+  color: #6D73B3;
+  text-decoration: none !important;
 }
 
 /** Schedule **/
