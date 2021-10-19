@@ -367,23 +367,20 @@ tr {
 }
 
 /* 
-* Size Variations
+* Size Variations */
 
 input[name=schedule]:checked ~ .accordion__content.accordion__content--small {
-  height: 70px;
-}
-
-input[name=schedule]:checked ~ .accordion__content.accordion__content--med {
-  height: 200px;
+  /*height: 70px;*/
+  height: 3em;
 }
 
 input[name=schedule]:checked ~ .accordion__content.accordion__content--large {
-  height: 325px;
-}
-*/
-/* Fluid size */
-input[name=schedule]:checked ~ .accordion__content {
-  /* Get this as close to what height you expect */
-  max-height: 50em;
+  /*height: 325px;*/
+  height: 30em;
 }
 
+/* Fluid size - doesn't work for some reason
+input[name=schedule]:checked ~ .accordion__content {
+  max-height: 50em;
+}
+*/
