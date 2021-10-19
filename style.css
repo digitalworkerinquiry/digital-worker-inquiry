@@ -305,6 +305,7 @@ tr {
 
 .nav-item li a {
   color: #323BA2;
+  text-decoration: none;
 }
 
 .nav-item a:hover,
