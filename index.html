@@ -209,11 +209,11 @@ layout: default
     {% for person in site.data.speakers.keynotes %}
     <div class="item-medium">
       <div class="person-container">
-        <div class="person-info">
           <img class="person-image" src="images/people/{{ person.first }} {{ person.last }}.jpg"
             alt="Picture of {{ person.first }} {{ person.last }}">
+        <div class="person-info">
           {% if person.title %}
-          <span>{{ person.title }}</span>
+          {{ person.title }}
           {% endif %}
           <span class="person-first">{{ person.first }}</span>
           <br>
