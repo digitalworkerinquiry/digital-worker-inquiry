@@ -371,13 +371,13 @@ tr {
 
 input[name=schedule]:checked ~ .accordion__content.accordion__content--small {
   /*height: 70px;*/
-  /*height: 6em;*/
+  min-height: 6em;
   max-height: 10em;
 }
 
 input[name=schedule]:checked ~ .accordion__content.accordion__content--large {
   /*height: 325px;*/
-  /*height: 20em;*/
+  min-height: 10em;
   max-height: 20em;
 }
 
