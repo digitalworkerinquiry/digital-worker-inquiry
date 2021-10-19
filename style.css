@@ -127,6 +127,20 @@ tr {
   color: #6D73B3;
 }
 
+.footer-tone {
+  background-color: #232970;
+  color: #fff;
+}
+
+.footer-tone a {
+  color: #ddd;
+}
+
+.footer-tone a:active,
+.footer-tone a:focus,
+.footer-tone a:hover {
+  color: #fff;
+}
 
 /* Header */
 .header {
@@ -364,7 +378,3 @@ input[name=schedule]:checked ~ .accordion__content {
 */
 
 /* Footer */
-
-footer {
-  background-color: #232970;
-}
