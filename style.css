@@ -361,6 +361,7 @@ tr {
   height: 0px;
   position: relative;
   padding: 0 1.5em;
+  text-align: left;
   transition: height 0.4s cubic-bezier(0.865, 0.14, 0.095, 0.87);
 }
 
@@ -376,7 +377,7 @@ input[name=schedule]:checked ~ .accordion__content.accordion__content--med {
 }
 
 input[name=schedule]:checked ~ .accordion__content.accordion__content--large {
-  height: 300px;
+  height: 350px;
 }
 
 

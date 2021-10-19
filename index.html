@@ -102,12 +102,12 @@ layout: default
               <input type="checkbox" name="schedule" id="{{ item[0] }}">
               <label for="{{ item[0] }}">{{ item[1].title }}</label>
               <div class="accordion__content accordion__content--large">
-                <p>Chair: {{ item[1].speaker }}</p>
-                <p>
+                <p>Chair: {{ item[1].chair }}</p>
+                <ul>
                   {% for panelist in item[1].panelists %}
-                  <ul>{{ panelist }}</ul>
+                  <li>{{ panelist }}</li>
                   {% endfor %}
-                </p>
+                </ul>
               </div>
             </td>
           {% else %}
