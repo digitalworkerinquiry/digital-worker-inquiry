@@ -147,6 +147,13 @@ people:
     affiliation: Edinburgh Workers Observatory
     panel: 'Friday 12:00-1:15' 
 
+  - first: Aislinn
+    last: Kelly-Lyth
+    panel: 'Friday 1:30-2:45' 
+    affiliation: Oxford University Law
+    info: |-
+      Aislinn Kelly-Lyth is a Researcher on Algorithmic Management at the University of Oxford. She completed her undergraduate studies at the University of Cambridge, followed by an LLM at Harvard Law School as a Kennedy Scholar. Her research focuses on discriminatory algorithms, and her article Challenging Biased Hiring Algorithms was published in the Oxford Journal of Legal Studies in 2021. Aislinn has also taught at the London School of Economics.
+
   - first: Sebastiaan
     last: Kennes
     panel: 'Friday 4:30-5:45' 
@@ -251,6 +258,13 @@ people:
     panel: 'Thursday 4:15-5:30' 
     affiliation: Driver’s Seat
 
+  - first: Janis
+    last: Wong
+    panel: 'Friday 1:30-2:45' 
+    affiliation: University of St Andrews (CRISP)
+    link:  https://janiswong.org/
+    info: |-
+     Janis Wong is an interdisciplinary PhD researcher in Computer Science at the Centre for Research into Information, Surveillance and Privacy (CRISP), University of St Andrews. She is interested in the legal and technological applications in data protection, privacy, and data ethics, where her current research aims to create a socio-technical collaborative commons framework that helps data subjects protect their personal data under existing data protection, privacy, and information regulations. Janis is currently participating in the Fall 2021 Research Sprint on Alternative Data Futures: Cooperative Principles, Data Trusts, and the Digital Economy hosted by the Berkman Klein Center for Internet & Society at Harvard University in collaboration with the Platform Cooperativism Consortium at The New School. In 2020-21, she was a Research Fellow at the Open Data Institute, focusing on data protection and governance in online teaching, learning analytics, and educational technology. Janis holds degrees in Law from the London School of Economics and Computer Science from the University of St Andrews.
 
 
 
