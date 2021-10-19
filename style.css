@@ -218,6 +218,11 @@ tr {
   opacity: 0.7;
 }
 
+.committee-container {
+  display: inline-block;
+  margin: 0 0 2em 0;
+}
+
 /* Bio Read More */
 
 .bio-holder {
