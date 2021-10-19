@@ -362,6 +362,7 @@ tr {
   position: relative;
   padding: 0 1.5em;
   text-align: left;
+  font-size: 1.1em;
   transition: height 0.4s cubic-bezier(0.865, 0.14, 0.095, 0.87);
 }
 
