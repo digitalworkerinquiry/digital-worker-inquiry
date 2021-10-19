@@ -217,42 +217,12 @@ tr {
 }
 
 /* Bio Read More */
-.about-header{
-  font-size: 16px;
-  font-weight: bold;
-  text-align: left;
-}
 
 .bio-holder {
   overflow: scroll;
   height: 100px;
   position: relative;
   padding: 5px 10px;
-}
-.expandMoreContent {
-  height: 20px;
-  overflow: hidden;
-  transition: height 0.5s ease-in-out;
-  position: relative;
-}
-
-.expandMoreContent.expand-active {
-  height: auto;
-  transition: height 0.5s ease-in-out;
-}
-
-.expandMoreHolder {
-  padding: 10px;
-  text-align: center;
-}
-
-.btn-expand-more {
-  background-color: white;
-  border: 1px solid rgba(0, 0, 0, 0.02);
-  border-radius: 5px;
-  cursor: pointer;
-  padding: 10px 5px;
-  display: inline-block;
 }
 
 /* Newsletter */

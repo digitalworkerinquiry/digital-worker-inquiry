@@ -97,30 +97,30 @@ layout: default
         <tr>
           <td>{{ item[0] }}</td>
           {% if item[1].speaker %}
-            <td class="accordion">
-              <input type="checkbox" name="schedule" id="{{ item[0] }}">
-              <label for="{{ item[0] }}">{{ item[1].title }}</label>
-              <div class="accordion__content accordion__content--small">
+          <td class="accordion">
+            <input type="checkbox" name="schedule" id="{{ item[0] }}">
+            <label for="{{ item[0] }}">{{ item[1].title }}</label>
+            <div class="accordion__content accordion__content--small">
               <!--div class="accordion__content"-->
-                <p>Speaker: {{ item[1].speaker }}</p>
-              </div>
-            </td>
+              <p>Speaker: {{ item[1].speaker }}</p>
+            </div>
+          </td>
           {% elsif item[1].chair %}
-            <td class="accordion">
-              <input type="checkbox" name="schedule" id="{{ item[0] }}">
-              <label for="{{ item[0] }}">{{ item[1].title }}</label>
-              <div class="accordion__content accordion__content--large">
+          <td class="accordion">
+            <input type="checkbox" name="schedule" id="{{ item[0] }}">
+            <label for="{{ item[0] }}">{{ item[1].title }}</label>
+            <div class="accordion__content accordion__content--large">
               <!--div class="accordion__content"-->
-                <p>Chair: {{ item[1].chair }}</p>
-                <ul>
-                  {% for panelist in item[1].panelists %}
-                  <li>{{ panelist }}</li>
-                  {% endfor %}
-                </ul>
-              </div>
-            </td>
+              <p>Chair: {{ item[1].chair }}</p>
+              <ul>
+                {% for panelist in item[1].panelists %}
+                <li>{{ panelist }}</li>
+                {% endfor %}
+              </ul>
+            </div>
+          </td>
           {% else %}
-            <td>{{ item[1].title }}</td>
+          <td>{{ item[1].title }}</td>
           {% endif %}
         </tr>
         {% endfor %}
@@ -210,9 +210,8 @@ layout: default
     <div class="item-small">
       <div class="person-container">
         <div class="person-info">
-          <img class="person-image"
-               src="images/people/{{ person.first }} {{ person.last }}.jpg"
-               alt="Picture of {{ person.first }} {{ person.last }}">
+          <img class="person-image" src="images/people/{{ person.first }} {{ person.last }}.jpg"
+            alt="Picture of {{ person.first }} {{ person.last }}">
           {% if person.title %}
           {{ person.title }}
           {% endif %}
@@ -221,16 +220,14 @@ layout: default
           <span class="person-last">{{ person.last }}</span>
           <br>
           {% if person.link %}
-            <a class="person-link" href="{{ person.link }}" target="blank" rel="noreferrer">{{ person.affiliation }}</a>
+          <a class="person-link" href="{{ person.link }}" target="blank" rel="noreferrer">{{ person.affiliation }}</a>
           {% else %}
-            {{ person.affiliation }}
+          {{ person.affiliation }}
           {% endif %}
-          <p>Keynote:<br/>{{ person.keynote }}</p>
+          <p>Keynote:<br />{{ person.keynote }}</p>
           {% if person.info %}
-            <div class="person-info">
-              <div class="bio-holder">
-                <p>{{ person.info }}</p>
-              </div>
+            <div class="bio-holder">
+              <p>{{ person.info }}</p>
             </div>
           {% endif %}
         </div>
@@ -252,15 +249,17 @@ layout: default
           <br>
           <span class="person-last">{{ person.last }}</span>
           <br>
-         {% if person.link %}
-            <a class="person-link" href="{{ person.link }}" target="blank" rel="noreferrer">{{ person.affiliation }}</a>
+          {% if person.link %}
+          <a class="person-link" href="{{ person.link }}" target="blank" rel="noreferrer">{{ person.affiliation }}</a>
           {% else %}
-            {{ person.affiliation }}
+          {{ person.affiliation }}
           {% endif %}
-          <p>Panel:<br/>{{ person.panel }}</p>
+          <p>Panel:<br />{{ person.panel }}</p>
           {% if person.info %}
           <br>
-          <p>{{ person.info }}</p>
+          <div class="bio-holder">
+            <p>{{ person.info }}</p>
+          </div>
           {% endif %}
         </div>
       </div>
