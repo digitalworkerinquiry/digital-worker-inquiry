@@ -215,12 +215,28 @@ layout: default
           {% if person.title %}
           {{ person.title }}
           {% endif %}
-          <span class="person-first">{{ person.first }}</span>
+          <span class="person-first">
+            {% if person.link %}
+            <a class="person-link" href="{{ person.link }}" target="blank" rel="noreferrer">
+            {% endif %}
+              {{ person.first }}
+            {% if person.link %}
+            </a>
+            {% endif %}
+          </span>
           <br>
-          <span class="person-last">{{ person.last }}</span>
+          <span class="person-last">
+            {% if person.link %}
+            <a class="person-link" href="{{ person.link }}" target="blank" rel="noreferrer">
+            {% endif %}
+              {{ person.last }}
+            {% if person.link %}
+            </a>
+            {% endif %}
+          </span>
           <br>
-          {% if person.link %}
-          <a class="person-link" href="{{ person.link }}" target="blank" rel="noreferrer">{{ person.affiliation }}</a>
+          {% if person.aff_link %}
+          <a class="person-link" href="{{ person.aff_link }}" target="blank" rel="noreferrer">{{ person.affiliation }}</a>
           {% else %}
           {{ person.affiliation }}
           {% endif %}
@@ -245,12 +261,28 @@ layout: default
           {% if person.title %}
           {{ person.title }}
           {% endif %}
-          <span class="person-first">{{ person.first }}</span>
+          <span class="person-first">
+            {% if person.link %}
+            <a class="person-link" href="{{ person.link }}" target="blank" rel="noreferrer">
+            {% endif %}
+              {{ person.first }}
+            {% if person.link %}
+            </a>
+            {% endif %}
+          </span>
           <br>
-          <span class="person-last">{{ person.last }}</span>
+          <span class="person-last">
+            {% if person.link %}
+            <a class="person-link" href="{{ person.link }}" target="blank" rel="noreferrer">
+            {% endif %}
+              {{ person.last }}
+            {% if person.link %}
+            </a>
+            {% endif %}
+          </span>
           <br>
-          {% if person.link %}
-          <a class="person-link" href="{{ person.link }}" target="blank" rel="noreferrer">{{ person.affiliation }}</a>
+          {% if person.aff_link %}
+          <a class="person-link" href="{{ person.aff_link }}" target="blank" rel="noreferrer">{{ person.affiliation }}</a>
           {% else %}
           {{ person.affiliation }}
           {% endif %}
