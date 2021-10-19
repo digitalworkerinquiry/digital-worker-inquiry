@@ -207,7 +207,7 @@ layout: default
   <h1>Keynote Speakers</h1>
   <div class="items-container">
     {% for person in site.data.speakers.keynotes %}
-    <div class="item-medium">
+    <div class="item-small">
       <div class="person-container">
         <div class="person-info">
           <img class="person-image"
@@ -229,7 +229,6 @@ layout: default
           {% if person.info %}
             <div class="person-info">
               <div class="bio-holder">
-                <!--p class="about-header">About {{ person.first }}</p-->
                 <p>{{ person.info }}</p>
               </div>
             </div>
@@ -243,7 +242,7 @@ layout: default
   <h1>Panelists</h1>
   <div class="items-container">
     {% for person in site.data.speakers.people %}
-    <div class="item-medium">
+    <div class="item-small">
       <div class="person-container">
         <div class="person-info">
           {% if person.title %}
