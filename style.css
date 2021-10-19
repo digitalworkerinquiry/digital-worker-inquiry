@@ -384,6 +384,6 @@ input[name=schedule]:checked ~ .accordion__content.accordion__content--large {
 /* Fluid size */
 input[name=schedule]:checked ~ .accordion__content {
   /* Get this as close to what height you expect */
-  max-height: 350px;
+  max-height: 50em;
 }
 
