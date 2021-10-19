@@ -370,7 +370,7 @@ tr {
 * Size Variations
 */
 input[name=schedule]:checked ~ .accordion__content.accordion__content--small {
-  height: 100px;
+  height: 70px;
 }
 
 input[name=schedule]:checked ~ .accordion__content.accordion__content--med {
@@ -378,7 +378,7 @@ input[name=schedule]:checked ~ .accordion__content.accordion__content--med {
 }
 
 input[name=schedule]:checked ~ .accordion__content.accordion__content--large {
-  height: 350px;
+  height: 300px;
 }
 
 
