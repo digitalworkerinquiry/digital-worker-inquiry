@@ -8,7 +8,7 @@ keynotes:
       title: Dr.
       keynote: 'Thursday 5:45-6:45' 
       affiliation: Founder of The Why Not Lab
-      link: http://www.thewhynotlab.com/
+      aff_link: http://www.thewhynotlab.com/
       info: |-
         Regarded as a thought leader on the future of work(ers) and the politics of digital technology, Dr. Christina J. Colclough is an advocate for the workers’ voice. She is the founder of the Why Not Lab - a boutique value-driven consultancy that puts workers at the centre of digital change. In this capacity, Christina works with unions, interest organisations and governments across the world on issues such as AI governance, workers' data rights and human rights, and the development of responsible digital technology. Christina co-developed WeClock – an open-source privacy-preserving app to empower workers and unions through the responsible collection and analysis of work-related data.
 
@@ -25,7 +25,7 @@ people:
     last: Arets
     panel: 'Thursday 4:15-5:30' 
     affiliation: GigCV
-    link: http://www.gigcv.org/
+    aff_link: http://www.gigcv.org/
     info: |-
       Martijn Arets is an international expert and thinker in the field of emergence and development of the platform economy. Since 2012 Martijn is traveling the world to (so far) talk to 500+ entrepreneurs, experts and other stakeholders in 16 countries behind the upcoming platform economy. To find out what is really happening, who the stakeholders are, what the main dilemmas are and to explore the conditions under which platforms can contribute to a more inclusive society. As a bridge builder and independent professional outsider, he uses these insights and this network to get stakeholders like trade unions, government institutions, platforms and academics together to address relevant issues in a constructive way. Martijn shares his vision in his newsletters, in the media, via public speaking and in his (Dutch) book ‘Platformrevolutie’.
 
@@ -35,7 +35,7 @@ people:
     last: Arriagada
     title: Dr.
     affiliation: Fair Work Chile
-    link: https://fair.work/
+    aff_link: https://fair.work/
     panel: 'Thursday 1:15-2:30' 
     info: |-
       Arturo Arriagada
@@ -59,7 +59,7 @@ people:
 
   - first: Drew
     last: Ambrogi
-    link: https://home.coworker.org/
+    aff_link: https://home.coworker.org/
     affiliation: Co-Worker
     panel: 'Thursday 1:15-2:30' 
     info: Drew Ambrogi serves as Coworker’s Digital Director, supporting worker-led online campaigns to support workers’ efforts to build power in the workplace. Drew maintains and develops Coworker's online platform and digital tools to create innovative new approaches to workplace organizing and worker-based research. Before joining the team in 2019, Drew worked as a digital strategist at a national racial justice organization, where he served as President of their staff union, and on the side as a communications consultant for grassroots community organizations. Drew currently lives and works in Washington, DC.
@@ -78,7 +78,7 @@ people:
     last: Bray
     panel: 'Friday 3:00-4:15' 
     affiliation: Emergency Workplace Organizing Committee
-    link: https://workerorganizing.org/
+    aff_link: https://workerorganizing.org/
     info: |-
       Joel Bray (they/them) has served as a volunteer Data Team Lead with EWOC since May 2020, overseeing the digital technology and data infrastructure that staff and organizers use to do workplace organizing in a remote, digital landscape.
 
@@ -129,7 +129,7 @@ people:
 
   - first: Ricardo
     last: Gonzalez
-    link: https://fair.work/
+    aff_link: https://fair.work/
     affiliation: Fair Work Chile
     panel: 'Thursday 1:15-2:30' 
 
@@ -182,7 +182,7 @@ people:
     last: Negrón
     title: Dr.
     affiliation: Co-Worker
-    link: https://home.coworker.org/
+    aff_link: https://home.coworker.org/
     panel: 'Thursday 1:15-2:30' 
     info: |-
       Wilneida Negrón most recently worked at the Ford Foundation, where she led cross-thematic area strategy development between the Gender, Race, Ethnic Justice, Technology and Society, Mission Investing, Future of Work(ers), and Civic Engagement Thematic areas, with a focus on helping labor movements deepen and leverage economic partnerships and movement-based partnerships.  She is currently part of the Steering Committee Team for the Ford Foundation’s and Mozilla’s Public efforts to explore how to continue to foster the impact and sustainability of public interest technology projects in the US, Europe, and the Global South. She works on the frontlines of social change spaces, fostering new multi-issue and cross-sectoral approaches and solutions to our increasingly complex socio-technical world and serves as a strategic advisor, consultant, and capacity-builder to emerging and established national and global civil and human rights organizations.
@@ -239,6 +239,9 @@ people:
     last: Spitzberg
     panel: 'Thursday 2:45-4:00' 
     affiliation: Turning Basin Labs
+    link: https://www.twitter.com/daspitzberg
+    info: |-
+      Danny is a user researcher for a cooperative economy. He facilitates worker-led research with Turning Basin Labs, a staffing and training co-op based in Oakland, California. Previously he worked with a variety of member-led, community-oriented digital products ranging from Up & Go and Rideshare Drivers United to the Lean Startup Co. and the Harvard Berkman Center. With Start.coop, Danny co-created the Ownership Model Canvas, a tool for designing effective member-ownership, and he also organizes with Exit to Community e2c.how, enabling cooperative ownership for startups. Say hi at twitter.com/daspitzberg.
 
   - first: Angelika
     last: Strohmayer
@@ -253,7 +256,7 @@ people:
     title: Dr.
     panel: 'Thursday 4:15-5:30' 
     affiliation: Oxford Internet Institute, Fair Work Project
-    link: https://fair.work/
+    aff_link: https://fair.work/
     info: |-
       Funda Ustek-Spilda is a post-doctoral researcher and project manager at Fairwork Foundation, based at the Oxford Internet Institute, University of Oxford. Prior to Fairwork, Funda held post-doctoral researcher positions at Goldsmiths, University of London (ARITHMUS: How data make a people; 2014-2018) and London School of Economics (VIRT-EU: Values and Ethics in Responsible Technology in Europe; 2018-2020). She holds a D.Phil in Sociology from the University of Oxford (2015) and M.Sc in Comparative Social Policy from the same university (2010). She conducts interdisciplinary research into the visibilities and invisibilities in data and emerging technologies in the fields of labour, migration and gender; studying this from the perspective of data justice, fairness and ethics. Her research has appeared in prestigious journals such as Big Data and Society, Environment and Planning D and Science and Technology & Human Values.
 
@@ -266,7 +269,7 @@ people:
     last: Vize
     panel: 'Thursday 4:15-5:30' 
     affiliation: Human Rights Watch, Georgia Fair Labour Platform
-    link: https://shroma.ge/en/wagetheft-intro-en/
+    aff_link: https://shroma.ge/en/wagetheft-intro-en/
     info: |-
       Jeff Vize is a senior advisor in Human Rights Watch’s Alliances and Partnerships Program, which focuses on working more closely with local partners to strengthen human rights. He currently leads HRW’s engagement with the Georgia Fair Labor Platform, a coalition of independent trade unions, civil society organizations and activists working to improve conditions for workers in Georgia. In this role, Jeff led the team that developed two online tools for the coalition: the Wage Theft Calculator and the Workplace Safety Monitor.
 
