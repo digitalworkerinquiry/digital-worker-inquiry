@@ -39,7 +39,8 @@ project:
       The Workplace Safety Monitor is an online database that tracks the work of Georgia’s Labor Inspectorate – a body that was recently re-established after being shut down during of a wave of deregulation in 2006. The Monitor aims to shine a light on unsafe labor practices and publicize the new Inspectorate’s work. It allows users to search inspection reports, check the safety records of employers, and to track statistical trends. Ultimately, we hope that this exposure will lead to more public support for a stronger Inspectorate and increased pressure on employers to improve workplace safety.
 
   - name: GigCV
-    link: 
+    link: https://gigcv.org/
+    link2: https://kluspaspoort.nl/?lang=en
     description: |- 
       GigCV is an easy tool for anyone working in or gaining work experience in the gig economy. With this open standard, you will be able to easily download your own reputation and transaction data, which serves as proof of your work experience and skills on connected platforms.
  
