@@ -31,32 +31,6 @@ people:
 
       Martijn advices corporations, national and local governments and other institutions. He has shared his story and thoughts via blogs, his newsletter and during several of hundreds of keynotes around the world: from TEDx in Greece to the Crowdsourcing Week Arctic Circle. Martijn runs his own advisory company Professional Outsider Consultancy and is the founder of GigCV: an open standard for platforms to share data on reputation and transaction with gigworkers.
 
-  - first: Arturo
-    last: Arriagada
-    title: Dr.
-    affiliation: Fair Work Chile
-    aff_link: https://fair.work/
-    panel: 'Thursday 1:15-2:30' 
-    info: |-
-      Arturo Arriagada
-      Profesor Asociado | Associate Professor
-      Escuela de Comunicaciones y Periodismo
-      Universidad Adolfo Ibáñez 
-      [+56 2] 23311819  
-
-      Investigador Principal  | Principal Investigator
-      Fairwork Chile
-      https://fair.work 
-       
-      Director | Cultura Social Media
-      Laboratorio de estudios sobre comunicación digital
-      www.culturasocialmedia.com  
-
-      Publicaciones | Publications
-      www.uai.academia.edu/arturoarriagada
-      www.researchgate.net/profile/arturo_arriagad
-
-
   - first: Drew
     last: Ambrogi
     aff_link: https://home.coworker.org/
@@ -117,6 +91,14 @@ people:
     affiliation: Lancaster University
     info: |-
       Adrian Friday is Professor of Computing and Sustainability at Lancaster University, UK. His work focuses on how ubiquitous systems, data and empirical studies reveal the externality and impacts of everyday life, and offer new and more sustainable ways of doing. He has led a series of collaborative and multidisciplinary research projects exploring energy use in the home, thermal comfort, sustainable food shopping, and last-mile logistics.  His latest work focuses on environmental and social justice for gig economy, and a significant new programme exploring time series statistics, HCI & human geography and machine learning might provide energy insights toward net zero.
+
+  - first: Adolfo
+    last: Fuentes
+    affiliation: University of Edinburgh
+    project: https://fair.work/
+    panel: 'Thursday 1:15-2:30' 
+    info: |-
+      He holds a B.A. and M.A. in Economics from the Universidad de Chile, and recently completed the M.Res. in Economics at University College London. Currently, he is a Ph.D. student at University of Edinburgh’s School of Economics and an associate researcher at LEAS, the Laboratory of Surveys and Social Analysis, hosted by the School of Communications and Journalism at Universidad Adolfo Ibáñez in Chile.
 
   - first: Richard
     last: Gall
@@ -206,6 +188,8 @@ people:
     last: Popan
     panel: 'Friday 3:00-4:15' 
     affiliation: Manchester Metropolitan University
+    info: |-
+       Cosmin Popan is a Leverhulme Trust post-doctoral fellow, based in the Department of Sociology at Manchester Metropolitan University. His project, ‘Doing gig work: Social implications of platform-based food deliveries’, researches the platform-based gig economy and its reconfiguration of urban spaces by investigating the management, solidarity and resistance of cycle couriers in three European cities: Manchester, Lyon (France) and Cluj-Napoca (Romania).
 
   - first: Saiph
     last: Savage
