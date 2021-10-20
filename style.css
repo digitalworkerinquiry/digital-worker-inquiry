@@ -211,6 +211,7 @@ tr {
 .person-image {
   width: 10em;
   height: 10em;
+  border-radius: 10px;
 }
 
 .person-info {
