@@ -29,6 +29,11 @@ layout: default
             <div class="project-container">
                 <img class="project-image" src="images/projects/{{ project.name }}.png"
                     alt="Picture of {{ project.name }}">
+                <h2>{{ project.name }}</h2>
+                <br>
+                <div class="bio-holder">
+                    <p>{{ project.description }}</p>
+                  </div>
             </div>
         </div>
         {% endfor %}
