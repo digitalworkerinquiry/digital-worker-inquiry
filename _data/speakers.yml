@@ -266,12 +266,16 @@ people:
   - first: Tanja
     last: Vicas
     panel: 'Friday 4:30-5:45' 
-    affiliation: Digital Danube Network
+    affiliation: Austrian Trade Union Federation
+    project: Digital Danube Network
+    info: |-
+      Originally from Canada, I came to Austria almost 30 years ago after studying English literature at the University of Western Ontario and started studying translation and interpretation at the University of Vienna. To finance these studies, I took a job as an administrative assistant in the education department at the Austrian Trade Union Federation. The years went by and as my job at the union developed and became more interesting, I decided to quit my studies and focus on work full time. I transferred to the international department and have been managing mainly European projects which ultimately focus on promoting decent work through social dialogue. My current project “DiDaNet” (“Digital Danube Network”), focusses on how workers meet the challenges of digitalisation and the spread of platform-based economy. Within the course of DiDaNet, a spin-off project called “RidersCollective” came into being. This project is dedicated to the improvement of working conditions for bike couriers (“riders”). 
 
   - first: Jeff
     last: Vize
     panel: 'Thursday 4:15-5:30' 
-    affiliation: Human Rights Watch, Georgia Fair Labour Platform
+    affiliation: Human Rights Watch
+    project: Georgia Fair Labour Platform
     aff_link: https://shroma.ge/en/wagetheft-intro-en/
     info: |-
       Jeff Vize is a senior advisor in Human Rights Watch’s Alliances and Partnerships Program, which focuses on working more closely with local partners to strengthen human rights. He currently leads HRW’s engagement with the Georgia Fair Labor Platform, a coalition of independent trade unions, civil society organizations and activists working to improve conditions for workers in Georgia. In this role, Jeff led the team that developed two online tools for the coalition: the Wage Theft Calculator and the Workplace Safety Monitor.
