@@ -112,8 +112,11 @@ people:
 
   - first: Adrian
     last: Friday
+    title: Dr.
     panel: 'Thursday 2:45-4:00' 
     affiliation: Lancaster University
+    info: |-
+      Adrian Friday is Professor of Computing and Sustainability at Lancaster University, UK. His work focuses on how ubiquitous systems, data and empirical studies reveal the externality and impacts of everyday life, and offer new and more sustainable ways of doing. He has led a series of collaborative and multidisciplinary research projects exploring energy use in the home, thermal comfort, sustainable food shopping, and last-mile logistics.  His latest work focuses on environmental and social justice for gig economy, and a significant new programme exploring time series statistics, HCI & human geography and machine learning might provide energy insights toward net zero.
 
   - first: Richard
     last: Gall
