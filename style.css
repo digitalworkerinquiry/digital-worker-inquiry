@@ -248,6 +248,20 @@ tr {
   padding: 5px 10px;
 }
 
+/* Projects */
+.project-container {
+  display: inline-block;
+  margin: 0 0 2em 0;
+  height: 400px;
+  width: 600px;
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
 /* Newsletter */
 .newsletter {
   margin-top: 1em;
