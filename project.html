@@ -24,10 +24,11 @@ layout: default
     <h1>Project Gallery</h1>
     <p>Gallery introduction.</p>
     <div class="items-container">
+        {% for project in site.data.projcets %}
         <div class="item-medium">
             <div class="project-container">
-                <img class="project-image" src="images/projects/{{ name }}.png"
-            alt="Picture of {{ name }}">
+                <img class="project-image" src="images/projects/{{ project.name }}.png"
+            alt="Picture of {{ project.name }}">
             </div>
         </div>
     </div>
