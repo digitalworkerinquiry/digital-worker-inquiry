@@ -269,6 +269,7 @@ tr {
   height: 200px;
   position: relative;
   padding: 5px 10px;
+  text-align: justify;
 }
 /* Newsletter */
 .newsletter {
