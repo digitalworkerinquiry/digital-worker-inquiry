@@ -24,7 +24,7 @@ layout: default
     <h1>Project Gallery</h1>
     <p>Gallery introduction.</p>
     <div class="items-container">
-        {% for project in site.data.projects %}
+        {% for project in site.data.projects.project %}
         <div class="item-medium">
             <div class="project-container">
                 <img class="project-image" src="images/projects/{{ project.name }}.png"
@@ -33,7 +33,14 @@ layout: default
                 <br>
                 <div class="bio-holder">
                     <p>{{ project.description }}</p>
-                  </div>
+                </div>
+                {% if project.link %}
+            <a class="person-link" href="{{ person.link }}" target="blank" rel="noreferrer">
+            {% endif %}
+              {{ person.last }}
+            {% if person.link %}
+            </a>
+            {% endif %}
             </div>
         </div>
         {% endfor %}
