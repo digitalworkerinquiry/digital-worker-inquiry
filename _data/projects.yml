@@ -9,7 +9,7 @@ project:
     panel: 'Thursday 1:15-2:30' 
     description: In 2020, Coworker worked in partnership with MIT’s Dan Calacci and Gig Workers Collective to create an SMS chatbot to help workers using Shipt - Target’s grocery delivery platform - gain insight about a new "black box" algorithm that determines their pay structure. Using the bot, hundreds of Shipt shoppers were able to analyze their earnings data in real time while contributing to the largest existing database of Shipt shopper pay information, and ultimately chip away at the data asymmetry that exists between gig companies and their workers. The resulting report sheds light on Shipt’s new V2 algorithm and backs up workers’ claims of underpayment with hard data. Equipped with this dataset, Shipt shoppers continue to escalate their campaign for fair and transparent pay.
     
-  - name: AI for Good framework
+  - name: AI for Good Framework
     org: Dr. Saiph Savage
     speaker: Dr. Saiph Savage
     panel: 'Thursday 2:45-4:00' 
@@ -78,7 +78,7 @@ project:
     description: Emergency Workplace Organizing Committee (EWOC) was started in the United States in March 2020 to help workers organize during the pandemic. Although unfair and unsafe working conditions were nothing new, the COVID-19 crisis exposed for many workers how little their bosses were willing to do to keep them safe and healthy. These essential and frontline workers began demanding safety equipment, hazard pay, and sick leave. Within this climate, EWOC’s role is to build the resources, networks, and training that workers need to win their demands. A joint project of the Democratic Socialists of America (DSA) and United Electrical, Radio and Machine Workers of America (UE), we are building a distributed grassroots organizing program to support workers organizing at the workplace. To date, 1000plus volunteers have been in touch with nearly 3000 workers. We have supported over 750 of these workers in taking action with their coworkers, and we have helped launch over 50 successful workplace campaigns. These campaigns have occurred across industries, workplace types, and states. Demands vary, but there is a common outcome workers have improved their workplaces by taking collective action. Finally, the pandemic is far from over, but the emergency in America is not just the spread of COVID. It is worsening workplace conditions, growing income inequality, and the erosion of union power. It is the capitalist system that exploits our labor. As long as this system continues to exist, we are in a state of emergency, and EWOC will continue to help working people fight back.
 
 
-  - name: Journey diary app for digital platform workers in Chile
+  - name: Journey Diary App for Digital Platform Workers in Chile
     org: Universidad Adolfo Ibáñez, Fair Work Chile
     speaker: Adolfo Fuentes 
     speaker2: Ricardo Gonzalez
