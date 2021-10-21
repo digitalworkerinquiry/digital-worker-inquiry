@@ -13,16 +13,23 @@ layout: default
                     alt="Picture of {{ project.name }}">
                 <h2>{{ project.name }}</h2>
                 {% if project.link %}
-            <a class="person-link" href="{{ project.link }}" target="blank" rel="noreferrer">
-            {% endif %}
-            {% if project.org %}
-              {{ project.org }}
-            {% else %}
-                {{ project.name }}
-            {% endif %}
-            {% if project.link %}
-            </a>
+                    <a class="person-link" href="{{ project.link }}" target="blank" rel="noreferrer">
                 {% endif %}
+                {% if project.org %}
+                  {{ project.org }}
+                {% else %}
+                    {{ project.name }}
+                {% endif %}
+                {% if project.link %}
+                    </a>
+                {% endif %}
+                <p>
+                {{ project.speaker }}
+                {% if project.speaker2 %}
+                    and {{project.speaker2}}
+                {% endif %}
+                </p>
+                <p>Panel:<br/>{{ project.panel }}</p>
                 <div class="description-holder">
                     <p>{{ project.description }}</p>
                 </div>
