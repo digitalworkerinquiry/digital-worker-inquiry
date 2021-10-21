@@ -1,11 +1,13 @@
 # Project Gallery
 
 project:
-  - name: Co-Worker
-    description: In 2020, Coworker worked in partnership with MIT’s Dan Calacci and Gig Workers Collective to create an SMS chatbot to help workers using Shipt - Target’s grocery delivery platform - gain insight about a new "black box" algorithm that determines their pay structure. Using the bot, hundreds of Shipt shoppers were able to analyze their earnings data in real time while contributing to the largest existing database of Shipt shopper pay information, and ultimately chip away at the data asymmetry that exists between gig companies and their workers. The resulting report sheds light on Shipt’s new V2 algorithm and backs up workers’ claims of underpayment with hard data. Equipped with this dataset, Shipt shoppers continue to escalate their campaign for fair and transparent pay.
+  - name: Shopper Transparency Calculator
     link: https://home.coworker.org/shiptcalc/
+    org: Coworker
+    description: In 2020, Coworker worked in partnership with MIT’s Dan Calacci and Gig Workers Collective to create an SMS chatbot to help workers using Shipt - Target’s grocery delivery platform - gain insight about a new "black box" algorithm that determines their pay structure. Using the bot, hundreds of Shipt shoppers were able to analyze their earnings data in real time while contributing to the largest existing database of Shipt shopper pay information, and ultimately chip away at the data asymmetry that exists between gig companies and their workers. The resulting report sheds light on Shipt’s new V2 algorithm and backs up workers’ claims of underpayment with hard data. Equipped with this dataset, Shipt shoppers continue to escalate their campaign for fair and transparent pay.
     
-  - name: AI for Good
+  - name: AI for Good framework
+    org: Dr. Saiph Savage
     link: http://www.saiph.org/
     description: |-
       The Artificial Intelligence (A.I.) industry has created new jobs that are essential to the real-world deployment of intelligent systems. Part of these new jobs typically focus on labeling data for machine learning models or having workers complete tasks that A.I. alone cannot do. The human labor behind our A.I. has powered a futuristic reality with self-driving cars, voice based virtual assistants,  or search results with minimum hate speech. However, the workers powering the A.I. industry are often invisible to end-users. Their invisibility has led to power dynamics where workers are often paid below minimum wage,  and have limited career growth. Part of the problem is that these platforms are currently also black boxes, where we have limited information about the labor conditions inside.
@@ -23,20 +25,18 @@ project:
       The Fairwork project is based at the Oxford Internet Institute and the WZB Berlin Social Science Centre. Through our global network of researchers, we evaluate the working conditions of digital platforms and rank them based on our five principles of fair work. The Fairwork project is currently operating in 20 countries across 5 continents. Across countries, we work closely with workers, platforms, advocates and policymakers to envision and build a fairer future of work.
       The Fairwork Principles were developed through a collaborative process that reflects the insights of our international network and the voices of workers around the world. They provide a benchmark of fair platform work, for platforms, workers, customers and policymakers.
 
-  - name: Georgia Fair Labor Platform
+  - org: Georgia Fair Labor Platform
+    name: Wage Theft Calculator
     link: https://shroma.ge/en/wagetheft-intro-en/
-    link2: https://shroma.ge/monitor/?lang=en
-    link3: https://shroma.ge/monitor/dashboard/?lang=en
     description: |-
-      Georgia Fair Labor Platform project description
- 
-      The Georgia Fair Labor Platform is a coalition of independent trade unions, civil society organizations and activists working to improve conditions for workers in Georgia. We’ll be presenting two tools launched by the coalition in late 2020. The Wage Theft Calculator and the Workplace Safety Monitor.
- 
-      Wage Theft Calculator
       Wage theft is common in Georgia, but it is also so normalized that many workers don’t even realize it is illegal. The Wage Theft Calculator is an educational tool that aims to change that. It guides users through a series of simple questions about their earnings, hours, and regular work activities. At the end it provides an estimate of lost wages, broken down into various types of wage theft – e.g., off-the-clock work, unpaid vacation, illegal salary deductions, and so on. Data so far shows that roughly 87% of users have experienced at least one form of wage theft.
  
-      Workplace Safety Monitor
+  - org: Georgia Fair Labor Platform
+    name: Workplace Safety Monitor
+    link: https://shroma.ge/monitor/?lang=en
+    description: |-
       The Workplace Safety Monitor is an online database that tracks the work of Georgia’s Labor Inspectorate – a body that was recently re-established after being shut down during of a wave of deregulation in 2006. The Monitor aims to shine a light on unsafe labor practices and publicize the new Inspectorate’s work. It allows users to search inspection reports, check the safety records of employers, and to track statistical trends. Ultimately, we hope that this exposure will lead to more public support for a stronger Inspectorate and increased pressure on employers to improve workplace safety.
+
 
   - name: GigCV
     link: https://gigcv.org/
@@ -50,8 +50,8 @@ project:
  
       Anyone working via one of the affiliated platforms will be able to download a digital certificate with the click of a button. This GigCV, which is a non-profit initiative, will represent proof of their work experience and customer satisfaction. To validate all assumptions and to share the insights of this project with many others, several scientists have joined the project.
 
-  - name: Oxford University Law
-    link: http://www.gigcv.org/
+  - name: iMANAGE - Rethinking Employment Law for a World of Algorithmic Management
+    link: https://www.law.ox.ac.uk/research/imanage-rethinking-employment-law-world-algorithmic-management
     description: |- 
       Amidst important debates about the gig economy and the automation of jobs, employment law has paid scant attention to the rise of algorithmic management, the increasingly pervasive reliance on monitoring technology and sophisticated algorithms to measure, control, and sanction workers. This poses a fundamental threat to the legal regulation of our labour markets. Automated management allows the exercise of hitherto impossibly granular employer control. At the same time, however, the absence of clear decisions and traditional management structures appears to disperse responsibility ‘into the cloud’.
  
