@@ -9,7 +9,7 @@ project:
     panel: 'Thursday 1:15-2:30' 
     description: In 2020, Coworker worked in partnership with MIT’s Dan Calacci and Gig Workers Collective to create an SMS chatbot to help workers using Shipt - Target’s grocery delivery platform - gain insight about a new "black box" algorithm that determines their pay structure. Using the bot, hundreds of Shipt shoppers were able to analyze their earnings data in real time while contributing to the largest existing database of Shipt shopper pay information, and ultimately chip away at the data asymmetry that exists between gig companies and their workers. The resulting report sheds light on Shipt’s new V2 algorithm and backs up workers’ claims of underpayment with hard data. Equipped with this dataset, Shipt shoppers continue to escalate their campaign for fair and transparent pay.
     
-  - name: AI for Good Framework
+  - name: AI for Good framework
     org: Dr. Saiph Savage
     speaker: Dr. Saiph Savage
     panel: 'Thursday 2:45-4:00' 
