@@ -2,23 +2,6 @@
 layout: default
 ---
 <!--Nav bar-->
-<header class="nav-container"></header>
-<nav class="fixed-nav-bar">
-    <ul>
-        <li class="nav-item"><a class="nav-anchor" href="https://kmccurdy.github.io/digital-worker-inquiry/">Home</a>
-        </li>
-        <li class="nav-item"><a class="nav-anchor"
-                href="https://kmccurdy.github.io/digital-worker-inquiry/#about">About</a></li>
-        <li class="nav-item"><a class="nav-anchor"
-                href="https://kmccurdy.github.io/digital-worker-inquiry/#schedule">Schedule</a></li>
-        <li class="nav-item"><a class="nav-anchor"
-                href="https://kmccurdy.github.io/digital-worker-inquiry/#speakers">Speakers</a></li>
-        <li class="nav-item"><a class="nav-anchor"
-                href="https://kmccurdy.github.io/digital-worker-inquiry/#committee">Committee</a></li>
-        <li class="nav-item"><a class="nav-anchor" href="#">Projects</a></li>
-    </ul>
-</nav>
-</header>
 
 <section class="tone-light" id="project">
     <h1>Project Gallery</h1>
@@ -39,8 +22,8 @@ layout: default
             {% endif %}
             {% if project.link %}
             </a>
-            {% endif %}
-                <div class="bio-holder">
+                {% endif %}
+                <div class="description-holder">
                     <p>{{ project.description }}</p>
                 </div>
             </div>
