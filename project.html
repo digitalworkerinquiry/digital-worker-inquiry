@@ -31,12 +31,10 @@ layout: default
                 <h2>{{ project.name }}</h2>
                 {% if project.link %}
             <a class="person-link" href="{{ project.link }}" target="blank" rel="noreferrer">
-            {% endif %}
-              {{ project.name }}
-            {% if project.link %}
+            Visit project
             </a>
-            {% endif %}
-                <div class="bio-holder">
+                {% endif %}
+                <div class="description-holder">
                     <p>{{ project.description }}</p>
                 </div>
             </div>
