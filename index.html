@@ -283,9 +283,9 @@ layout: default
           </span>
           <br>
           {% if person.aff_link %}
-          <a class="person-link" href="{{ person.aff_link }}" target="blank" rel="noreferrer">Project website</a>
+          <a class="person-link" href="{{ person.aff_link }}" target="blank" rel="noreferrer">{{ person.affiliation }}</a>
           {% else %}
-          <br>
+          {{ person.affiliation }}
           {% endif %}
           <p>Panel:<br />{{ person.panel }}</p>
           {% if person.info %}
