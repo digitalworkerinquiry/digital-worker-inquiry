@@ -120,6 +120,14 @@ project:
     description: |-
       Crowdworking platforms such as Amazon Mechanical Turk often pay workers around two dollars (USD) per hour and most requesters pay less than five dollars. Despite these low wages, findings from a 2018 survey conducted by the research team found that many academic requesters currently set wage targets and would be willing to commit to them publicly. This project developed a ‘Crowdsourcing Wage Pledge’ to improve wages for crowdworkers, and to thus ensure fairer futures for digital workers in the platform economy.
 
+  - name: RooParse
+    org: Workers Observatory
+    speaker: Cailean Gallagher
+    speaker2: Boyan Karabaliev
+    panel: 'Friday 12:00-1:15' 
+    description: |-
+      Couriers in the gig economy face precarious working conditions, with pay received per hour or deliveries done fluctuating daily. The number of available riders and orders submitted by consumers at any time vary due to many factors, and delivery platforms provide no security for riders but pass on this instability. As a result, couriers’ rates of pay and working time are unpredictable and unreliable. This can make it difficult for couriers to quantify long-term trends in their earnings. Platforms also make it difficult for workers to monitor and compare their pay and time.
 
+      To address the issues, workers behind the Workers’ Observatory are developing RooParse – an application to help couriers gather, analyse and understand their data. It takes PDF invoices that Deliveroo couriers receive in their email, and extracts and summarises their earnings information for every work session. This eliminates the need for couriers to manually aggregate their data if they wish to analyse it. Furthermore, RooParse calculates both hourly earnings and earnings per order delivered, and produces summary graphs and tables over the whole period of the invoices they have inputted. This tool empowers couriers to better understand how their work conditions are changing and communicate with fellow workers about their pay and working time, which can be a basis for common demands. The RooParse prototype is a fully open-source tool designed to be used on personal computes, and thus puts workers fully in charge of their own data.
 
 

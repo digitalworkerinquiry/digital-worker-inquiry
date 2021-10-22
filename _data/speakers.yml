@@ -101,7 +101,7 @@ people:
     project: https://fair.work/
     panel: 'Thursday 1:15-2:30' 
     info: |-
-      He holds a B.A. and M.A. in Economics from the Universidad de Chile, and recently completed the M.Res. in Economics at University College London. Currently, he is a Ph.D. student at University of Edinburgh’s School of Economics and an associate researcher at LEAS, the Laboratory of Surveys and Social Analysis, hosted by the School of Communications and Journalism at Universidad Adolfo Ibáñez in Chile.
+      Adolfo holds a B.A. and M.A. in Economics from the Universidad de Chile, and recently completed the M.Res. in Economics at University College London. Currently, he is a Ph.D. student at University of Edinburgh’s School of Economics and an associate researcher at LEAS, the Laboratory of Surveys and Social Analysis, hosted by the School of Communications and Journalism at Universidad Adolfo Ibáñez in Chile.
 
   - first: Richard
     last: Gall
@@ -114,6 +114,8 @@ people:
     last: Gallagher
     affiliation: Edinburgh Workers Observatory
     panel: 'Friday 12:00-1:15' 
+    info: |-
+      Cailean Gallagher is a union organiser and historian based in Edinburgh. He is co-ordinator of the Workers’ Observatory, and supports the development of unions by precarious workers with the Scottish Trades Union Congress and the campaign Better Than Zero. He is involved in a range of workers’ education projects, most recently the Sma Shot School and Falkland Workers School for young workers. Cailean is completing a PhD at the University of St Andrews on the political and economic ideas of Scottish Jacobite rebels, and is also researching the history of the gig economy and working time. He is co-author of Roch Winds: A Treacherous Guide to the State of Scotland.
 
   - first: Ricardo
     last: Gonzalez
@@ -181,6 +183,10 @@ people:
     last: Pakes
     panel: 'Friday 4:30-5:45' 
     affiliation: Prospect Union
+    info: |-
+      Andrew is deputy general secretary and research director at Prospect Union in the UK representing over 152,000 members across tech, specialist, engineering and professional roles. He leads Prospect’s work around tech, AI, data rights and the future of work.
+
+      His work aims to empower workers around digital change and the implications on how technology is transforming the ways people are managed and work, including on mental health, the right to disconnect and surveillance.  He is a member of the OECD AI expert group in implementing Trustworthy AI and the UK Trade Union Congress AI Working Group. A strong advocate of Equality Diversity and Inclusion approaches to work, Andrew also serves as secretary to Stonewall, Europe’s largest LGBT+ equalities charity.
 
   - first: Louise
     last: Patel

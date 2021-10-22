@@ -160,14 +160,14 @@ layout: default
     {% for sponsor in tier[1].sponsors %}
     {% comment %} Use SVG if available, PNG otherwise {% endcomment %}
     {% assign file_img = 'null' %}
-    {% assign file_svg_path = sponsor[0] | prepend: '/images/logos/' | append: '.svg' %}
+    {% assign file_svg_path = sponsor[0] | prepend: 'images/logos/' | append: '.svg' %}
     {% for file in site.static_files %}
     {% if file.path == file_svg_path %}
-    {% assign file_img = file_svg_path | prepend: '/digital-worker-inquiry' %}
+    {% assign file_img = file_svg_path %}
     {% endif %}
     {% endfor %}
     {% if file_img == 'null' %}
-    {% assign file_img = sponsor[0] | prepend: '/digital-worker-inquiry/images/logos/' | append: '.png' %}
+    {% assign file_img = sponsor[0] | prepend: 'images/logos/' | append: '.png' %}
     {% endif %}
 
     <div class="item-large">
@@ -228,7 +228,7 @@ layout: default
           {% else %}
           {{ person.affiliation }}
           {% endif %}
-          <p>Keynote:<br />{{ person.keynote }}</p>
+          <p>Keynote:<br />{{ person.keynote  | markdownify }}</p>
           {% if person.info %}
             <div class="bio-holder">
               <p>{{ person.info }}</p>
@@ -278,7 +278,7 @@ layout: default
           {% if person.info %}
           <br>
           <div class="description-holder">
-            <p>{{ person.info }}</p>
+            <p>{{ person.info  | markdownify }}</p>
           </div>
           {% endif %}
         </div>
@@ -297,15 +297,21 @@ layout: default
     {% for person in site.data.organizers.people %}
     <div class="item-small">
       <div class="committee-container">
+        <img class="person-image" src="images/people/{{ person.first }} {{ person.last }}.jpg"
+          alt="Picture of {{ person.first }} {{ person.last }}">
         <div class="person-info">
           {% if person.title %}
-          {{ person.title }}
+            {{ person.title }}
+          {% endif %}
+          {% if person.link %}
+            <a class="person-link" href="{{ person.link }}" target="blank" rel="noreferrer">
           {% endif %}
           <span class="person-first">{{ person.first }}</span>
           <br>
           <span class="person-last">{{ person.last }}</span>
-          <br>
-          <a class="person-link" href="{{ person.link }}" target="blank" rel="noreferrer">Contact information</a>
+          {% if person.link %}
+            </a>
+          {% endif %}
         </div>
       </div>
       </a>
