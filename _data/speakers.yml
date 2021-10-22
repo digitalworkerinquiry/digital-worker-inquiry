@@ -69,6 +69,11 @@ people:
     panel: 'Friday 1:30-2:45' 
     affiliation: Centre For Internet & Human Rights
 
+  - first: Lyle
+    last: Canceko
+    panel: 'Thursday 4:15-5:30' 
+    affiliation: The Workers Lab
+
   - first: Lina
     last: Dencik
     title: Dr.
@@ -199,6 +204,14 @@ people:
     affiliation: Manchester Metropolitan University
     info: |-
        Cosmin Popan is a Leverhulme Trust post-doctoral fellow, based in the Department of Sociology at Manchester Metropolitan University. His project, ‘Doing gig work: Social implications of platform-based food deliveries’, researches the platform-based gig economy and its reconfiguration of urban spaces by investigating the management, solidarity and resistance of cycle couriers in three European cities: Manchester, Lyon (France) and Cluj-Napoca (Romania).
+
+  - first: Valentina
+    last: Salvatierra
+    affiliation: Universidad Adolfo Ibáñez
+    panel: 'Thursday 1:15-2:30' 
+    info: |-
+      Valentina holds a BA in Social Sciences (Sociology) from Pontificia Universidad Católica de Chile, an MSC in Sociology from the University of Oxford, and an MA in Contemporary Literature and Culture from Birkbeck, University of London. She has previously worked in market research and as assistant researcher in public opinion at Centro de Estudios Públicos. Currently, she is a researcher at LEAS, the Laboratory of Surveys and Social Analysis, hosted by the School of Communications and Journalism at Universidad Adolfo Ibáñez in Chile.
+
 
   - first: Saiph
     last: Savage

@@ -140,6 +140,16 @@ layout: default
     {% endif %}
 </section>
 
+<!-- Projects banner -->
+<section class="tone-dark">
+  <div class="item-small">
+    <a href="./project.html" target="blank" rel="noreferrer">
+      <img src="./images/Gallery icon.png" alt="2D icon of a gallery">
+    </a>
+  </div>
+ <a href="./project.html" target="blank" rel="noreferrer"><h1> Explore Project Gallery</h1></a>
+</section>
+
 <!-- Sponsors -->
 
 {% if site.data.sponsors %}
@@ -158,17 +168,18 @@ layout: default
   {% if tier[1].sponsors %}
   <div class="items-container" {% if tier[1].color %} style="background: {{ tier[1].color }}" {% endif %}>
     {% for sponsor in tier[1].sponsors %}
-    {% comment %} Use SVG if available, PNG otherwise {% endcomment %}
-    {% assign file_img = 'null' %}
-    {% assign file_svg_path = sponsor[0] | prepend: 'images/logos/' | append: '.svg' %}
-    {% for file in site.static_files %}
-    {% if file.path == file_svg_path %}
-    {% assign file_img = file_svg_path %}
-    {% endif %}
-    {% endfor %}
-    {% if file_img == 'null' %}
-    {% assign file_img = sponsor[0] | prepend: 'images/logos/' | append: '.png' %}
-    {% endif %}
+      {% comment %} Use SVG if available, PNG otherwise {% endcomment %}
+      {% assign file_img = 'null' %}
+      {% assign file_svg_path = sponsor[0] | prepend: 'images/logos/' | append: '.svg' %}
+      {% for file in site.static_files %}
+        {% assign file_path_name = file_svg_path | prepend: '/'  %}
+        {% if file.path == file_path_name %}
+          {% assign file_img = file_svg_path %}
+        {% endif %}
+      {% endfor %}
+      {% if file_img == 'null' %}
+        {% assign file_img = sponsor[0] | prepend: 'images/logos/' | append: '.png' %}
+      {% endif %}
 
     <div class="item-large">
       <a href="{{ sponsor[1] }}" rel="noreferrer">
@@ -320,17 +331,3 @@ layout: default
   </div>
   </div>
 </section>
-
-<!-- Footer coming soon -->
-<footer class="footer-tone">
-  {% if site.data.organizers.group %}
-  <p>
-    {{ site.data.info.name_short }} is organized by the
-    <a href="{{ site.data.organizers.group.link1 }}">{{ site.data.organizers.group.name1 }}</a> and the
-    <a href="{{ site.data.organizers.group.link2 }}">{{ site.data.organizers.group.name2 }}</a>
-  </p>
-  {% endif %}
-  <p>
-    Website template made with love by <a href="https://lauzhack.com">LauzHack</a>.
-  </p>
-</footer>

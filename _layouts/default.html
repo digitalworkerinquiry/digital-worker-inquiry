@@ -56,5 +56,19 @@ layout: compress
   </nav>
   </header>
   {{ content }}
+
+  <!-- Footer -->
+<footer class="footer-tone">
+  {% if site.data.organizers.group %}
+  <p>
+    {{ site.data.info.name_short }} is organized by the
+    <a href="{{ site.data.organizers.group.link1 }}" target="blank">{{ site.data.organizers.group.name1 }}</a> and the
+    <a href="{{ site.data.organizers.group.link2 }}" target="blank">{{ site.data.organizers.group.name2 }}</a>.
+  </p>
+  {% endif %}
+  <p>
+    Website template made with ❤️ by <a href="https://lauzhack.com" target="blank" rel="noreferrer">LauzHack</a>, adapted and designed by <a href="https://kmccurdy.github.io/" target="blank" rel="noreferrer">Kate McCurdy</a> & <a href="https://carlosalvarez.org/" target="blank" rel="noreferrer">Carlos Alvarez</a>.
+  </p>
+</footer>
 </body>
 </html>
