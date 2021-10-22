@@ -301,13 +301,17 @@ layout: default
           alt="Picture of {{ person.first }} {{ person.last }}">
         <div class="person-info">
           {% if person.title %}
-          {{ person.title }}
+            {{ person.title }}
+          {% endif %}
+          {% if person.link %}
+            <a class="person-link" href="{{ person.link }}" target="blank" rel="noreferrer">
           {% endif %}
           <span class="person-first">{{ person.first }}</span>
           <br>
           <span class="person-last">{{ person.last }}</span>
-          <br>
-          <a class="person-link" href="{{ person.link }}" target="blank" rel="noreferrer">Contact information</a>
+          {% if person.link %}
+            </a>
+          {% endif %}
         </div>
       </div>
       </a>
