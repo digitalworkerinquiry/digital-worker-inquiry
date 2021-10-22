@@ -81,7 +81,7 @@ project:
   - name: Journey Diary App for Digital Platform Workers in Chile
     org: Universidad Adolfo Ibáñez, Fair Work Chile
     speaker: Adolfo Fuentes 
-    speaker2: Ricardo Gonzalez
+    speaker2: Valentina Salvatierra
     panel: 'Thursday 1:15-2:30' 
     description: |-
       In recent years, Santiago de Chile (like other cities worldwide) has witnessed a surge in platform workers moving around the city, transporting both people and things. Our project started from an initial interest in investigating the work routines and trajectories of these workers with greater precision than had previously been done, at least in Chile. Most previous studies had relied on surveys and time-use diaries to collect these data, but these self-reports based on subject’s recall capacity have limitations. Research comparing self-reports with GPS data finds that respondents underestimate the number and distance of trips, overestimate their duration, and do not report the start of each trip with precision.
