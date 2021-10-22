@@ -228,7 +228,7 @@ layout: default
           {% else %}
           {{ person.affiliation }}
           {% endif %}
-          <p>Keynote:<br />{{ person.keynote }}</p>
+          <p>Keynote:<br />{{ person.keynote  | markdownify }}</p>
           {% if person.info %}
             <div class="bio-holder">
               <p>{{ person.info }}</p>
@@ -278,7 +278,7 @@ layout: default
           {% if person.info %}
           <br>
           <div class="description-holder">
-            <p>{{ person.info }}</p>
+            <p>{{ person.info  | markdownify }}</p>
           </div>
           {% endif %}
         </div>

@@ -31,7 +31,7 @@ layout: default
                 <br/>
                 Panel: {{ project.panel }}</p>
                 <div class="description-holder">
-                    <p>{{ project.description }}</p>
+                    <p>{{ project.description  | markdownify }}</p>
                 </div>
             </div>
         </div>
