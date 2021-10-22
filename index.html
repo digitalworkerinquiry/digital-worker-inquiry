@@ -168,17 +168,17 @@ layout: default
   {% if tier[1].sponsors %}
   <div class="items-container" {% if tier[1].color %} style="background: {{ tier[1].color }}" {% endif %}>
     {% for sponsor in tier[1].sponsors %}
-    {% comment %} Use SVG if available, PNG otherwise {% endcomment %}
-    {% assign file_img = 'null' %}
-    {% assign file_svg_path = sponsor[0] | prepend: 'images/logos/' | append: '.svg' %}
-    {% for file in site.static_files %}
-    {% if file.path == file_svg_path %}
-    {% assign file_img = file_svg_path %}
-    {% endif %}
-    {% endfor %}
-    {% if file_img == 'null' %}
-    {% assign file_img = sponsor[0] | prepend: 'images/logos/' | append: '.png' %}
-    {% endif %}
+      {% comment %} Use SVG if available, PNG otherwise {% endcomment %}
+      {% assign file_img = 'null' %}
+      {% assign file_svg_path = sponsor[0] | prepend: '/images/logos/' | append: '.svg' %}
+      {% for file in site.static_files %}
+        {% if file.path == file_svg_path %}
+          {% assign file_img = file_svg_path %}
+        {% endif %}
+      {% endfor %}
+      {% if file_img == 'null' %}
+        {% assign file_img = sponsor[0] | prepend: 'images/logos/' | append: '.png' %}
+      {% endif %}
 
     <div class="item-large">
       <a href="{{ sponsor[1] }}" rel="noreferrer">
