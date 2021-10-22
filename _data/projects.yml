@@ -88,7 +88,7 @@ project:
 
       To address these measurement issues, we teamed up with engineering students at Universidad Adolfo Ibáñez to develop a diary app that will enable more granular and precise measurement of journeys undertaken, along with brief survey questions to provide insights into other characteristics of the trips (e.g. sense of security/distrust, satisfaction, etc). The app is designed to use smartphone’s GPS sensors to track users’ journeys and this data will be complemented by survey questions on their subjective experience for each journey. Our presentation delves into the development process, the main challenges posed by the study of these types of platform workers, the role of incentives and the ethical aspects involved in collecting data through the app. We conclude by discussing what we hope to learn from the project.
 
-  - name: Digital Danube Network RidersCollectiveSpace 
+  - name: Digital Danube Network 
     org: RidersCollective
     link: https://www.riderscollective.at/
     speaker: Tanja Vicas
