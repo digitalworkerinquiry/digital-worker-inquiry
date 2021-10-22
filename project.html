@@ -1,0 +1,54 @@
+---
+layout: default
+---
+<!--Nav bar-->
+
+<section class="tone-light" id="project">
+    <h1>Project Gallery</h1>
+    <div class="items-container">
+        {% for project in site.data.projects.project %}
+        <div class="item-medium">
+            <div class="project-container">
+                <img class="project-image" src="images/projects/{{ project.name }}.png"
+                    alt="Picture of {{ project.name }}">
+                <h2>{{ project.name }}</h2>
+                {% if project.link %}
+                    <a class="person-link" href="{{ project.link }}" target="blank" rel="noreferrer">
+                {% endif %}
+                {% if project.org %}
+                  {{ project.org }}
+                {% else %}
+                    {{ project.name }}
+                {% endif %}
+                {% if project.link %}
+                    </a>
+                {% endif %}
+                <p>
+                {{ project.speaker }}
+                {% if project.speaker2 %}
+                    and {{project.speaker2}}
+                {% endif %}
+                <br/>
+                Panel: {{ project.panel }}</p>
+                <div class="description-holder">
+                    <p>{{ project.description  | markdownify }}</p>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+<!-- Footer coming soon -->
+<footer class="footer-tone">
+    {% if site.data.organizers.group %}
+    <p>
+      {{ site.data.info.name_short }} is organized by the
+      <a href="{{ site.data.organizers.group.link1 }}">{{ site.data.organizers.group.name1 }}</a> and the
+      <a href="{{ site.data.organizers.group.link2 }}">{{ site.data.organizers.group.name2 }}</a>
+    </p>
+    {% endif %}
+    <p>
+      Website template made with love by <a href="https://lauzhack.com">LauzHack</a>.
+    </p>
+  </footer>

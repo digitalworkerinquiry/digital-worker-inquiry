@@ -1,0 +1,293 @@
+# People organizing the event, and their websites.
+# See the ReadMe file for information on pictures.
+
+keynotes:
+
+    - first: Christina
+      last: Colclough
+      title: Dr.
+      keynote: 'Thursday 5:45-6:45' 
+      affiliation: Founder of The Why Not Lab
+      aff_link: http://www.thewhynotlab.com/
+      info: |-
+        Regarded as a thought leader on the future of work(ers) and the politics of digital technology, Dr. Christina J. Colclough is an advocate for the workers’ voice. She is the founder of the Why Not Lab - a boutique value-driven consultancy that puts workers at the centre of digital change. In this capacity, Christina works with unions, interest organisations and governments across the world on issues such as AI governance, workers' data rights and human rights, and the development of responsible digital technology. Christina co-developed WeClock – an open-source privacy-preserving app to empower workers and unions through the responsible collection and analysis of work-related data.
+
+        Christina is included in the all-time Hall of Fame of the world's most brilliant women in AI Ethics and is a Fellow of the Royal Society of Arts. She is also a member of the Steering Committee of the Global Partnership on AI (GPAI) and Advisory Board member of Carnegie Council's new program: AI and Equality Initiative. She is a member of the OECD One AI Expert Group, and is affiliated to FAOS, Copenhagen University.
+
+    - first: Roz
+      last: Foyer
+      keynote: 'Friday 6:00-6:45' 
+      affiliation: General Secretary STUC
+      aff_link: http://www.stuc.org.uk/
+      info: |-
+        Roz Foyer is the STUC’s General Secretary. She has over twenty-five years’ experience in the trade union movement. Roz began as a workplace activist in the Benefits Agency. After leading a successful campaign against support services privatisation, she was recruited by the printer workers union as a trainee organiser, before gaining prominence in the Scottish movement as an Assistant Secretary at the STUC working on a range of equalities and social justice campaigns. She went on to become a National Officer with the Transport and General Workers Union, later moving into Unite’s National Organising Department. She excelled as a strategist who delivered a series of successful membership campaigns.  Her role as General Secretary of the STUC involves representing over half a million trade unionists in Scotland, co-ordinating, developing and articulating the views and policies of the trade union movement.
+
+people:
+
+  - first: Martijn
+    last: Arets
+    panel: 'Thursday 4:15-5:30' 
+    affiliation: GigCV
+    aff_link: http://www.gigcv.org/
+    info: |-
+      Martijn Arets is an international expert and thinker in the field of emergence and development of the platform economy. Since 2012 Martijn is traveling the world to (so far) talk to 500+ entrepreneurs, experts and other stakeholders in 16 countries behind the upcoming platform economy. To find out what is really happening, who the stakeholders are, what the main dilemmas are and to explore the conditions under which platforms can contribute to a more inclusive society. As a bridge builder and independent professional outsider, he uses these insights and this network to get stakeholders like trade unions, government institutions, platforms and academics together to address relevant issues in a constructive way. Martijn shares his vision in his newsletters, in the media, via public speaking and in his (Dutch) book ‘Platformrevolutie’.
+
+      Martijn advices corporations, national and local governments and other institutions. He has shared his story and thoughts via blogs, his newsletter and during several of hundreds of keynotes around the world: from TEDx in Greece to the Crowdsourcing Week Arctic Circle. Martijn runs his own advisory company Professional Outsider Consultancy and is the founder of GigCV: an open standard for platforms to share data on reputation and transaction with gigworkers.
+
+  - first: Drew
+    last: Ambrogi
+    aff_link: https://home.coworker.org/
+    affiliation: Coworker
+    panel: 'Thursday 1:15-2:30' 
+    info: Drew Ambrogi serves as Coworker’s Digital Director, supporting worker-led online campaigns to support workers’ efforts to build power in the workplace. Drew maintains and develops Coworker's online platform and digital tools to create innovative new approaches to workplace organizing and worker-based research. Before joining the team in 2019, Drew worked as a digital strategist at a national racial justice organization, where he served as President of their staff union, and on the side as a communications consultant for grassroots community organizations. Drew currently lives and works in Washington, DC.
+
+  - first: Jenny
+    last: Andrew
+    title: Dr.
+    panel: 'Thursday 2:45-4:00' 
+    affiliation: 'CSP Union & DAMA UK'
+    info: |-
+      Jenny Andrew is Head of Data for the Chartered Society of Physiotherapy, and a board member at DAMA UK – the UK chapter of the international Data Management Association. She has 20 years’ experience in whole-lifecycle data science, with a PhD in satellite oceanography, and 10 years as a scientific data manager and ultimately data architect, for the British Oceanographic Data Centre (BODC). Her development of data management approaches for environmental research has given her a deep understanding of the interactions between the ethical and technical dimensions of data management, from individual concerns to the global-scale collective interest, and from clear-cut points of law to abstract matters of scientific integrity.
+
+      Jenny served as a union rep for the Natural Environment Research Council, inserting her professional skillset into the organising and negotiating activity of her union branch. She has spent the last five years working full time for trade unions, and advocating for stronger data capabilities across the movement. The Head of Data role marks the CSP’s recognition of data as material infrastructure, and of its professional management as a core capability for the digital age.
+
+  - first: Joel
+    last: Bray
+    panel: 'Friday 3:00-4:15' 
+    affiliation: Emergency Workplace Organizing Committee
+    aff_link: https://workerorganizing.org/
+    info: |-
+      Joel Bray (they/them) has served as a volunteer Data Team Lead with EWOC since May 2020, overseeing the digital technology and data infrastructure that staff and organizers use to do workplace organizing in a remote, digital landscape.
+
+  - first: Felipe
+    last: Bonel
+    affiliation: Contrate Quem Luta
+    panel: 'Friday 12:00-1:15' 
+
+  - first: Joanna
+    last: Bronowicka
+    panel: 'Friday 1:30-2:45' 
+    affiliation: Centre For Internet & Human Rights
+
+  - first: Lina
+    last: Dencik
+    title: Dr.
+    panel: 'Friday 4:30-5:45' 
+    affiliation: Cardiff University, Data Justice Lab
+    info: Lina Dencik is Professor in Digital Communication and Society at Cardiff University's School of Journalism, Media and Culture and Co-Director of the Data Justice Lab. She has published widely on digital media, resistance and the politics of data and is currently Principal Investigator of the DATAJUSTICE project funded by an ERC Starting Grant. Her most recent publications include Digital Citizenship in a Datafied Society (with Arne Hintz and Karin Wahl-Jorgensen, Polity, 2018) and The Media Manifesto (with Natalie Fenton, Des Freedman and Justin Schlosberg, Polity, 2020). 
+
+  - first: Lillian
+    last: Edwards
+    title: Dr.
+    panel: 'Friday 1:30-2:45' 
+    affiliation: Newcastle University
+
+  - first: James
+    last: Farrar
+    panel: 'Friday 1:30-2:45' 
+    affiliation: Worker Info Exchange
+
+  - first: Adrian
+    last: Friday
+    title: Dr.
+    panel: 'Thursday 2:45-4:00' 
+    affiliation: Lancaster University
+    info: |-
+      Adrian Friday is Professor of Computing and Sustainability at Lancaster University, UK. His work focuses on how ubiquitous systems, data and empirical studies reveal the externality and impacts of everyday life, and offer new and more sustainable ways of doing. He has led a series of collaborative and multidisciplinary research projects exploring energy use in the home, thermal comfort, sustainable food shopping, and last-mile logistics.  His latest work focuses on environmental and social justice for gig economy, and a significant new programme exploring time series statistics, HCI & human geography and machine learning might provide energy insights toward net zero.
+
+  - first: Adolfo
+    last: Fuentes
+    affiliation: University of Edinburgh
+    project: https://fair.work/
+    panel: 'Thursday 1:15-2:30' 
+    info: |-
+      He holds a B.A. and M.A. in Economics from the Universidad de Chile, and recently completed the M.Res. in Economics at University College London. Currently, he is a Ph.D. student at University of Edinburgh’s School of Economics and an associate researcher at LEAS, the Laboratory of Surveys and Social Analysis, hosted by the School of Communications and Journalism at Universidad Adolfo Ibáñez in Chile.
+
+  - first: Richard
+    last: Gall
+    affiliation: UTAW
+    panel: 'Thursday 2:45-4:00'
+    link: https://twitter.com/richggall
+    info: Richard Gall is a writer based in the North East of England. He is a member of UTAW, the UK's first tech worker union, and a masters student in Digital Society at the University of Edinburgh. He is also the producer and co-host of What We Talk About When We Talk About Tech, a podcast about storytelling in the tech industry.
+  
+  - first: Cailean
+    last: Gallagher
+    affiliation: Edinburgh Workers Observatory
+    panel: 'Friday 12:00-1:15' 
+    info: |-
+      Cailean Gallagher is a union organiser and historian based in Edinburgh. He is co-ordinator of the Workers’ Observatory, and supports the development of unions by precarious workers with the Scottish Trades Union Congress and the campaign Better Than Zero. He is involved in a range of workers’ education projects, most recently the Sma Shot School and Falkland Workers School for young workers. Cailean is completing a PhD at the University of St Andrews on the political and economic ideas of Scottish Jacobite rebels, and is also researching the history of the gig economy and working time. He is co-author of Roch Winds: A Treacherous Guide to the State of Scotland.
+
+  - first: Ricardo
+    last: Gonzalez
+    aff_link: https://fair.work/
+    affiliation: Fair Work Chile
+    panel: 'Thursday 1:15-2:30' 
+
+  - first: Miranda
+    last: Hall
+    panel: 'Friday 4:30-5:45' 
+    affiliation: New Economics Foundation
+
+  - first: Josh
+    last: Hughes
+    title: Dr.
+    panel: 'Thursday 2:45-4:00' 
+    affiliation: Trilateral Research
+    info: |-
+      Dr. Joshua G. Hughes is a Research Analyst at Trilateral Research, acting as ethics coordinator across several EU-funded security technology projects where he manages compliance with ethical, data protection, human rights, and societal standards. He also develops design approaches to embed fulfilment of those standards during the design phase of new technologies. Josh is interested in the regulation of automation in security technologies, what roles human beings should play in relation to automating technologies, and how responsibility can be attributed for automated decision-making. Josh is also acting Data Protection Officer for the United Tech and Allied Workers branch of the Communications Workers Union.
+
+  - first: Hannah
+    last: Johnston
+    title: Dr.
+    affiliation: Northeastern University
+    panel: 'Friday 12:00-1:15' 
+    info: |-
+      Hannah Johnston is a Postdoctoral Researcher at Northeastern University in Boston, Massachusetts where she researches algorithmic management in the platform economy. She is an affiliate of Fairwork (Oxford Internet Institute) and has worked for the International Labour Organization and with the European Trade Union Institute on projects related to working conditions and the platform economy. Her doctoral research (Queen’s University, Canada) focused on the New York City taxicab industry where she examined the collective organizing strategies used by drivers to improve working conditions, pay, and to strengthen regulation. 
+
+  - first: Boyan
+    last: Karabaliev
+    affiliation: Edinburgh Workers Observatory
+    panel: 'Friday 12:00-1:15' 
+
+  - first: Aislinn
+    last: Kelly-Lyth
+    panel: 'Friday 1:30-2:45' 
+    affiliation: Oxford University Law
+    info: |-
+      Aislinn Kelly-Lyth is a Researcher on Algorithmic Management at the University of Oxford. She completed her undergraduate studies at the University of Cambridge, followed by an LLM at Harvard Law School as a Kennedy Scholar. Her research focuses on discriminatory algorithms, and her article Challenging Biased Hiring Algorithms was published in the Oxford Journal of Legal Studies in 2021. Aislinn has also taught at the London School of Economics.
+
+  - first: Sebastiaan
+    last: Kennes
+    panel: 'Friday 4:30-5:45' 
+    affiliation: United Freelancers Belgium
+    info: |-
+      United Freelancers is the service of ACV-CSC in Belgium to support and represent freelancers and atypical workers in Belgium. Sebastiaan Kennes is working on developing new digital services to lower the threshold in supporting different types of platform workers, and in the first place those most vulnerable, being exploited due to a lack of information or connection. The development of these tools are done together with the workers, and has as aim to provide the platform workers with the correct information to make the best choices, and provide tools to better defend themselves against unfair and bad practices. Sebastiaan has been working himself as a meal delivery rider, and has been working for several years on sustainable innovation processes in different topics.
+
+  - first: Sylvia
+    last: Morse
+    panel: 'Friday 3:00-4:15' 
+    affiliation: Up & Go Cooperative
+
+  - first: Wilneida
+    last: Negrón
+    title: Dr.
+    affiliation: Coworker
+    aff_link: https://home.coworker.org/
+    panel: 'Thursday 1:15-2:30' 
+    info: |-
+      Wilneida Negrón most recently worked at the Ford Foundation, where she led cross-thematic area strategy development between the Gender, Race, Ethnic Justice, Technology and Society, Mission Investing, Future of Work(ers), and Civic Engagement Thematic areas, with a focus on helping labor movements deepen and leverage economic partnerships and movement-based partnerships.  She is currently part of the Steering Committee Team for the Ford Foundation’s and Mozilla’s Public efforts to explore how to continue to foster the impact and sustainability of public interest technology projects in the US, Europe, and the Global South. She works on the frontlines of social change spaces, fostering new multi-issue and cross-sectoral approaches and solutions to our increasingly complex socio-technical world and serves as a strategic advisor, consultant, and capacity-builder to emerging and established national and global civil and human rights organizations.
+
+      She has a PhD in Comparative Politics, with a specialization in social and political implications of emerging technologies in East Asia and Latin America, a Masters in Public Administration, and an M.Phil. in International and Global Affairs. She is a lifelong fellow for Data & Society Research Institute  and the Atlantic Fellows Program for Racial Equity.
+  
+  - first: Andrew
+    last: Pakes
+    panel: 'Friday 4:30-5:45' 
+    affiliation: Prospect Union
+    info: |-
+      Andrew is deputy general secretary and research director at Prospect Union in the UK representing over 152,000 members across tech, specialist, engineering and professional roles. He leads Prospect’s work around tech, AI, data rights and the future of work.
+
+      His work aims to empower workers around digital change and the implications on how technology is transforming the ways people are managed and work, including on mental health, the right to disconnect and surveillance.  He is a member of the OECD AI expert group in implementing Trustworthy AI and the UK Trade Union Congress AI Working Group. A strong advocate of Equality Diversity and Inclusion approaches to work, Andrew also serves as secretary to Stonewall, Europe’s largest LGBT+ equalities charity.
+
+  - first: Louise
+    last: Patel
+    panel: 'Thursday 1:15-2:30' 
+    affiliation: The Time Project/Share My Telly Job (SMTJ) 
+
+  - first: Cosmin
+    last: Popan
+    panel: 'Friday 3:00-4:15' 
+    affiliation: Manchester Metropolitan University
+    info: |-
+       Cosmin Popan is a Leverhulme Trust post-doctoral fellow, based in the Department of Sociology at Manchester Metropolitan University. His project, ‘Doing gig work: Social implications of platform-based food deliveries’, researches the platform-based gig economy and its reconfiguration of urban spaces by investigating the management, solidarity and resistance of cycle couriers in three European cities: Manchester, Lyon (France) and Cluj-Napoca (Romania).
+
+  - first: Saiph
+    last: Savage
+    title: Dr.
+    panel: 'Thursday 2:45-4:00' 
+    link: http://www.saiph.org/
+    affiliation: Northeastern University, Civic AI Lab
+    info: |-
+      Saiph Savage is an Assistant Professor at Northeastern University in the Khoury College of Computer Sciences where she directs the Civic A.I. lab. She is one of the 35 Innovators under 35 by the MIT Technology Review, a Google Anita Borg Scholarship recipient, and a fellow at the Center for Democracy & Technology. Her work has been covered in the BBC, Deutsche Welle, the Economist, and the
+      New York Times, as well as published in top venues such as ACM CHI, CSCW, and the Web Conference, where she has also won honorable mention awards. 
+      Dr. Savage currently also collaborates with the Civic Innovation lab of the National Autonomous University of Mexico (UNAM), has been awarded grants from the National Science Foundation, the United Nations, industry, and has also formalized new collaborations
+      with Federal and local Governments where she is driving them to adopt Human Centered Design and A.I. to deliver better experiences and government services to citizens. Dr. Savage students have obtained fellowships and internships in industry (Facebook Research,
+      Twitch Research, Twitter, Snap, and Microsoft Research) as well as academia (Oxford Internet Institute).  Saiph holds a bachelor’s degree in Computer Engineering from the National Autonomous University of Mexico (UNAM), and a master's and Ph.D. in Computer
+      Science from the University of California, Santa Barbara (UCSB). Dr. Savage has also worked at the University of Washington, and Carnegie
+      Mellon University (CMU).
+      Additionally, Dr. Savage  has been a tech worker at Microsoft Bing, Intel Labs, and a crowd research worker at Stanford.
+
+  - first: José
+    last: Sherwood González
+    panel: 'Friday 3:00-4:15' 
+    affiliation: Manchester Metropolitan University
+    info: |-
+      José Sherwood González is a British Mexican comics artist and visual anthropologist with research interests in memory, storytelling and multi-perspectival myth-making through visual, sensory and digital methods. Since 2014, he has worked in Mexico City, investigating the ways in which families create and embody myths through storytelling. A recent graduate from the MA in Visual Anthropology at the Granada Centre for Visual Anthropology, José is currently pursuing a PhD in collaboration with Manchester Metropolitan University (SODA) and FutureEverything on Mesoamerican Futurisms, a project which applies extended reality (XR) as a shapeshifting methodology to cultivate human (and more-than-human) transformations in Mexico City.
+
+  - first: Caroline
+    last: Sinders
+    panel: 'Friday 3:00-4:15' 
+    affiliation: Convocation Design + Research
+    link: https://carolinesinders.com/
+    info: |-
+      Caroline Sinders is a critical designer, researcher, and artist. For the past few years, she has been examining the intersections of artificial intelligence, intersectional justice, systems design, harm, and politics in digital conversational spaces and technology platforms. She has worked with the United Nations, Amnesty International, IBM Watson, the Wikimedia Foundation, and others. Sinders has held fellowships with the Harvard Kennedy School, Google’s PAIR (People and Artificial Intelligence Research group), Ars Electronica’s AI Lab, the Weizenbaum Institute, the Mozilla Foundation, Pioneer Works, Eyebeam, Ars Electronica, the Yerba Buena Center for the Arts, the Sci Art Resonances program with the European Commission, and the International Center of Photography. Her work has been featured in the Tate Exchange in Tate Modern, the Contemporary Art Center of New Orleans, Telematic Media Arts, Victoria and Albert Museum, MoMA PS1, LABoral, Wired, Slate, Hyperallergic, Clot Magazine, Quartz, the Channels Festival, and others. Sinders holds a Masters from New York University’s Interactive Telecommunications Program.
+
+  - first: Danny
+    last: Spitzberg
+    panel: 'Thursday 2:45-4:00' 
+    affiliation: Turning Basin Labs
+    link: https://www.twitter.com/daspitzberg
+    info: |-
+      Danny is a user researcher for a cooperative economy. He facilitates worker-led research with Turning Basin Labs, a staffing and training co-op based in Oakland, California. Previously he worked with a variety of member-led, community-oriented digital products ranging from Up & Go and Rideshare Drivers United to the Lean Startup Co. and the Harvard Berkman Center. With Start.coop, Danny co-created the Ownership Model Canvas, a tool for designing effective member-ownership, and he also organizes with Exit to Community e2c.how, enabling cooperative ownership for startups. Say hi at twitter.com/daspitzberg.
+
+  - first: Angelika
+    last: Strohmayer
+    title: Dr.
+    panel: 'Thursday 2:45-4:00' 
+    affiliation: Northumbria University
+    info: |-
+      Dr Angelika Strohmayer is co-director of the Design Feminisms Research Group, board member of the Sex Work Research Hub, and interdisciplinary researcher working closely with third sector organisations. She aims to work collaboratively on in-the-world projects that engage people at all stages of the research process to engender change towards more just worlds. To do this, she works across boundaries, bringing together disparate groups to engage in collaborative, justice-oriented, and sometimes digital endeavours. Currently, her research relates to two intertwining areas of inquiry: (1) the relationships between data, technologies, and safety for communities and people who are seldom thought about by industry and researchers alike; and (2) the ways in which digitally augmented textiles practices can create safe spaces for difficult conversations in interpersonal settings as well as for public awareness-raising. In 2021, she published her first book titled ‘Digitally Augmenting Traditional Craft Practices for Social Justice: The Partnership Quilt'. Angelika’s (sometimes award-winning) publications address justice concerns to build on and develop feminist theories. These arguments are usually based on her in-the-world research and are developed in conversation with others such as experts by experience, support workers, or other researchers.
+
+  - first: Funda
+    last: Ustek-Splida
+    title: Dr.
+    panel: 'Thursday 4:15-5:30' 
+    affiliation: Oxford Internet Institute, Fair Work Project
+    aff_link: https://fair.work/
+    info: |-
+      Funda Ustek-Spilda is a post-doctoral researcher and project manager at Fairwork Foundation, based at the Oxford Internet Institute, University of Oxford. Prior to Fairwork, Funda held post-doctoral researcher positions at Goldsmiths, University of London (ARITHMUS: How data make a people; 2014-2018) and London School of Economics (VIRT-EU: Values and Ethics in Responsible Technology in Europe; 2018-2020). She holds a D.Phil in Sociology from the University of Oxford (2015) and M.Sc in Comparative Social Policy from the same university (2010). She conducts interdisciplinary research into the visibilities and invisibilities in data and emerging technologies in the fields of labour, migration and gender; studying this from the perspective of data justice, fairness and ethics. Her research has appeared in prestigious journals such as Big Data and Society, Environment and Planning D and Science and Technology & Human Values.
+
+  - first: Tanja
+    last: Vicas
+    panel: 'Friday 4:30-5:45' 
+    affiliation: Austrian Trade Union Federation
+    project: Digital Danube Network
+    info: |-
+      Originally from Canada, I came to Austria almost 30 years ago after studying English literature at the University of Western Ontario and started studying translation and interpretation at the University of Vienna. To finance these studies, I took a job as an administrative assistant in the education department at the Austrian Trade Union Federation. The years went by and as my job at the union developed and became more interesting, I decided to quit my studies and focus on work full time. I transferred to the international department and have been managing mainly European projects which ultimately focus on promoting decent work through social dialogue. My current project “DiDaNet” (“Digital Danube Network”), focusses on how workers meet the challenges of digitalisation and the spread of platform-based economy. Within the course of DiDaNet, a spin-off project called “RidersCollective” came into being. This project is dedicated to the improvement of working conditions for bike couriers (“riders”). 
+
+  - first: Jeff
+    last: Vize
+    panel: 'Thursday 4:15-5:30' 
+    affiliation: Human Rights Watch
+    project: Georgia Fair Labour Platform
+    aff_link: https://shroma.ge/en/wagetheft-intro-en/
+    info: |-
+      Jeff Vize is a senior advisor in Human Rights Watch’s Alliances and Partnerships Program, which focuses on working more closely with local partners to strengthen human rights. He currently leads HRW’s engagement with the Georgia Fair Labor Platform, a coalition of independent trade unions, civil society organizations and activists working to improve conditions for workers in Georgia. In this role, Jeff led the team that developed two online tools for the coalition: the Wage Theft Calculator and the Workplace Safety Monitor.
+
+  - first: Hays
+    last: Witt
+    panel: 'Thursday 4:15-5:30' 
+    affiliation: Driver’s Seat
+
+  - first: Janis
+    last: Wong
+    panel: 'Friday 1:30-2:45' 
+    affiliation: University of St Andrews (CRISP)
+    link:  https://janiswong.org/
+    info: |-
+     Janis Wong is an interdisciplinary PhD researcher in Computer Science at the Centre for Research into Information, Surveillance and Privacy (CRISP), University of St Andrews. She is interested in the legal and technological applications in data protection, privacy, and data ethics, where her current research aims to create a socio-technical collaborative commons framework that helps data subjects protect their personal data under existing data protection, privacy, and information regulations. Janis is currently participating in the Fall 2021 Research Sprint on Alternative Data Futures: Cooperative Principles, Data Trusts, and the Digital Economy hosted by the Berkman Klein Center for Internet & Society at Harvard University in collaboration with the Platform Cooperativism Consortium at The New School. In 2020-21, she was a Research Fellow at the Open Data Institute, focusing on data protection and governance in online teaching, learning analytics, and educational technology. Janis holds degrees in Law from the London School of Economics and Computer Science from the University of St Andrews.
+
+
+
+
+
+

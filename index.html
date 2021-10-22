@@ -2,13 +2,7 @@
 layout: default
 ---
 
-<!--Nav bar-->
-<nav class="fixed-nav-bar">
-  <span><a href=" #top">Top</a></span>
-  <span><a href="#about">About</a></span>
-  <span><a href="#schedule">Schedule</a></span>
-  <span><a href="#committee">Committee</a></span>
-</nav>
+<!-- Hero Section -->
 
 <section class="tone-dark header" id="top">
   <img class="logo" src="images/logos/example_DWI_logo.svg" alt="{{ site.data.info.name }}">
@@ -41,6 +35,9 @@ layout: default
     for updates!
   </p-->
 </section>
+
+<!-- About the Event -->
+
 <section class="tone-dark" id="about">
   <h1>About the Event</h1>
   <div>
@@ -66,9 +63,13 @@ layout: default
     </p>
   </div>
 </section>
+
+<!-- Schedule-->
+
 {% if site.data.schedule %}
 <section id="schedule">
   <h1>Schedule</h1>
+  <h3>All times B.S.T.</h3>
   <div class="items-container">
     {% for part in site.data.schedule %}
     <div class="item-large">
@@ -83,7 +84,32 @@ layout: default
         {% for item in part[1] %}
         <tr>
           <td>{{ item[0] }}</td>
-          <td>{{ item[1] }}</td>
+          {% if item[1].speaker %}
+          <td class="accordion">
+            <input type="checkbox" name="schedule" id="{{ item[0] }}">
+            <label for="{{ item[0] }}">{{ item[1].title }}</label>
+            <div class="accordion__content accordion__content--small">
+              <!--div class="accordion__content"-->
+              <p>Speaker: {{ item[1].speaker }}</p>
+            </div>
+          </td>
+          {% elsif item[1].chair %}
+          <td class="accordion">
+            <input type="checkbox" name="schedule" id="{{ item[0] }}">
+            <label for="{{ item[0] }}">{{ item[1].title }}</label>
+            <div class="accordion__content accordion__content--large">
+              <!--div class="accordion__content"-->
+              <p>Chair: {{ item[1].chair }}</p>
+              <ul>
+                {% for panelist in item[1].panelists %}
+                <li>{{ panelist }}</li>
+                {% endfor %}
+              </ul>
+            </div>
+          </td>
+          {% else %}
+          <td>{{ item[1].title }}</td>
+          {% endif %}
         </tr>
         {% endfor %}
       </table>
@@ -113,6 +139,9 @@ layout: default
     </div>
     {% endif %}
 </section>
+
+<!-- Sponsors -->
+
 {% if site.data.sponsors %}
 <section class="section-sponsors">
   {% if site.data.sponsors.show_prospectus %}
@@ -151,6 +180,9 @@ layout: default
   {% endif %}
   {% endfor %}
 </section>
+
+<!-- Speakers -->
+
 {% endif %}
 <!--section id="debug">            
   <debug>
@@ -159,29 +191,138 @@ layout: default
     <p>{{ file.path }}</p>
   {% endfor %}
 </section-->
+<section class="tone-light" id="speakers">
+  <h1>Keynote Speakers</h1>
+  <div class="items-container">
+    {% for person in site.data.speakers.keynotes %}
+    <div class="item-medium">
+      <div class="person-container">
+          <img class="person-image" src="images/people/{{ person.first }} {{ person.last }}.jpg"
+            alt="Picture of {{ person.first }} {{ person.last }}">
+        <div class="person-info">
+          {% if person.title %}
+          {{ person.title }}
+          {% endif %}
+          <span class="person-first">
+            {% if person.link %}
+            <a class="person-link" href="{{ person.link }}" target="blank" rel="noreferrer">
+            {% endif %}
+              {{ person.first }}
+            {% if person.link %}
+            </a>
+            {% endif %}
+          </span>
+          <br>
+          <span class="person-last">
+            {% if person.link %}
+            <a class="person-link" href="{{ person.link }}" target="blank" rel="noreferrer">
+            {% endif %}
+              {{ person.last }}
+            {% if person.link %}
+            </a>
+            {% endif %}
+          </span>
+          <br>
+          {% if person.aff_link %}
+          <a class="person-link" href="{{ person.aff_link }}" target="blank" rel="noreferrer">{{ person.affiliation }}</a>
+          {% else %}
+          {{ person.affiliation }}
+          {% endif %}
+          <p>Keynote:<br />{{ person.keynote  | markdownify }}</p>
+          {% if person.info %}
+            <div class="bio-holder">
+              <p>{{ person.info }}</p>
+            </div>
+          {% endif %}
+        </div>
+      </div>
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+  <h1>Panelists</h1>
+  <div class="items-container">
+    {% for person in site.data.speakers.people %}
+    <div class="item-small">
+      <div class="person-container">
+        <div class="person-info">
+          {% if person.title %}
+          {{ person.title }}
+          {% endif %}
+          <span class="person-first">
+            {% if person.link %}
+            <a class="person-link" href="{{ person.link }}" target="blank" rel="noreferrer">
+            {% endif %}
+              {{ person.first }}
+            {% if person.link %}
+            </a>
+            {% endif %}
+          </span>
+          <br>
+          <span class="person-last">
+            {% if person.link %}
+            <a class="person-link" href="{{ person.link }}" target="blank" rel="noreferrer">
+            {% endif %}
+              {{ person.last }}
+            {% if person.link %}
+            </a>
+            {% endif %}
+          </span>
+          <br>
+          {% if person.aff_link %}
+          <a class="person-link" href="{{ person.aff_link }}" target="blank" rel="noreferrer">{{ person.affiliation }}</a>
+          {% else %}
+          {{ person.affiliation }}
+          {% endif %}
+          <p>Panel:<br />{{ person.panel }}</p>
+          {% if person.info %}
+          <br>
+          <div class="description-holder">
+            <p>{{ person.info  | markdownify }}</p>
+          </div>
+          {% endif %}
+        </div>
+      </div>
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<!-- Committee -->
+
 <section class="tone-dark" id="committee">
   <h1>Committee</h1>
   <div class="items-container">
     {% for person in site.data.organizers.people %}
     <div class="item-small">
-      <a class="person-link" href="{{ person.link }}" target="blank" rel="noreferrer">
-        <div class="person-container">
-          <img class="person-image" src="images/people/{{ person.first }} {{ person.last }}.jpg"
-            alt="Picture of {{ person.first }} {{ person.last }}">
-          <div class="person-info">
-            {% if person.title %}
+      <div class="committee-container">
+        <img class="person-image" src="images/people/{{ person.first }} {{ person.last }}.jpg"
+          alt="Picture of {{ person.first }} {{ person.last }}">
+        <div class="person-info">
+          {% if person.title %}
             {{ person.title }}
-            {% endif %}
-            <span class="person-first">{{ person.first }}</span>
-            <br>
-            <span class="person-last">{{ person.last }}</span>
-          </div>
+          {% endif %}
+          {% if person.link %}
+            <a class="person-link" href="{{ person.link }}" target="blank" rel="noreferrer">
+          {% endif %}
+          <span class="person-first">{{ person.first }}</span>
+          <br>
+          <span class="person-last">{{ person.last }}</span>
+          {% if person.link %}
+            </a>
+          {% endif %}
         </div>
+      </div>
       </a>
     </div>
     {% endfor %}
   </div>
   </div>
+</section>
+
+<!-- Footer coming soon -->
+<footer class="footer-tone">
   {% if site.data.organizers.group %}
   <p>
     {{ site.data.info.name_short }} is organized by the
@@ -192,4 +333,4 @@ layout: default
   <p>
     Website template made with love by <a href="https://lauzhack.com">LauzHack</a>.
   </p>
-</section>
+</footer>

@@ -54,6 +54,12 @@ section > * {
   padding: 0 3.65%;
 }
 
+.item-medium {
+  flex-grow: 0.1;
+  flex-basis: 19.5%;
+  padding: 1% 2.15%;
+}
+
 .item-small {
   flex-grow: 0;
   flex-basis: 17%;
@@ -106,6 +112,36 @@ tr {
   color: #fff;
 }
 
+.tone-light{
+  background: #BBEDF2;
+  color: {{ site.data.info.color }};
+}
+
+.tone-light a{
+  color: #323BA2;
+}
+
+.tone-light a:active,
+.tone-light a:focus,
+.tone-light a:hover {
+  color: #6D73B3;
+}
+
+.footer-tone {
+  background-color: #232970;
+  color: #fff;
+  padding: 20px;
+}
+
+.footer-tone a {
+  color: #ddd;
+}
+
+.footer-tone a:active,
+.footer-tone a:focus,
+.footer-tone a:hover {
+  color: #fff;
+}
 
 /* Header */
 .header {
@@ -159,6 +195,8 @@ tr {
 .person-container {
   display: inline-block;
   margin: 0 0 2em 0;
+  height: 400px;
+  width: 300px;
 }
 
 .person-link .person-info {
@@ -173,12 +211,19 @@ tr {
 .person-image {
   width: 10em;
   height: 10em;
+  border-radius: 10px;
 }
 
 .person-info {
-  background-color: rgba(0, 0, 0, 0.2);
-  margin-top: -0.3em;
-  padding: 0.3em 0;
+  background-color: rgba(146, 154, 240, 0.4);
+  margin-top: 0.3em;
+  padding: 0.5em;
+  border-radius: 10px;
+}
+
+.person-info p {
+  text-align: left;
+  font-size: 16px;
 }
 
 .person-first {
@@ -189,7 +234,45 @@ tr {
   opacity: 0.7;
 }
 
+.committee-container {
+  display: inline-block;
+  margin: 0 0 2em 0;
+}
 
+/* Bio Read More */
+
+.bio-holder {
+  overflow: scroll;
+  height: 100px;
+  position: relative;
+  padding: 5px 10px;
+}
+
+/* Projects */
+.project-container {
+  display: inline-block;
+  margin: 0 0 2em 0;
+  height: 400px;
+  width: 600px;
+  background-color: rgba(146, 154, 240, 0.4);
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.description-holder {
+  background-color: rgba(146, 154, 240, 0.4);
+  overflow: scroll;
+  height: 200px;
+  position: relative;
+  padding: 15px;
+  text-align: justify;
+  border-radius: 10px;
+  margin-top: 1em;
+}
 /* Newsletter */
 .newsletter {
   margin-top: 1em;
@@ -213,20 +296,112 @@ tr {
   background: #ccc;
 }
  /* Navigation */
+
  .fixed-nav-bar {
   position: fixed;
-  top: 0;
+  justify-content: center;
   z-index: 100;
   width: 100%;
-  height: 50px;
-  background-color: #fff;
   display: flex;
-  text-align: center;
+  background-color: #fff;
+  flex-wrap: wrap;
+  padding: 20px;
 }
 
-nav span {
-  display: inline-block;
-  padding: 20px 10px;
-  color: #323BA2;
-  text-decoration: none;
+.fixed-nav-bar ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 auto;
 }
+
+.fixed-nav-bar li {
+  display: inline-block;
+  font-size: 24px;
+  padding: 0 20px;
+}
+
+.nav-anchor {
+  color: #323BA2;
+  text-decoration: none !important;
+}
+
+.nav-item a:hover,
+.nav-item a:active,
+.nav-item a:focus {
+  color: #6D73B3;
+  text-decoration: none !important;
+}
+
+/** Schedule **/
+/* checkbox hack credit:  https://codepen.io/jonyablonski/pen/IrgBk */
+
+.accordion input[name=schedule] {
+  display: none;
+}
+
+.accordion label {
+  position: relative;
+  display: block;
+  padding: 1em;
+  transition: all 0.4s cubic-bezier(0.865, 0.14, 0.095, 0.87);
+}
+
+.accordion label:after {
+  content: "+";
+  position: absolute;
+  right: 1em;
+  width: 1.5em;
+  height: 1.5em;
+  color: #eee;
+  text-align: center;
+  border-radius: 50%;
+  background: #323BA2;
+  box-shadow: inset 0 1px 6px rgba(0, 0, 0, 0.5), 0 1px 0 #fff;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.75);
+}
+
+.accordion label:hover {
+  color: #323BA2;
+}
+
+.accordion input:checked + label {
+  color: #323BA2;
+}
+
+.accordion input:checked + label:after {
+  content: "-";
+  /* adjust line-height to vertically center icon */
+  line-height: 0.8em;
+}
+
+.accordion .accordion__content {
+  overflow: hidden;
+  height: 0px;
+  position: relative;
+  padding: 0 1.5em;
+  text-align: left;
+  font-size: 0.9em;
+  transition: height 0.4s cubic-bezier(0.865, 0.14, 0.095, 0.87);
+}
+
+/* 
+* Size Variations */
+
+input[name=schedule]:checked ~ .accordion__content.accordion__content--small {
+  /*height: 70px;*/
+  height: 6em;
+}
+
+input[name=schedule]:checked ~ .accordion__content.accordion__content--large {
+  /*height: 325px;*/
+  height: 25em;
+}
+
+/* Fluid size - doesn't work for some reason
+input[name=schedule]:checked ~ .accordion__content {
+  max-height: 50em;
+}
+*/
+
+/* Footer */
