@@ -297,6 +297,8 @@ layout: default
     {% for person in site.data.organizers.people %}
     <div class="item-small">
       <div class="committee-container">
+        <img class="person-image" src="images/people/{{ person.first }} {{ person.last }}.jpg"
+          alt="Picture of {{ person.first }} {{ person.last }}">
         <div class="person-info">
           {% if person.title %}
           {{ person.title }}
