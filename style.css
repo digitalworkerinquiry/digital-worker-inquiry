@@ -254,10 +254,14 @@ tr {
   display: inline-block;
   margin: 0 0 2em 0;
   height: 400px;
-  width: 600px;
-  background-color: rgba(146, 154, 240, 0.4);
+  width: 600px;;
 }
-
+ /* Responsive project container for mobile */ 
+@media only screen and (max-width: 600px) {
+  .project-container {
+    width: 300px;
+  }
+}
 .project-image {
   width: 100%;
   height: auto;
