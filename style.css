@@ -333,7 +333,7 @@ tr {
 .fixed-nav-bar li a:focus {
   color: #6D73B3;
   text-decoration: none;
-  background-color:rgba(161, 167, 255, 150);
+  background-color:rgba(161, 167, 255, 0.158);
 } 
 
 .fixed-nav-bar .logo {
