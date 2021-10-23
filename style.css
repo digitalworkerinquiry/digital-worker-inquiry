@@ -325,6 +325,14 @@ tr {
   text-decoration: none;
 }
 
+.fixed-nav-bar li a:hover,
+.fixed-nav-bar li a:active,
+.fixed-nav-bar li a:focus {
+  color: #6D73B3;
+  text-decoration: none;
+  background-color: #f4f4f4;
+} 
+
 .fixed-nav-bar .logo {
   display: block;
   float: left;
@@ -332,13 +340,6 @@ tr {
   padding: 10px 20px;
   text-decoration: none;
 }
-.nav-item a:hover,
-.nav-item a:active,
-.nav-item a:focus {
-  color: #6D73B3;
-  text-decoration: none;
-  background-color: #f4f4f4;
-} 
 
 /* .nav-anchor {
   color: #323BA2;
