@@ -303,7 +303,7 @@ tr {
  /* Navigation Bar source https://codepen.io/mutedblues/pen/MmPNPG */
 /* header */
 
-.header {
+.nav-bar {
   background-color: #fff;
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
   position: fixed;
@@ -311,7 +311,7 @@ tr {
   z-index: 3;
 }
 
-.header ul {
+.nav-bar ul {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -319,19 +319,19 @@ tr {
   background-color: #fff;
 }
 
-.header li a {
+.nav-bar li a {
   display: block;
   padding: 20px 20px;
   border-right: 1px solid #f4f4f4;
   text-decoration: none;
 }
 
-.header li a:hover,
-.header .menu-btn:hover {
+.nav-bar li a:hover,
+.nav-bar .menu-btn:hover {
   background-color: #f4f4f4;
 }
 
-.header .logo {
+.nav-bar .logo {
   display: block;
   float: left;
   font-size: 2em;
