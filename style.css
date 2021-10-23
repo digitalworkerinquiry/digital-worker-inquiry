@@ -425,7 +425,7 @@ tr {
   .fixed-nav-bar li {
     float: left;
   }
-  .fixed-nav-barli a {
+  .fixed-nav-bar li a {
     padding: 20px 30px;
   }
   .fixed-nav-bar .menu {
