@@ -317,10 +317,13 @@ tr {
   overflow: hidden;
   background-color: #fff;
 }
+.fixed-nav-bar li {
+  display: inline-block;
+}
 
 .fixed-nav-bar li a {
   display: block;
-  padding: 20px 20px;
+  padding: 20px;
   border-right: 1px solid #f4f4f4;
   text-decoration: none;
 }
@@ -341,10 +344,10 @@ tr {
   text-decoration: none;
 }
 
-/* .nav-anchor {
+.nav-anchor {
   color: #323BA2;
   text-decoration: none !important;
-} */
+}
 
 
 
