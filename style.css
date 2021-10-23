@@ -330,13 +330,13 @@ tr {
 .fixed-nav-bar li a:focus {
   color: #6D73B3;
   text-decoration: none;
-  background-color: #f4f4f4;
+  background-color:rgba(161, 167, 255, 150);
 } 
 
 .fixed-nav-bar .logo {
   display: block;
   float: left;
-  font-size: 2em;
+  font-size: 16px;
   padding: 10px 20px;
   text-decoration: none;
 }
