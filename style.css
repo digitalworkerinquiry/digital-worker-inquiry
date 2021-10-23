@@ -316,6 +316,7 @@ tr {
   list-style: none;
   overflow: hidden;
   background-color: #fff;
+  text-align: right;
 }
 .fixed-nav-bar li {
   display: inline-block;
