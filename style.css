@@ -344,7 +344,10 @@ tr {
   padding: 10px 20px;
   text-decoration: none;
 }
-
+.fixed-nav-bar .logo img {
+  width: 17em;
+  height: auto;
+}
 .nav-anchor {
   color: #323BA2;
   text-decoration: none !important;
