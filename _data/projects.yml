@@ -133,6 +133,7 @@ project:
 
   - name: RooParse
     org: Workers Observatory
+    link: https://workersobservatory.org/
     speaker: Cailean Gallagher
     speaker2: Boyan Karabaliev
     panel: 'Friday 12:00-1:15' 
