@@ -285,11 +285,12 @@ layout: default
           {% else %}
             {{ person.affiliation }}
           {% endif %}
-          {% if person.project_id %}
-            <br>
-            <a class="person-link" href="./project.html#{{ person.project_id }}" target="blank" rel="noreferrer">Project Description</a>
-          {% endif %}
           <p>Panel:<br />{{ person.panel }}</p>
+          {% if person.project_id %}
+            <p>
+              <a class="person-link" href="./project.html#{{ person.project_id }}" target="blank" rel="noreferrer">Project Description</a>
+            </p>
+          {% endif %}
           {% if person.info %}
           <br>
           <div class="description-holder">
