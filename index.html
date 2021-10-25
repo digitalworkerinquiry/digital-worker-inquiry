@@ -207,7 +207,7 @@ layout: default
   <div class="items-container">
     {% for person in site.data.speakers.keynotes %}
     <div class="item-medium">
-      <div class="person-container">
+      <div id="{{ person.first }}-{{ person.last }}" class="person-container">
           <img class="person-image" src="images/people/{{ person.first }} {{ person.last }}.jpg"
             alt="Picture of {{ person.first }} {{ person.last }}">
         <div class="person-info">
@@ -255,7 +255,7 @@ layout: default
   <div class="items-container">
     {% for person in site.data.speakers.people %}
     <div class="item-small">
-      <div class="person-container">
+      <div id="{{ person.first }}-{{ person.last }}" class="person-container">
         <div class="person-info">
           {% if person.title %}
           {{ person.title }}
@@ -281,11 +281,16 @@ layout: default
           </span>
           <br>
           {% if person.aff_link %}
-          <a class="person-link" href="{{ person.aff_link }}" target="blank" rel="noreferrer">{{ person.affiliation }}</a>
+            <a class="person-link" href="{{ person.aff_link }}" target="blank" rel="noreferrer">{{ person.affiliation }}</a>
           {% else %}
-          {{ person.affiliation }}
+            {{ person.affiliation }}
           {% endif %}
           <p>Panel:<br />{{ person.panel }}</p>
+          {% if person.project_id %}
+            <p>
+              <a class="person-link" href="./project.html#{{ person.project_id }}" target="blank" rel="noreferrer">Project Description</a>
+            </p>
+          {% endif %}
           {% if person.info %}
           <br>
           <div class="description-holder">
