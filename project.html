@@ -7,7 +7,7 @@ layout: default
     <h1>Project Gallery</h1>
     <div class="items-container">
         {% for project in site.data.projects.project %}
-        <div class="item-medium">
+        <div id="{{ project.id }}" class="item-medium">
             <div class="project-container">
                 <img class="project-image" src="images/projects/{{ project.name }}.png"
                     alt="Picture of {{ project.name }}">
