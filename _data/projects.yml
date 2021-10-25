@@ -144,7 +144,8 @@ project:
 
   - speaker: Hays Witt
     panel: 'Thursday 4:15-5:30' 
-    name: Driver’s Seat
+    name: Drivers Seat
+    org: Driver’s Seat
     link: http://driversseat.co/
     id: DS
     description: |-
