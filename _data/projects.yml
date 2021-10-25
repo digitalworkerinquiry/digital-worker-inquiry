@@ -7,6 +7,7 @@ project:
     speaker: Dr. Wilneida Negrón
     speaker2: Drew Ambrogi
     panel: 'Thursday 1:15-2:30' 
+    id: STC
     description: In 2020, Coworker worked in partnership with MIT’s Dan Calacci and Gig Workers Collective to create an SMS chatbot to help workers using Shipt - Target’s grocery delivery platform - gain insight about a new "black box" algorithm that determines their pay structure. Using the bot, hundreds of Shipt shoppers were able to analyze their earnings data in real time while contributing to the largest existing database of Shipt shopper pay information, and ultimately chip away at the data asymmetry that exists between gig companies and their workers. The resulting report sheds light on Shipt’s new V2 algorithm and backs up workers’ claims of underpayment with hard data. Equipped with this dataset, Shipt shoppers continue to escalate their campaign for fair and transparent pay.
     
   - name: AI for Good framework
@@ -14,6 +15,7 @@ project:
     speaker: Dr. Saiph Savage
     panel: 'Thursday 2:45-4:00' 
     link: http://www.saiph.org/
+    id: AIFG
     description: |-
       The Artificial Intelligence (A.I.) industry has created new jobs that are essential to the real-world deployment of intelligent systems. Part of these new jobs typically focus on labeling data for machine learning models or having workers complete tasks that A.I. alone cannot do. The human labor behind our A.I. has powered a futuristic reality with self-driving cars, voice based virtual assistants,  or search results with minimum hate speech. However, the workers powering the A.I. industry are often invisible to end-users. Their invisibility has led to power dynamics where workers are often paid below minimum wage,  and have limited career growth. Part of the problem is that these platforms are currently also black boxes, where we have limited information about the labor conditions inside.
       I will present how we can start to address these problems through my proposed "A.I. For Good" framework. My framework uses value sensitive design to understand
@@ -25,7 +27,8 @@ project:
     link: https://fair.work/
     speaker: Dr. Funda Ustek-Splida
     panel: 'Thursday 4:15-5:30' 
-    description: |- 
+    id: FW
+    description: |-
       Platform work provides essential income and opportunities to tens of millions of people around the world. However, most platform workers are not protected by existing employment law or collective bodies, meaning they face low pay, precarity, and poor and dangerous working conditions.
       Fairwork is committed to highlighting best and worst labour practices in the platform economy. Our goal is to show that better, and fairer, jobs are possible in the platform economy.
       The Fairwork project is based at the Oxford Internet Institute and the WZB Berlin Social Science Centre. Through our global network of researchers, we evaluate the working conditions of digital platforms and rank them based on our five principles of fair work. The Fairwork project is currently operating in 20 countries across 5 continents. Across countries, we work closely with workers, platforms, advocates and policymakers to envision and build a fairer future of work.
@@ -36,6 +39,7 @@ project:
     link: https://shroma.ge/en/wagetheft-intro-en/
     speaker: Jeff Vize
     panel: 'Thursday 4:15-5:30' 
+    id: WTC
     description: |-
       Wage theft is common in Georgia, but it is also so normalized that many workers don’t even realize it is illegal. The Wage Theft Calculator is an educational tool that aims to change that. It guides users through a series of simple questions about their earnings, hours, and regular work activities. At the end it provides an estimate of lost wages, broken down into various types of wage theft – e.g., off-the-clock work, unpaid vacation, illegal salary deductions, and so on. Data so far shows that roughly 87% of users have experienced at least one form of wage theft.
  
@@ -44,13 +48,15 @@ project:
     link: https://shroma.ge/monitor/?lang=en
     speaker: Jeff Vize
     panel: 'Thursday 4:15-5:30' 
+    id: WSM
     description: |-
       The Workplace Safety Monitor is an online database that tracks the work of Georgia’s Labor Inspectorate – a body that was recently re-established after being shut down during of a wave of deregulation in 2006. The Monitor aims to shine a light on unsafe labor practices and publicize the new Inspectorate’s work. It allows users to search inspection reports, check the safety records of employers, and to track statistical trends. Ultimately, we hope that this exposure will lead to more public support for a stronger Inspectorate and increased pressure on employers to improve workplace safety.
 
   - name: GigCV
     link: https://gigcv.org/
     speaker: Martijn Arets
-    panel: 'Thursday 4:15-5:30' 
+    panel: 'Thursday 4:15-5:30'
+    id: GCV 
     description: |-
       GigCV is an easy tool for anyone working in or gaining work experience in the gig economy. With this open standard, you will be able to easily download your own reputation and transaction data, which serves as proof of your work experience and skills on connected platforms.
  
@@ -65,6 +71,7 @@ project:
     speaker: Aislinn Kelly-Lyth
     panel: 'Friday 1:30-2:45' 
     link: https://www.law.ox.ac.uk/research/imanage-rethinking-employment-law-world-algorithmic-management
+    id: IMNG
     description: |-
       Amidst important debates about the gig economy and the automation of jobs, employment law has paid scant attention to the rise of algorithmic management, the increasingly pervasive reliance on monitoring technology and sophisticated algorithms to measure, control, and sanction workers. This poses a fundamental threat to the legal regulation of our labour markets. Automated management allows the exercise of hitherto impossibly granular employer control. At the same time, however, the absence of clear decisions and traditional management structures appears to disperse responsibility ‘into the cloud’.
  
@@ -75,6 +82,7 @@ project:
     speaker: Joel Bray
     panel: 'Friday 3:00-4:15' 
     link: https://workerorganizing.org/
+    id: EWOC
     description: Emergency Workplace Organizing Committee (EWOC) was started in the United States in March 2020 to help workers organize during the pandemic. Although unfair and unsafe working conditions were nothing new, the COVID-19 crisis exposed for many workers how little their bosses were willing to do to keep them safe and healthy. These essential and frontline workers began demanding safety equipment, hazard pay, and sick leave. Within this climate, EWOC’s role is to build the resources, networks, and training that workers need to win their demands. A joint project of the Democratic Socialists of America (DSA) and United Electrical, Radio and Machine Workers of America (UE), we are building a distributed grassroots organizing program to support workers organizing at the workplace. To date, 1000plus volunteers have been in touch with nearly 3000 workers. We have supported over 750 of these workers in taking action with their coworkers, and we have helped launch over 50 successful workplace campaigns. These campaigns have occurred across industries, workplace types, and states. Demands vary, but there is a common outcome workers have improved their workplaces by taking collective action. Finally, the pandemic is far from over, but the emergency in America is not just the spread of COVID. It is worsening workplace conditions, growing income inequality, and the erosion of union power. It is the capitalist system that exploits our labor. As long as this system continues to exist, we are in a state of emergency, and EWOC will continue to help working people fight back.
 
 
@@ -83,6 +91,7 @@ project:
     speaker: Adolfo Fuentes 
     speaker2: Valentina Salvatierra
     panel: 'Thursday 1:15-2:30' 
+    id: JDA
     description: |-
       In recent years, Santiago de Chile (like other cities worldwide) has witnessed a surge in platform workers moving around the city, transporting both people and things. Our project started from an initial interest in investigating the work routines and trajectories of these workers with greater precision than had previously been done, at least in Chile. Most previous studies had relied on surveys and time-use diaries to collect these data, but these self-reports based on subject’s recall capacity have limitations. Research comparing self-reports with GPS data finds that respondents underestimate the number and distance of trips, overestimate their duration, and do not report the start of each trip with precision.
 
@@ -93,6 +102,7 @@ project:
     link: https://www.riderscollective.at/
     speaker: Tanja Vicas
     panel: 'Friday 4:30-5:45' 
+    id: DDN
     description: |-
       The RidersCollective (www.riderscollective.at) as part of the ÖGB together with the works councils of Mjam and Lieferando, serves as a central contact point for the increasing number  of employees in the platform economy. With the RidersCollectiveSpace, the digital tools 
       tailor-made for the target group are given a physical component which, in conjunction with 
@@ -116,6 +126,7 @@ project:
   - name: Crowdsourcing Wage Pledge
     link: https://wagepledge.org/
     speaker: Dr. Hannah Johnston
+    id: CWP
     panel: 'Friday 12:00-1:15' 
     description: |-
       Crowdworking platforms such as Amazon Mechanical Turk often pay workers around two dollars (USD) per hour and most requesters pay less than five dollars. Despite these low wages, findings from a 2018 survey conducted by the research team found that many academic requesters currently set wage targets and would be willing to commit to them publicly. This project developed a ‘Crowdsourcing Wage Pledge’ to improve wages for crowdworkers, and to thus ensure fairer futures for digital workers in the platform economy.
@@ -125,9 +136,16 @@ project:
     speaker: Cailean Gallagher
     speaker2: Boyan Karabaliev
     panel: 'Friday 12:00-1:15' 
+    id: RP
     description: |-
       Couriers in the gig economy face precarious working conditions, with pay received per hour or deliveries done fluctuating daily. The number of available riders and orders submitted by consumers at any time vary due to many factors, and delivery platforms provide no security for riders but pass on this instability. As a result, couriers’ rates of pay and working time are unpredictable and unreliable. This can make it difficult for couriers to quantify long-term trends in their earnings. Platforms also make it difficult for workers to monitor and compare their pay and time.
 
       To address the issues, workers behind the Workers’ Observatory are developing RooParse – an application to help couriers gather, analyse and understand their data. It takes PDF invoices that Deliveroo couriers receive in their email, and extracts and summarises their earnings information for every work session. This eliminates the need for couriers to manually aggregate their data if they wish to analyse it. Furthermore, RooParse calculates both hourly earnings and earnings per order delivered, and produces summary graphs and tables over the whole period of the invoices they have inputted. This tool empowers couriers to better understand how their work conditions are changing and communicate with fellow workers about their pay and working time, which can be a basis for common demands. The RooParse prototype is a fully open-source tool designed to be used on personal computes, and thus puts workers fully in charge of their own data.
 
-
+  - speaker: Hays Witt
+    panel: 'Thursday 4:15-5:30' 
+    name: Driver’s Seat
+    link: http://driversseat.co/
+    id: DS
+    description: |-
+      Driver’s Seat is a driver-owned data cooperative dedicated to leveling the playing field in the gig economy. Rideshare and delivery drivers use our mobile app and website to collect and share data and insights that help them earn more money and take control of their work. We use aggregated data to help cities solve gig economy workforce and transportation problems. Revenue from our data partnerships sustains our mission and comes back to our co-op members as dividends. 

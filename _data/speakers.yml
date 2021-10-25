@@ -29,6 +29,7 @@ people:
     panel: 'Thursday 4:15-5:30' 
     affiliation: GigCV
     aff_link: http://www.gigcv.org/
+    project_id: GCV
     info: |-
       Martijn Arets is an international expert and thinker in the field of emergence and development of the platform economy. Since 2012 Martijn is traveling the world to (so far) talk to 500+ entrepreneurs, experts and other stakeholders in 16 countries behind the upcoming platform economy. To find out what is really happening, who the stakeholders are, what the main dilemmas are and to explore the conditions under which platforms can contribute to a more inclusive society. As a bridge builder and independent professional outsider, he uses these insights and this network to get stakeholders like trade unions, government institutions, platforms and academics together to address relevant issues in a constructive way. Martijn shares his vision in his newsletters, in the media, via public speaking and in his (Dutch) book ‘Platformrevolutie’.
 
@@ -38,6 +39,7 @@ people:
     last: Ambrogi
     aff_link: https://home.coworker.org/
     affiliation: Coworker
+    project_id: STC
     panel: 'Thursday 1:15-2:30' 
     info: Drew Ambrogi serves as Coworker’s Digital Director, supporting worker-led online campaigns to support workers’ efforts to build power in the workplace. Drew maintains and develops Coworker's online platform and digital tools to create innovative new approaches to workplace organizing and worker-based research. Before joining the team in 2019, Drew worked as a digital strategist at a national racial justice organization, where he served as President of their staff union, and on the side as a communications consultant for grassroots community organizations. Drew currently lives and works in Washington, DC.
 
@@ -56,6 +58,7 @@ people:
     panel: 'Friday 3:00-4:15' 
     affiliation: Emergency Workplace Organizing Committee
     aff_link: https://workerorganizing.org/
+    project_id: EWOC
     info: |-
       Joel Bray (they/them) has served as a volunteer Data Team Lead with EWOC since May 2020, overseeing the digital technology and data infrastructure that staff and organizers use to do workplace organizing in a remote, digital landscape.
 
@@ -102,9 +105,10 @@ people:
 
   - first: Adolfo
     last: Fuentes
-    affiliation: University of Edinburgh
+    affiliation: Universidad Adolfo Ibáñez
     project: https://fair.work/
     panel: 'Thursday 1:15-2:30' 
+    project_id: JDA
     info: |-
       Adolfo holds a B.A. and M.A. in Economics from the Universidad de Chile, and recently completed the M.Res. in Economics at University College London. Currently, he is a Ph.D. student at University of Edinburgh’s School of Economics and an associate researcher at LEAS, the Laboratory of Surveys and Social Analysis, hosted by the School of Communications and Journalism at Universidad Adolfo Ibáñez in Chile.
 
@@ -119,6 +123,7 @@ people:
     last: Gallagher
     affiliation: Edinburgh Workers Observatory
     panel: 'Friday 12:00-1:15' 
+    project_id: RP
     info: |-
       Cailean Gallagher is a union organiser and historian based in Edinburgh. He is co-ordinator of the Workers’ Observatory, and supports the development of unions by precarious workers with the Scottish Trades Union Congress and the campaign Better Than Zero. He is involved in a range of workers’ education projects, most recently the Sma Shot School and Falkland Workers School for young workers. Cailean is completing a PhD at the University of St Andrews on the political and economic ideas of Scottish Jacobite rebels, and is also researching the history of the gig economy and working time. He is co-author of Roch Winds: A Treacherous Guide to the State of Scotland.
 
@@ -146,18 +151,21 @@ people:
     title: Dr.
     affiliation: Northeastern University
     panel: 'Friday 12:00-1:15' 
+    project_id: CWP
     info: |-
       Hannah Johnston is a Postdoctoral Researcher at Northeastern University in Boston, Massachusetts where she researches algorithmic management in the platform economy. She is an affiliate of Fairwork (Oxford Internet Institute) and has worked for the International Labour Organization and with the European Trade Union Institute on projects related to working conditions and the platform economy. Her doctoral research (Queen’s University, Canada) focused on the New York City taxicab industry where she examined the collective organizing strategies used by drivers to improve working conditions, pay, and to strengthen regulation. 
 
   - first: Boyan
     last: Karabaliev
     affiliation: Edinburgh Workers Observatory
+    project_id: RP
     panel: 'Friday 12:00-1:15' 
 
   - first: Aislinn
     last: Kelly-Lyth
     panel: 'Friday 1:30-2:45' 
     affiliation: Oxford University Law
+    project_id: IMNG
     info: |-
       Aislinn Kelly-Lyth is a Researcher on Algorithmic Management at the University of Oxford. She completed her undergraduate studies at the University of Cambridge, followed by an LLM at Harvard Law School as a Kennedy Scholar. Her research focuses on discriminatory algorithms, and her article Challenging Biased Hiring Algorithms was published in the Oxford Journal of Legal Studies in 2021. Aislinn has also taught at the London School of Economics.
 
@@ -178,6 +186,7 @@ people:
     title: Dr.
     affiliation: Coworker
     aff_link: https://home.coworker.org/
+    project_id: STC
     panel: 'Thursday 1:15-2:30' 
     info: |-
       Wilneida Negrón most recently worked at the Ford Foundation, where she led cross-thematic area strategy development between the Gender, Race, Ethnic Justice, Technology and Society, Mission Investing, Future of Work(ers), and Civic Engagement Thematic areas, with a focus on helping labor movements deepen and leverage economic partnerships and movement-based partnerships.  She is currently part of the Steering Committee Team for the Ford Foundation’s and Mozilla’s Public efforts to explore how to continue to foster the impact and sustainability of public interest technology projects in the US, Europe, and the Global South. She works on the frontlines of social change spaces, fostering new multi-issue and cross-sectoral approaches and solutions to our increasingly complex socio-technical world and serves as a strategic advisor, consultant, and capacity-builder to emerging and established national and global civil and human rights organizations.
@@ -209,6 +218,7 @@ people:
     last: Salvatierra
     affiliation: Universidad Adolfo Ibáñez
     panel: 'Thursday 1:15-2:30' 
+    project_id: JDA
     info: |-
       Valentina holds a BA in Social Sciences (Sociology) from Pontificia Universidad Católica de Chile, an MSC in Sociology from the University of Oxford, and an MA in Contemporary Literature and Culture from Birkbeck, University of London. She has previously worked in market research and as assistant researcher in public opinion at Centro de Estudios Públicos. Currently, she is a researcher at LEAS, the Laboratory of Surveys and Social Analysis, hosted by the School of Communications and Journalism at Universidad Adolfo Ibáñez in Chile.
 
@@ -218,6 +228,7 @@ people:
     title: Dr.
     panel: 'Thursday 2:45-4:00' 
     link: http://www.saiph.org/
+    project_id: AIFG
     affiliation: Northeastern University, Civic AI Lab
     info: |-
       Saiph Savage is an Assistant Professor at Northeastern University in the Khoury College of Computer Sciences where she directs the Civic A.I. lab. She is one of the 35 Innovators under 35 by the MIT Technology Review, a Google Anita Borg Scholarship recipient, and a fellow at the Center for Democracy & Technology. Her work has been covered in the BBC, Deutsche Welle, the Economist, and the
@@ -266,6 +277,7 @@ people:
     panel: 'Thursday 4:15-5:30' 
     affiliation: Oxford Internet Institute, Fair Work Project
     aff_link: https://fair.work/
+    project_id: FW
     info: |-
       Funda Ustek-Spilda is a post-doctoral researcher and project manager at Fairwork Foundation, based at the Oxford Internet Institute, University of Oxford. Prior to Fairwork, Funda held post-doctoral researcher positions at Goldsmiths, University of London (ARITHMUS: How data make a people; 2014-2018) and London School of Economics (VIRT-EU: Values and Ethics in Responsible Technology in Europe; 2018-2020). She holds a D.Phil in Sociology from the University of Oxford (2015) and M.Sc in Comparative Social Policy from the same university (2010). She conducts interdisciplinary research into the visibilities and invisibilities in data and emerging technologies in the fields of labour, migration and gender; studying this from the perspective of data justice, fairness and ethics. Her research has appeared in prestigious journals such as Big Data and Society, Environment and Planning D and Science and Technology & Human Values.
 
@@ -274,6 +286,7 @@ people:
     panel: 'Friday 4:30-5:45' 
     affiliation: Austrian Trade Union Federation
     project: Digital Danube Network
+    project_id: DDN
     info: |-
       Originally from Canada, I came to Austria almost 30 years ago after studying English literature at the University of Western Ontario and started studying translation and interpretation at the University of Vienna. To finance these studies, I took a job as an administrative assistant in the education department at the Austrian Trade Union Federation. The years went by and as my job at the union developed and became more interesting, I decided to quit my studies and focus on work full time. I transferred to the international department and have been managing mainly European projects which ultimately focus on promoting decent work through social dialogue. My current project “DiDaNet” (“Digital Danube Network”), focusses on how workers meet the challenges of digitalisation and the spread of platform-based economy. Within the course of DiDaNet, a spin-off project called “RidersCollective” came into being. This project is dedicated to the improvement of working conditions for bike couriers (“riders”). 
 
@@ -283,6 +296,7 @@ people:
     affiliation: Human Rights Watch
     project: Georgia Fair Labour Platform
     aff_link: https://shroma.ge/en/wagetheft-intro-en/
+    project_id: WTC
     info: |-
       Jeff Vize is a senior advisor in Human Rights Watch’s Alliances and Partnerships Program, which focuses on working more closely with local partners to strengthen human rights. He currently leads HRW’s engagement with the Georgia Fair Labor Platform, a coalition of independent trade unions, civil society organizations and activists working to improve conditions for workers in Georgia. In this role, Jeff led the team that developed two online tools for the coalition: the Wage Theft Calculator and the Workplace Safety Monitor.
 
@@ -290,6 +304,15 @@ people:
     last: Witt
     panel: 'Thursday 4:15-5:30' 
     affiliation: Driver’s Seat
+    aff_link: http://driversseat.co/
+    project_id: DS
+    info: |-
+      Hays is the co-founder of the Driver's Seat Cooperative. He's a national leader in the emerging movement to link new mobility with equitable workforce and positive community outcomes. Hays has advised cities and national advocacy groups on triple bottom line policy development and built grassroots worker and community organizations that have won equity and justice in America's big cities. 
+
+      In his former role as Deputy Director of the Partnership for Working Families, Hays managed multiple national, industry wide campaigns that won transformational change for workers, communities, and the environment in major sectors of our economy. 
+
+      Hays’s organizing background includes years helping low wage workers of color blend organizing and policy innovation at SEIU, AFSCME, and the City of Los Angeles.
+
 
   - first: Janis
     last: Wong

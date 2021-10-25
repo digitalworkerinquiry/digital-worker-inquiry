@@ -254,10 +254,14 @@ tr {
   display: inline-block;
   margin: 0 0 2em 0;
   height: 400px;
-  width: 600px;
-  background-color: rgba(146, 154, 240, 0.4);
+  width: 600px;;
 }
-
+ /* Responsive project container for mobile */ 
+@media only screen and (max-width: 600px) {
+  .project-container {
+    width: 300px;
+  }
+}
 .project-image {
   width: 100%;
   height: auto;
@@ -300,39 +304,143 @@ tr {
 
  .fixed-nav-bar {
   position: fixed;
-  justify-content: center;
   z-index: 100;
   width: 100%;
-  display: flex;
   background-color: #fff;
-  flex-wrap: wrap;
-  padding: 20px;
+  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
 }
 
 .fixed-nav-bar ul {
-  list-style-type: none;
-  text-align: center;
-  margin: 0 auto;
-  padding: 0 auto;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: #fff;
+  text-align: right;
 }
-
 .fixed-nav-bar li {
   display: inline-block;
-  font-size: 24px;
-  padding: 0 20px;
 }
 
+.fixed-nav-bar li a {
+  display: block;
+  padding: 20px;
+  border-right: 1px solid #f4f4f4;
+  text-decoration: none;
+}
+
+.fixed-nav-bar li a:hover,
+.fixed-nav-bar li a:active,
+.fixed-nav-bar li a:focus {
+  color: #6D73B3;
+  text-decoration: none;
+  background-color:#f4f4f4;
+} 
+
+.fixed-nav-bar .logo {
+  display: block;
+  float: left;
+  font-size: 16px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+.fixed-nav-bar .logo img {
+  width: 12em;
+  height: auto;
+}
 .nav-anchor {
   color: #323BA2;
   text-decoration: none !important;
 }
 
-.nav-item a:hover,
-.nav-item a:active,
-.nav-item a:focus {
-  color: #6D73B3;
-  text-decoration: none !important;
+/* responsive menu */
+
+.fixed-nav-bar .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
 }
+
+.fixed-nav-bar .menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
+}
+
+.fixed-nav-bar .menu-icon .navicon {
+  background: #333;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 18px;
+}
+
+.fixed-nav-bar .menu-icon .navicon:before,
+.fixed-nav-bar .menu-icon .navicon:after {
+  background: #333;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+.fixed-nav-bar .menu-icon .navicon:before {
+  top: 5px;
+}
+
+.fixed-nav-bar .menu-icon .navicon:after {
+  top: -5px;
+}
+
+/* menu btn */
+.fixed-nav-bar .menu-btn {
+  display: none;
+}
+
+.fixed-nav-bar .menu-btn:checked ~ .menu {
+  max-height: 240px;
+}
+
+.fixed-nav-bar .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+
+.fixed-nav-bar .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.fixed-nav-bar .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.fixed-nav-bar .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.fixed-nav-bar .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+
+@media (min-width: 48em) {
+  .fixed-nav-bar li {
+    float: left;
+  }
+  .fixed-nav-bar li a {
+    padding: 20px 30px;
+  }
+  .fixed-nav-bar .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .fixed-nav-bar .menu-icon {
+    display: none;
+  }
+}
+
 
 /** Schedule **/
 /* checkbox hack credit:  https://codepen.io/jonyablonski/pen/IrgBk */
