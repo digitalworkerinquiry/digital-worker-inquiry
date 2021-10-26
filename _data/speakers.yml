@@ -66,6 +66,8 @@ people:
     last: Bonel
     affiliation: Contrate Quem Luta
     panel: 'Friday 12:00-1:15' 
+    info: |-
+      Felipe Bonel is a technology professional who specializes in the development of digital products, conversational interfaces and artificial intelligence -- today acting as a Product Manager at SumUp. Also, he has been active in the MTST (social housing movement in Brazil) for four years. There, he is one of the coordinators of the movement's Technology Nucleus, where projects are developed for the technical strengthening of social struggles, in addition to training political cadres capable of developing software.
 
   - first: Joanna
     last: Bronowicka
@@ -104,6 +106,12 @@ people:
     last: Farrar
     panel: 'Friday 1:30-2:45' 
     affiliation: Worker Info Exchange
+
+  - first: Nathan
+    last: Freitas
+    panel: 'Friday 12:00-1:15' 
+    affiliation: WeClock
+    aff_link: https://weclock.it/
 
   - first: Adrian
     last: Friday
