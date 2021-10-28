@@ -115,6 +115,7 @@ people:
     panel: 'Friday 12:00-1:15' 
     affiliation: WeClock
     aff_link: https://weclock.it/
+    project_id: WC
 
   - first: Adrian
     last: Friday
