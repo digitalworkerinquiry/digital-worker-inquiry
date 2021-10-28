@@ -28,6 +28,7 @@ tiers:
       isrf: https://www.isrf.org/
       stuc: https://www.stuc.org.uk/
       prospect: https://prospect.org.uk/
+      wc: https://weclock.it/
 
   Supporters:
     show_title: true
