@@ -160,3 +160,13 @@ project:
     id: TTP
     description: |-
       When the industry ground to a halt during the pandemic, SMTJ turned its focus to the wider problem of overwork and burn out, looking deeper into the root cause of the mental crisis affecting the industry. Over the past 12 months we have developed a web based app for screen workers which allows them to record their time and keep a log of the way they work. On the other side of the app, we are building up a strong data set which proves what we already know anecdotally about the pressure points in the screen industries and how they lead to poor working practice and a decline in well-being. We are working with key organisations and the union to use this data to help form a blue print for for future improvements in areas such as employer contracts, control of working hours, overtime payments and more realistic budgeting from studios and broadcasters. The project has been funded by SIGN, Directors UK, Sara Putt Associates and Bectu.
+
+  - name: WeClock
+    org: The Why Not Lab, Guardian Project and Okthanks
+    link: https://weclock.it/
+    speaker: Nathan Freitas
+    panel: 'Friday 12:00-1:15' 
+    id: WC
+    description: |-
+      WeClock is a self-tracking app, to discover how much of your time and well-being is spent on work. WeClock is a free and open source project. The code is available for community use and contribution at gitlab.com/weclock.
+
